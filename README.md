@@ -31,6 +31,10 @@ Install Bun and Node.js. Run `bun install --frozen-lockfile`, then follow the [i
 - `/v1/docs/` serves Swagger UI.
 - `/v1/openapi.json` serves the OpenAPI contract.
 
+## Notes
+
+- Compatibility is not 100% complete; some API endpoints, achievement/mission systems, and edge-case behaviors are partial or approximate.
+
 ## Disclaimer
 
 This is an unofficial, independent project created strictly for educational, research, and archival purposes, with no intention of infringing any intellectual property rights.
