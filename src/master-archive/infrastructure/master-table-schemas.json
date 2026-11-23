@@ -1,0 +1,4829 @@
+[
+	{
+		"tableLabel": "advalbums.tsv",
+		"fields": [
+			[1559079152, 51, "Id"],
+			[2433513831, 16, "StartTime"],
+			[1435940857, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "advdatas.tsv",
+		"fields": [
+			[3529753607, 32, "Id"],
+			[1100099144, 32, "AdvSeriesId"],
+			[3825609373, 16, "Name"],
+			[1826236043, 16, "Description"],
+			[3195796789, 32, "ScriptId"],
+			[3845799716, 32, "OpenSeasonFanLevel"],
+			[1316083693, 16, "RewardType"],
+			[3466070251, 16, "WatchRewardId"],
+			[2155963397, 16, "WatchRewardNum"],
+			[2761579646, 16, "RewardTextId"],
+			[2662756235, 32, "OrderId"],
+			[3549182030, 16, "SubTitleName"],
+			[1286831594, 16, "StartTime"],
+			[2430201920, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "advdatas.tsv",
+		"fields": [
+			[3529753607, 32, "Id"],
+			[1100099144, 32, "AdvSeriesId"],
+			[3825609373, 16, "Name"],
+			[1826236043, 16, "Description"],
+			[3195796789, 32, "ScriptId"],
+			[3845799716, 32, "OpenSeasonFanLevel"],
+			[1316083693, 16, "RewardType"],
+			[3466070251, 16, "WatchRewardId"],
+			[2155963397, 16, "WatchRewardNum"],
+			[2761579646, 16, "RewardTextId"],
+			[2662756235, 32, "OrderId"],
+			[3549182030, 16, "SubTitleName"],
+			[1286831594, 16, "StartTime"],
+			[2430201920, 16, "EndTime"],
+			[3328409256, 32, "IsPeriod"]
+		]
+	},
+	{
+		"tableLabel": "advdatas.tsv",
+		"fields": [
+			[3529753607, 32, "Id"],
+			[1100099144, 32, "AdvSeriesId"],
+			[3825609373, 16, "Name"],
+			[1826236043, 16, "Description"],
+			[3195796789, 32, "ScriptId"],
+			[3845799716, 32, "OpenSeasonFanLevel"],
+			[1316083693, 16, "RewardType"],
+			[3466070251, 16, "WatchRewardId"],
+			[2155963397, 16, "WatchRewardNum"],
+			[2761579646, 16, "RewardTextId"],
+			[2662756235, 32, "OrderId"],
+			[3549182030, 16, "SubTitleName"],
+			[1286831594, 16, "StartTime"],
+			[2430201920, 16, "EndTime"],
+			[3328409256, 32, "IsPeriod"],
+			[907778208, 32, "AdvScreenMode"],
+			[1557656876, 32, "AdvUnlockItemId"],
+			[2232646891, 32, "AdvUnlockItemNum"],
+			[4260282880, 32, "AdvUnlockConditionValue"],
+			[3133862615, 32, "IsPersistentReward"]
+		]
+	},
+	{
+		"tableLabel": "advdatas.tsv",
+		"fields": [
+			[3529753607, 32, "Id"],
+			[1100099144, 32, "AdvSeriesId"],
+			[3825609373, 16, "Name"],
+			[1826236043, 16, "Description"],
+			[3195796789, 32, "ScriptId"],
+			[3845799716, 32, "OpenSeasonFanLevel"],
+			[1316083693, 32, "RewardType"],
+			[3466070251, 32, "WatchRewardId"],
+			[2155963397, 32, "WatchRewardNum"],
+			[2662756235, 32, "OrderId"],
+			[3549182030, 16, "SubTitleName"],
+			[1286831594, 16, "StartTime"],
+			[2430201920, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "advseries.tsv",
+		"fields": [
+			[3817015938, 32, "Id"],
+			[3112776880, 32, "SeasonsId"],
+			[3727595716, 16, "Name"],
+			[3820110993, 16, "Description"],
+			[3711737696, 16, "StartTime"],
+			[284328325, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "advseries.tsv",
+		"fields": [
+			[3817015938, 32, "Id"],
+			[3112776880, 32, "SeasonsId"],
+			[3727595716, 16, "Name"],
+			[3820110993, 16, "Description"],
+			[3711737696, 16, "StartTime"],
+			[284328325, 16, "EndTime"],
+			[3631674032, 32, "FiscalYearDisplay"]
+		]
+	},
+	{
+		"tableLabel": "advseries.tsv",
+		"fields": [
+			[3817015938, 32, "Id"],
+			[3112776880, 32, "SeasonsId"],
+			[3727595716, 16, "Name"],
+			[3820110993, 16, "Description"],
+			[3711737696, 16, "StartTime"],
+			[284328325, 16, "EndTime"],
+			[3631674032, 32, "FiscalYearDisplay"],
+			[1472646411, 51, "AdvAlbumId"]
+		]
+	},
+	{
+		"tableLabel": "advseries.tsv",
+		"fields": [
+			[3817015938, 32, "Id"],
+			[3112776880, 32, "SeasonsId"],
+			[3727595716, 16, "Name"],
+			[3820110993, 16, "Description"],
+			[3711737696, 16, "StartTime"],
+			[284328325, 16, "EndTime"],
+			[3631674032, 32, "FiscalYearDisplay"],
+			[1472646411, 51, "AdvAlbumId"],
+			[3619273838, 32, "IsBadgeDisplayType"],
+			[1240595723, 16, "MonthText"],
+			[3704224215, 16, "YearText"]
+		]
+	},
+	{
+		"tableLabel": "advseries.tsv",
+		"fields": [
+			[3817015938, 32, "Id"],
+			[3112776880, 32, "SeasonsId"],
+			[3727595716, 16, "Name"],
+			[3820110993, 16, "Description"],
+			[3711737696, 16, "StartTime"],
+			[284328325, 16, "EndTime"],
+			[3631674032, 32, "FiscalYearDisplay"],
+			[1472646411, 51, "AdvAlbumId"],
+			[3619273838, 32, "IsBadgeDisplayType"],
+			[1240595723, 16, "MonthText"],
+			[3704224215, 16, "YearText"],
+			[881322403, 32, "StorySegment"]
+		]
+	},
+	{
+		"tableLabel": "advstorydigestmovies.tsv",
+		"fields": [
+			[2395585714, 32, "Id"],
+			[1579258460, 16, "Title"],
+			[721136242, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "advstorydigestmovies.tsv",
+		"fields": [
+			[2395585714, 32, "Id"],
+			[1579258460, 16, "Title"],
+			[721136242, 32, "OrderId"],
+			[21107752, 32, "DigestFiscalYearDisplay"]
+		]
+	},
+	{
+		"tableLabel": "beginnermissionbannerrewards.tsv",
+		"fields": [
+			[972305429, 32, "Id"],
+			[3496856951, 32, "MissionType"],
+			[3341542898, 32, "ItemType"],
+			[222756993, 32, "ItemId"],
+			[3665024802, 32, "Num"]
+		]
+	},
+	{
+		"tableLabel": "beginnermissionshint.tsv",
+		"fields": [
+			[2400633155, 32, "Id"],
+			[7932262, 16, "Name"],
+			[2835652161, 16, "Description"]
+		]
+	},
+	{
+		"tableLabel": "beginnermissionshintimages.tsv",
+		"fields": [
+			[3173895732, 32, "Id"],
+			[3950292856, 32, "BeginnerMissionsHintId"],
+			[1698426209, 32, "ImageId"]
+		]
+	},
+	{
+		"tableLabel": "birthdayrarebonuses.tsv",
+		"fields": [
+			[404675579, 32, "Id"],
+			[702766790, 32, "CardSeriesId"],
+			[3419439902, 16, "SkillName"],
+			[2827026645, 32, "LimitBreakTimes"],
+			[1486206517, 32, "MentalBonus"],
+			[157243750, 32, "VoltageBonus"],
+			[2423048588, 32, "HeartBonus"],
+			[2442563232, 32, "LoveBonus"]
+		]
+	},
+	{
+		"tableLabel": "boxdatas.tsv",
+		"fields": [
+			[2551554304, 32, "Id"],
+			[2092716037, 32, "BoxEventSeriesId"],
+			[2527028219, 16, "Name"],
+			[1976862163, 32, "Rarity"],
+			[234801261, 32, "Odds"],
+			[3745163932, 32, "AddBoxProgressValue"],
+			[2122876104, 32, "IsRestrictView"]
+		]
+	},
+	{
+		"tableLabel": "boxeventseries.tsv",
+		"fields": [
+			[132816357, 32, "Id"],
+			[1919038613, 16, "EventName"],
+			[2586202194, 32, "BoxDropOdds"],
+			[178466681, 32, "BoxDropLimit"],
+			[225118523, 32, "BoxDropLimitResetType"],
+			[4229738889, 16, "SpecialRewardCountTargetBoxDatasId"],
+			[2205146745, 32, "AddBoxProgressCount"],
+			[2981381854, 32, "AddBoxDatasId"],
+			[688606772, 32, "IsRewardViewType"],
+			[1584466083, 16, "StartTime"],
+			[1717777794, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "boxitemdatas.tsv",
+		"fields": [
+			[2332151329, 32, "Id"],
+			[88160422, 32, "BoxDatasId"],
+			[757474398, 32, "ItemType"],
+			[2264489513, 32, "ItemId"],
+			[4121142991, 32, "ItemNum"],
+			[2042431955, 32, "RewardLimitNum"],
+			[1550627411, 32, "Odds"],
+			[2678107160, 32, "OrderId"],
+			[1041250702, 32, "IsDisplayIconId"]
+		]
+	},
+	{
+		"tableLabel": "campaign.tsv",
+		"fields": [
+			[2881245243, 32, "Id"],
+			[3067110483, 32, "CampaignType"],
+			[1530752150, 32, "TargetContents"],
+			[1620540896, 16, "Name"],
+			[2125693155, 16, "Description"],
+			[44167191, 32, "EffectValue"],
+			[3088441607, 16, "StartTime"],
+			[3187827590, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "campaignaddrewards.tsv",
+		"fields": [
+			[611839413, 32, "Id"],
+			[3623297706, 51, "AddRewardOddsId"],
+			[3753156360, 32, "RewardType"],
+			[3477782314, 32, "AddRewardItemId"],
+			[2712955691, 32, "AddRewardItemQuantity"],
+			[2560257657, 32, "AddRewardItemOdds"],
+			[1081390745, 32, "AddRewardItemOddsSum"]
+		]
+	},
+	{
+		"tableLabel": "campaignaddrewardseries.tsv",
+		"fields": [
+			[3093570984, 32, "Id"],
+			[2236317633, 51, "AddRewardOddsId_1"],
+			[474099323, 51, "AddRewardOddsId_2"],
+			[1799692013, 51, "AddRewardOddsId_3"]
+		]
+	},
+	{
+		"tableLabel": "cardcoordinates.tsv",
+		"fields": [
+			[3650163081, 51, "Id"],
+			[2951063882, 32, "CardDatasId"],
+			[584986850, 32, "CardCoordSceneType"],
+			[4158114198, 32, "XCoord"],
+			[1015749171, 32, "YCoord"],
+			[3480674039, 32, "Scale"]
+		]
+	},
+	{
+		"tableLabel": "carddatas.tsv",
+		"fields": [
+			[3685498154, 32, "Id"],
+			[3107591708, 32, "CardSeriesId"],
+			[5059333, 16, "Name"],
+			[3793416884, 16, "Description"],
+			[2875926921, 32, "CharactersId"],
+			[2491453126, 32, "Rarity"],
+			[4152785463, 32, "EvolveTimes"],
+			[4061789148, 32, "CardLevelLimitAddition"],
+			[2867496861, 32, "Style"],
+			[1566041077, 32, "Mood"],
+			[3716065835, 32, "ExperienceType"],
+			[3397743751, 32, "InitialSmile"],
+			[3770045354, 32, "InitialPure"],
+			[890984901, 32, "InitialCool"],
+			[120747606, 32, "InitialMental"],
+			[4233097807, 32, "MaxSmile"],
+			[695889152, 32, "MaxPure"],
+			[4241975151, 32, "MaxCool"],
+			[2461791826, 32, "MaxMental"],
+			[1225546792, 32, "BeatPoint"],
+			[916523416, 32, "SpecialAppealSeriesId"],
+			[2353249119, 32, "SkillSeriesId"],
+			[1656671365, 32, "AttributeId"],
+			[3438679763, 32, "SpineId"]
+		]
+	},
+	{
+		"tableLabel": "carddatas.tsv",
+		"fields": [
+			[3685498154, 32, "Id"],
+			[3107591708, 32, "CardSeriesId"],
+			[5059333, 16, "Name"],
+			[3793416884, 16, "Description"],
+			[2875926921, 32, "CharactersId"],
+			[2491453126, 32, "Rarity"],
+			[4152785463, 32, "EvolveTimes"],
+			[4061789148, 32, "CardLevelLimitAddition"],
+			[2867496861, 32, "Style"],
+			[1566041077, 32, "Mood"],
+			[3716065835, 32, "ExperienceType"],
+			[3397743751, 32, "InitialSmile"],
+			[3770045354, 32, "InitialPure"],
+			[890984901, 32, "InitialCool"],
+			[120747606, 32, "InitialMental"],
+			[4233097807, 32, "MaxSmile"],
+			[695889152, 32, "MaxPure"],
+			[4241975151, 32, "MaxCool"],
+			[2461791826, 32, "MaxMental"],
+			[1225546792, 32, "BeatPoint"],
+			[916523416, 32, "SpecialAppealSeriesId"],
+			[2353249119, 32, "SkillSeriesId"],
+			[1656671365, 32, "AttributeId"],
+			[3438679763, 32, "SpineId"],
+			[397981479, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "carddatas.tsv",
+		"fields": [
+			[3685498154, 32, "Id"],
+			[3107591708, 32, "CardSeriesId"],
+			[5059333, 16, "Name"],
+			[3793416884, 16, "Description"],
+			[2875926921, 32, "CharactersId"],
+			[2491453126, 32, "Rarity"],
+			[4152785463, 32, "EvolveTimes"],
+			[4061789148, 32, "CardLevelLimitAddition"],
+			[2867496861, 32, "Style"],
+			[1566041077, 32, "Mood"],
+			[3716065835, 32, "ExperienceType"],
+			[3397743751, 32, "InitialSmile"],
+			[3770045354, 32, "InitialPure"],
+			[890984901, 32, "InitialCool"],
+			[120747606, 32, "InitialMental"],
+			[4233097807, 32, "MaxSmile"],
+			[695889152, 32, "MaxPure"],
+			[4241975151, 32, "MaxCool"],
+			[2461791826, 32, "MaxMental"],
+			[1225546792, 32, "BeatPoint"],
+			[916523416, 32, "SpecialAppealSeriesId"],
+			[2353249119, 32, "SkillSeriesId"],
+			[1656671365, 32, "AttributeId"],
+			[3438679763, 32, "SpineId"],
+			[397981479, 32, "OrderId"],
+			[3271364874, 32, "CenterSkillSeriesId"],
+			[240505062, 32, "CenterAttributeSeriesId"],
+			[1039551386, 32, "RhythmGameSkillSeriesId"],
+			[3749997984, 32, "CenterSkillLvUpItemId"],
+			[628858971, 32, "RhythmGameSkillLvUpItemId"]
+		]
+	},
+	{
+		"tableLabel": "carddatas.tsv",
+		"fields": [
+			[3685498154, 32, "Id"],
+			[3107591708, 32, "CardSeriesId"],
+			[5059333, 16, "Name"],
+			[3793416884, 16, "Description"],
+			[2875926921, 32, "CharactersId"],
+			[2491453126, 32, "Rarity"],
+			[4152785463, 32, "EvolveTimes"],
+			[4061789148, 32, "CardLevelLimitAddition"],
+			[2867496861, 32, "Style"],
+			[1566041077, 32, "Mood"],
+			[3716065835, 32, "ExperienceType"],
+			[3397743751, 32, "InitialSmile"],
+			[3770045354, 32, "InitialPure"],
+			[890984901, 32, "InitialCool"],
+			[120747606, 32, "InitialMental"],
+			[4233097807, 32, "MaxSmile"],
+			[695889152, 32, "MaxPure"],
+			[4241975151, 32, "MaxCool"],
+			[2461791826, 32, "MaxMental"],
+			[1225546792, 32, "BeatPoint"],
+			[916523416, 32, "SpecialAppealSeriesId"],
+			[2353249119, 32, "SkillSeriesId"],
+			[1656671365, 32, "AttributeId"],
+			[3438679763, 32, "SpineId"],
+			[397981479, 32, "OrderId"],
+			[3271364874, 32, "CenterSkillSeriesId"],
+			[240505062, 32, "CenterAttributeSeriesId"],
+			[1039551386, 32, "RhythmGameSkillSeriesId"],
+			[3749997984, 32, "CenterSkillLvUpItemId"],
+			[628858971, 32, "RhythmGameSkillLvUpItemId"],
+			[3391212115, 32, "IsParallelCard"]
+		]
+	},
+	{
+		"tableLabel": "cardduetvoice.tsv",
+		"fields": [
+			[1589249509, 32, "Id"],
+			[3315457027, 32, "CardSeriesId"],
+			[1573477624, 16, "CharacterIds"]
+		]
+	},
+	{
+		"tableLabel": "cardevolutionmaterials.tsv",
+		"fields": [
+			[1748157637, 32, "Id"],
+			[3745611133, 32, "CostItemsId1"],
+			[1254828858, 32, "CostNum1"],
+			[1179135175, 32, "CostItemsId2"],
+			[3552737920, 32, "CostNum2"],
+			[827268177, 32, "CostItemsId3"],
+			[2764392982, 32, "CostNum3"]
+		]
+	},
+	{
+		"tableLabel": "cardgetmoviesettings.tsv",
+		"fields": [
+			[1072485622, 32, "Id"],
+			[2240411890, 32, "CardInfoPositionType"],
+			[3250891372, 32, "CardInfoDisplayStartTimeSeconds"]
+		]
+	},
+	{
+		"tableLabel": "cardgetmoviesettings.tsv",
+		"fields": [
+			[1072485622, 32, "Id"],
+			[2240411890, 32, "CardInfoPositionType"],
+			[3250891372, 32, "CardInfoDisplayStartTimeSeconds"],
+			[2229513715, 32, "UrCardEffectBackgroundId"]
+		]
+	},
+	{
+		"tableLabel": "cardlevels.tsv",
+		"fields": [
+			[336950829, 32, "Id"],
+			[1225961829, 32, "ExperienceType"],
+			[827567482, 32, "CardLevel"],
+			[2230696434, 32, "Experience"],
+			[325680646, 32, "CumulativeExperience"]
+		]
+	},
+	{
+		"tableLabel": "cardlimitbreakmaterials.tsv",
+		"fields": [
+			[3947126742, 32, "Id"],
+			[965298351, 32, "CardSeriesId"],
+			[1584975355, 32, "LimitBreakTimes"],
+			[3737361359, 32, "CostItemsId"],
+			[372727790, 32, "CostNum"]
+		]
+	},
+	{
+		"tableLabel": "cardrarities.tsv",
+		"fields": [[2775745673, 32, "Id"], [1971605651, 16, "RarityName"]]
+	},
+	{
+		"tableLabel": "cardrarities.tsv",
+		"fields": [
+			[2775745673, 32, "Id"],
+			[1971605651, 16, "RarityName"],
+			[703484197, 32, "Evolution0_MaxLevel"],
+			[3324787227, 32, "Evolution1_MaxLevel"],
+			[756777240, 32, "Evolution2_MaxLevel"],
+			[3269061158, 32, "Evolution3_MaxLevel"],
+			[537260383, 32, "Evolution4_MaxLevel"]
+		]
+	},
+	{
+		"tableLabel": "cardrarities.tsv",
+		"fields": [
+			[2775745673, 32, "Id"],
+			[1971605651, 16, "RarityName"],
+			[703484197, 32, "Evolution0_MaxLevel"],
+			[3324787227, 32, "Evolution1_MaxLevel"],
+			[756777240, 32, "Evolution2_MaxLevel"],
+			[3269061158, 32, "Evolution3_MaxLevel"],
+			[537260383, 32, "Evolution4_MaxLevel"],
+			[598534545, 32, "SortOrderId"],
+			[4177339427, 32, "FilterOrderId"]
+		]
+	},
+	{
+		"tableLabel": "cardseries.tsv",
+		"fields": [
+			[2790627598, 32, "Id"],
+			[2535148543, 32, "Evolution0Id"],
+			[2530812360, 32, "Evolution1Id"],
+			[2493489041, 32, "Evolution2Id"],
+			[4094897161, 32, "ObtainFanLvPt"],
+			[1314950175, 32, "Evolution1FanLvPt"],
+			[3236924412, 32, "Evolution2FanLvPt"],
+			[2457657072, 32, "LimitBreak1FanLvPt"],
+			[485742867, 32, "LimitBreak2FanLvPt"],
+			[3495549325, 32, "LimitBreak3FanLvPt"],
+			[3667710100, 32, "LimitBreak4FanLvPt"]
+		]
+	},
+	{
+		"tableLabel": "cardseries.tsv",
+		"fields": [
+			[2790627598, 32, "Id"],
+			[2535148543, 32, "Evolution0Id"],
+			[2530812360, 32, "Evolution1Id"],
+			[2493489041, 32, "Evolution2Id"],
+			[4094897161, 32, "ObtainFanLvPt"],
+			[1314950175, 32, "Evolution1FanLvPt"],
+			[3236924412, 32, "Evolution2FanLvPt"],
+			[2457657072, 32, "LimitBreak1FanLvPt"],
+			[485742867, 32, "LimitBreak2FanLvPt"],
+			[3495549325, 32, "LimitBreak3FanLvPt"],
+			[3667710100, 32, "LimitBreak4FanLvPt"],
+			[1737044675, 32, "LimitedType"]
+		]
+	},
+	{
+		"tableLabel": "cardseries.tsv",
+		"fields": [
+			[2790627598, 32, "Id"],
+			[2535148543, 32, "Evolution0Id"],
+			[2530812360, 32, "Evolution1Id"],
+			[2493489041, 32, "Evolution2Id"],
+			[4094897161, 32, "ObtainFanLvPt"],
+			[1314950175, 32, "Evolution1FanLvPt"],
+			[3236924412, 32, "Evolution2FanLvPt"],
+			[2457657072, 32, "LimitBreak1FanLvPt"],
+			[485742867, 32, "LimitBreak2FanLvPt"],
+			[3495549325, 32, "LimitBreak3FanLvPt"],
+			[3667710100, 32, "LimitBreak4FanLvPt"],
+			[1737044675, 32, "LimitedType"],
+			[1091447422, 16, "SideStyleSettingCharacterId"]
+		]
+	},
+	{
+		"tableLabel": "cardseries.tsv",
+		"fields": [
+			[2790627598, 32, "Id"],
+			[2535148543, 32, "Evolution0Id"],
+			[2530812360, 32, "Evolution1Id"],
+			[2493489041, 32, "Evolution2Id"],
+			[4094897161, 32, "ObtainFanLvPt"],
+			[1314950175, 32, "Evolution1FanLvPt"],
+			[3236924412, 32, "Evolution2FanLvPt"],
+			[2457657072, 32, "LimitBreak1FanLvPt"],
+			[485742867, 32, "LimitBreak2FanLvPt"],
+			[3495549325, 32, "LimitBreak3FanLvPt"],
+			[3667710100, 32, "LimitBreak4FanLvPt"],
+			[1737044675, 32, "LimitedType"],
+			[1091447422, 16, "SideStyleSettingCharacterId"],
+			[2505962918, 32, "Evolution3Id"],
+			[2417156899, 32, "Evolution4Id"],
+			[205884258, 32, "Evolution3FanLvPt"],
+			[109085307, 32, "Evolution4FanLvPt"],
+			[543460558, 32, "Evolution3RequiredFanLv"],
+			[1168713230, 32, "Evolution4RequiredFanLv"]
+		]
+	},
+	{
+		"tableLabel": "cardseries.tsv",
+		"fields": [
+			[2790627598, 32, "Id"],
+			[2535148543, 32, "Evolution0Id"],
+			[2530812360, 32, "Evolution1Id"],
+			[2493489041, 32, "Evolution2Id"],
+			[4094897161, 32, "ObtainFanLvPt"],
+			[1314950175, 32, "Evolution1FanLvPt"],
+			[3236924412, 32, "Evolution2FanLvPt"],
+			[2457657072, 32, "LimitBreak1FanLvPt"],
+			[485742867, 32, "LimitBreak2FanLvPt"],
+			[3495549325, 32, "LimitBreak3FanLvPt"],
+			[3667710100, 32, "LimitBreak4FanLvPt"],
+			[1737044675, 32, "LimitedType"],
+			[1091447422, 16, "SideStyleSettingCharacterId"],
+			[2505962918, 32, "Evolution3Id"],
+			[2417156899, 32, "Evolution4Id"],
+			[205884258, 32, "Evolution3FanLvPt"],
+			[109085307, 32, "Evolution4FanLvPt"],
+			[543460558, 32, "Evolution3RequiredFanLv"],
+			[1168713230, 32, "Evolution4RequiredFanLv"],
+			[1527924184, 32, "StyleSettingType"]
+		]
+	},
+	{
+		"tableLabel": "cardseries.tsv",
+		"fields": [
+			[2790627598, 32, "Id"],
+			[2535148543, 32, "Evolution0Id"],
+			[2530812360, 32, "Evolution1Id"],
+			[2493489041, 32, "Evolution2Id"],
+			[4094897161, 32, "ObtainFanLvPt"],
+			[1314950175, 32, "Evolution1FanLvPt"],
+			[3236924412, 32, "Evolution2FanLvPt"],
+			[2457657072, 32, "LimitBreak1FanLvPt"],
+			[485742867, 32, "LimitBreak2FanLvPt"],
+			[3495549325, 32, "LimitBreak3FanLvPt"],
+			[3667710100, 32, "LimitBreak4FanLvPt"],
+			[1737044675, 32, "LimitedType"],
+			[1091447422, 16, "SideStyleSettingCharacterId"],
+			[2505962918, 32, "Evolution3Id"],
+			[2417156899, 32, "Evolution4Id"],
+			[205884258, 32, "Evolution3FanLvPt"],
+			[109085307, 32, "Evolution4FanLvPt"],
+			[543460558, 32, "Evolution3RequiredFanLv"],
+			[1168713230, 32, "Evolution4RequiredFanLv"],
+			[1527924184, 32, "StyleSettingType"],
+			[2735167997, 16, "StartTime"],
+			[2097635535, 32, "IsParallelCard"]
+		]
+	},
+	{
+		"tableLabel": "cardskilleffectdetailparams.tsv",
+		"fields": [
+			[613781193, 51, "Id"],
+			[1244894147, 16, "ParamType"],
+			[1567538838, 16, "ParamValue"]
+		]
+	},
+	{
+		"tableLabel": "cardskilleffectdetails.tsv",
+		"fields": [
+			[1831796746, 51, "Id"],
+			[2575445937, 16, "SkillEffectDetailType"],
+			[2369612317, 32, "TargetMood"],
+			[2002536008, 51, "EffectValue"]
+		]
+	},
+	{
+		"tableLabel": "cardskilleffects.tsv",
+		"fields": [
+			[3097097038, 51, "Id"],
+			[2247607141, 32, "ActionType"],
+			[2179522688, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "cardskilllevelupmaterials.tsv",
+		"fields": [
+			[2170918107, 51, "Id"],
+			[3976146921, 32, "CardSeriesId"],
+			[1725191396, 32, "SkillType"],
+			[2144696349, 32, "SkillLevel"],
+			[964230655, 32, "Cost_ItemsId1"],
+			[3152894766, 32, "CostNum1"],
+			[2691804229, 32, "Cost_ItemsId2"],
+			[585370260, 32, "CostNum2"],
+			[3614874835, 32, "Cost_ItemsId3"],
+			[1440954882, 32, "CostNum3"]
+		]
+	},
+	{
+		"tableLabel": "cardskilllevelupmaterials.tsv",
+		"fields": [
+			[2170918107, 51, "Id"],
+			[3976146921, 32, "CardSeriesId"],
+			[1725191396, 32, "SkillType"],
+			[2144696349, 32, "SkillLevel"],
+			[964230655, 32, "Cost_ItemsId1"],
+			[3152894766, 32, "CostNum1"],
+			[2691804229, 32, "Cost_ItemsId2"],
+			[585370260, 32, "CostNum2"],
+			[3614874835, 32, "Cost_ItemsId3"],
+			[1440954882, 32, "CostNum3"],
+			[2712329539, 16, "Cost_ItemsIds"],
+			[591362962, 16, "CostNums"]
+		]
+	},
+	{
+		"tableLabel": "cardskillmodes.tsv",
+		"fields": [
+			[2569398008, 51, "Id"],
+			[1560320870, 16, "ModeOffName"],
+			[2741182026, 16, "ModeOnName"]
+		]
+	},
+	{
+		"tableLabel": "cardskillmodes.tsv",
+		"fields": [
+			[2569398008, 51, "Id"],
+			[1560320870, 16, "ModeOffName"],
+			[2741182026, 16, "ModeOnName"],
+			[4181545912, 32, "CharactersId"]
+		]
+	},
+	{
+		"tableLabel": "cardskills.tsv",
+		"fields": [
+			[980488590, 51, "Id"],
+			[862529529, 32, "CardSkillSeriesId"],
+			[1198340450, 32, "SkillLevel"],
+			[2460953747, 32, "SkillCost"],
+			[585079717, 32, "ApperanceType"],
+			[3318145309, 16, "CardSkillEffectId"],
+			[3800562927, 16, "Description"]
+		]
+	},
+	{
+		"tableLabel": "cardskillseries.tsv",
+		"fields": [
+			[1927890509, 32, "Id"],
+			[3978743700, 16, "Name"],
+			[3165991150, 32, "SkillIcon"]
+		]
+	},
+	{
+		"tableLabel": "cardskillseries.tsv",
+		"fields": [
+			[1927890509, 32, "Id"],
+			[3978743700, 16, "Name"],
+			[3165991150, 32, "SkillIcon"],
+			[993619479, 32, "SkillMainEffect"]
+		]
+	},
+	{
+		"tableLabel": "cardskillseries.tsv",
+		"fields": [
+			[1927890509, 32, "Id"],
+			[3978743700, 16, "Name"],
+			[3165991150, 32, "SkillIcon"],
+			[993619479, 32, "SkillMainEffect"],
+			[2305686456, 32, "IsExSpecialAppeal"]
+		]
+	},
+	{
+		"tableLabel": "centerattributeeffects.tsv",
+		"fields": [
+			[392064731, 32, "Id"],
+			[2628770506, 32, "CenterAttributeEffectType"],
+			[610572923, 32, "CenterAttributeEffectValue"]
+		]
+	},
+	{
+		"tableLabel": "centerattributes.tsv",
+		"fields": [
+			[1169193204, 51, "Id"],
+			[607186332, 32, "CenterAttributeSeriesId"],
+			[1736644176, 16, "CenterAttributeName"],
+			[789662781, 16, "TargetIds"],
+			[3533646712, 32, "CenterAttributeEffectId"],
+			[3635422495, 16, "Description"]
+		]
+	},
+	{
+		"tableLabel": "centerskillconditions.tsv",
+		"fields": [
+			[3853924854, 32, "Id"],
+			[2160266522, 32, "CenterSkillConditionType"],
+			[2729124984, 32, "CenterSkillConditionValue"],
+			[1151986727, 32, "CenterSkillConditionValue2"]
+		]
+	},
+	{
+		"tableLabel": "centerskilleffects.tsv",
+		"fields": [
+			[4241760439, 32, "Id"],
+			[921374347, 32, "CenterSkillEffectType"],
+			[622178217, 32, "CenterSkillEffectValue"]
+		]
+	},
+	{
+		"tableLabel": "centerskills.tsv",
+		"fields": [
+			[2618002893, 51, "Id"],
+			[4292134334, 32, "CenterSkillSeriesId"],
+			[2379620246, 16, "CenterSkillName"],
+			[2647237813, 32, "SkillLevel"],
+			[4080103509, 32, "OrderId"],
+			[803916157, 16, "CenterSkillConditionIds"],
+			[159056730, 32, "CenterSkillEffectId"],
+			[4209647365, 16, "Description"]
+		]
+	},
+	{
+		"tableLabel": "challengemodeeffectdetails.tsv",
+		"fields": [
+			[2067570687, 51, "Id"],
+			[2461098369, 16, "EffectDetailType"],
+			[1238656241, 32, "TargetMood"],
+			[3726901525, 32, "EffectValue"]
+		]
+	},
+	{
+		"tableLabel": "challengemodeeffects.tsv",
+		"fields": [
+			[3038191791, 51, "Id"],
+			[4287682279, 32, "StandardQuestStagesId"],
+			[2358005339, 32, "ActionType"],
+			[4273492063, 32, "OrderId"],
+			[971695678, 16, "Description"]
+		]
+	},
+	{
+		"tableLabel": "challengemodereleasecondition.tsv",
+		"fields": [
+			[2417872495, 51, "Id"],
+			[1440015337, 32, "ReleaseChallengeModeId"],
+			[1834658899, 32, "ConditionsType"],
+			[2907063533, 32, "ConditionsValue"],
+			[579768854, 16, "StartTime"],
+			[3389408373, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "challengemodestages.tsv",
+		"fields": [
+			[2296414816, 32, "Id"],
+			[3611165024, 32, "ChallengeModeAreasId"],
+			[1886905799, 32, "CorrespondedQuestStageId"],
+			[1359309275, 16, "Name"],
+			[2948717170, 16, "Description"],
+			[1004541070, 16, "Hint"],
+			[2617330625, 32, "MapNumber"],
+			[1686380802, 32, "StageType"],
+			[2687444908, 32, "UseType"],
+			[870995355, 32, "UseItem"],
+			[4105019856, 32, "UseNum"],
+			[3865852306, 32, "LiveStagesId"],
+			[4043458356, 32, "QuestMusicsType"],
+			[3437067831, 32, "QuestMusicsDetail"],
+			[2348319444, 32, "DeckRestrictedType"],
+			[2041430302, 32, "DeckRestrictedDetail"],
+			[3992390767, 51, "ChallengeModeEffectId"],
+			[4200713282, 32, "QuestLevel"],
+			[701623249, 51, "FirstClearRewardSeriesId"],
+			[3747186502, 51, "ChallengeModeScore"]
+		]
+	},
+	{
+		"tableLabel": "chaptermissioncategorys.tsv",
+		"fields": [
+			[3115482845, 32, "Id"],
+			[1568166876, 32, "CategoryId"],
+			[2913775972, 16, "ChapterMissionCategoryName"],
+			[1827355500, 32, "LimitPoint"]
+		]
+	},
+	{
+		"tableLabel": "chaptermissions.tsv",
+		"fields": [
+			[1025800263, 32, "Id"],
+			[1437533380, 16, "Description"],
+			[4079971707, 32, "ChapterMissionCategorysId"],
+			[27544981, 32, "MissionConditionType"],
+			[2924799601, 32, "MissionConditionNum"],
+			[2601839143, 32, "MissionConditionDetail"],
+			[2965087088, 32, "SortOrder"],
+			[3278715038, 32, "TransitionContentsId"],
+			[2542664515, 32, "RewardSeasonPoint"],
+			[2522513349, 32, "MissionGroup"]
+		]
+	},
+	{
+		"tableLabel": "chapterpointrewarddetails.tsv",
+		"fields": [
+			[3066943040, 32, "Id"],
+			[1467964707, 32, "ChapterPointRewardsId"],
+			[3536597229, 32, "RewardType"],
+			[3384283090, 32, "RewardItemId"],
+			[282944790, 32, "RewardNum"],
+			[503088779, 32, "LifeTimeDay"],
+			[2599728920, 32, "RewardTextId"]
+		]
+	},
+	{
+		"tableLabel": "chapterpointrewards.tsv",
+		"fields": [
+			[4003016926, 32, "Id"],
+			[1350937325, 32, "ChapterId"],
+			[3332425772, 32, "ChapterPoint"]
+		]
+	},
+	{
+		"tableLabel": "chapterportaldatas.tsv",
+		"fields": [
+			[3636179678, 32, "Id"],
+			[1841087527, 32, "ChapterId"],
+			[707587580, 32, "FeaturedGachaSeriesId"],
+			[1641834036, 32, "FeaturedAdvSeriesId"],
+			[2041250140, 16, "StartTime"],
+			[589143594, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "chapterranks.tsv",
+		"fields": [
+			[2636805433, 32, "Id"],
+			[1193901329, 16, "ChapterRankName"],
+			[1751523124, 32, "RequirePoint"],
+			[3220367897, 32, "RewardIconFrame"]
+		]
+	},
+	{
+		"tableLabel": "chapters.tsv",
+		"fields": [
+			[4066188048, 32, "Id"],
+			[1925325024, 16, "ChapterName"],
+			[3011631241, 16, "StartTime"],
+			[2271215141, 16, "EndTime"],
+			[557201996, 32, "MissionGroup"]
+		]
+	},
+	{
+		"tableLabel": "characterfavoritegifts.tsv",
+		"fields": [
+			[2350673641, 32, "Id"],
+			[479071660, 32, "ItemsId"],
+			[1136189446, 32, "CharactersId"],
+			[2600831094, 32, "FavoriteRank"]
+		]
+	},
+	{
+		"tableLabel": "characters.tsv",
+		"fields": [
+			[470145085, 32, "Id"],
+			[3836293355, 16, "NameLast"],
+			[1943078102, 16, "NameFirst"],
+			[2098412662, 16, "LatinAlphabetNameLast"],
+			[4260778275, 16, "LatinAlphabetNameFirst"],
+			[4187172288, 32, "GenerationsId"],
+			[710182547, 32, "SeriesType"],
+			[3325478549, 32, "IconOrderId"],
+			[3112904832, 16, "CharacterVoice"],
+			[1771654008, 16, "ThemeColor"],
+			[3806681961, 16, "Introduction"],
+			[3471926461, 16, "ShowSeasonFanLvStartTime"],
+			[2733303588, 16, "ShowSeasonFanLvEndTime"]
+		]
+	},
+	{
+		"tableLabel": "characters.tsv",
+		"fields": [
+			[470145085, 32, "Id"],
+			[3836293355, 16, "NameLast"],
+			[1943078102, 16, "NameFirst"],
+			[2098412662, 16, "LatinAlphabetNameLast"],
+			[4260778275, 16, "LatinAlphabetNameFirst"],
+			[4187172288, 32, "GenerationsId"],
+			[710182547, 32, "SeriesType"],
+			[3325478549, 32, "IconOrderId"],
+			[3112904832, 16, "CharacterVoice"],
+			[1771654008, 16, "ThemeColor"],
+			[3806681961, 16, "Introduction"],
+			[3471926461, 16, "ShowSeasonFanLvStartTime"],
+			[2733303588, 16, "ShowSeasonFanLvEndTime"],
+			[4240324404, 32, "IsExistFanLv"],
+			[1735630546, 32, "StyleType"]
+		]
+	},
+	{
+		"tableLabel": "characters.tsv",
+		"fields": [
+			[470145085, 32, "Id"],
+			[3836293355, 16, "NameLast"],
+			[1943078102, 16, "NameFirst"],
+			[2098412662, 16, "LatinAlphabetNameLast"],
+			[4260778275, 16, "LatinAlphabetNameFirst"],
+			[4187172288, 32, "GenerationsId"],
+			[710182547, 32, "SeriesType"],
+			[3325478549, 32, "IconOrderId"],
+			[3112904832, 16, "CharacterVoice"],
+			[1771654008, 16, "ThemeColor"],
+			[3806681961, 16, "Introduction"],
+			[3471926461, 16, "ShowSeasonFanLvStartTime"],
+			[2733303588, 16, "ShowSeasonFanLvEndTime"],
+			[4240324404, 32, "IsExistFanLv"],
+			[1735630546, 32, "StyleType"],
+			[3645833047, 32, "PrintFilterType"]
+		]
+	},
+	{
+		"tableLabel": "characters.tsv",
+		"fields": [
+			[470145085, 32, "Id"],
+			[3836293355, 16, "NameLast"],
+			[1943078102, 16, "NameFirst"],
+			[2098412662, 16, "LatinAlphabetNameLast"],
+			[4260778275, 16, "LatinAlphabetNameFirst"],
+			[4187172288, 32, "GenerationsId"],
+			[710182547, 32, "SeriesType"],
+			[3325478549, 32, "IconOrderId"],
+			[3112904832, 16, "CharacterVoice"],
+			[1771654008, 16, "ThemeColor"],
+			[3806681961, 16, "Introduction"],
+			[3471926461, 16, "ShowSeasonFanLvStartTime"],
+			[2733303588, 16, "ShowSeasonFanLvEndTime"],
+			[4240324404, 32, "IsExistFanLv"],
+			[1735630546, 32, "StyleType"],
+			[3645833047, 32, "PrintFilterType"],
+			[2755438492, 16, "DisplayFullName"],
+			[3042000401, 16, "LatinAlpabetFullName"],
+			[3876712742, 32, "NameDisplayType"]
+		]
+	},
+	{
+		"tableLabel": "characters.tsv",
+		"fields": [
+			[470145085, 32, "Id"],
+			[3836293355, 16, "NameLast"],
+			[1943078102, 16, "NameFirst"],
+			[2098412662, 16, "LatinAlphabetNameLast"],
+			[4260778275, 16, "LatinAlphabetNameFirst"],
+			[4187172288, 32, "GenerationsId"],
+			[710182547, 32, "SeriesType"],
+			[3325478549, 32, "IconOrderId"],
+			[3112904832, 16, "CharacterVoice"],
+			[1771654008, 16, "ThemeColor"],
+			[3806681961, 16, "Introduction"],
+			[3471926461, 16, "ShowSeasonFanLvStartTime"],
+			[2733303588, 16, "ShowSeasonFanLvEndTime"],
+			[4240324404, 32, "IsExistFanLv"],
+			[1735630546, 32, "StyleType"],
+			[3645833047, 32, "PrintFilterType"],
+			[2755438492, 16, "DisplayFullName"],
+			[3042000401, 16, "LatinAlpabetFullName"],
+			[3876712742, 32, "NameDisplayType"],
+			[1610363887, 16, "DisplayGeneration"]
+		]
+	},
+	{
+		"tableLabel": "characters.tsv",
+		"fields": [
+			[470145085, 32, "Id"],
+			[3836293355, 16, "NameLast"],
+			[1943078102, 16, "NameFirst"],
+			[2098412662, 16, "LatinAlphabetNameLast"],
+			[4260778275, 16, "LatinAlphabetNameFirst"],
+			[4187172288, 32, "GenerationsId"],
+			[710182547, 32, "SeriesType"],
+			[3325478549, 32, "IconOrderId"],
+			[3112904832, 16, "CharacterVoice"],
+			[1771654008, 16, "ThemeColor"],
+			[3806681961, 16, "Introduction"],
+			[3471926461, 16, "ShowSeasonFanLvStartTime"],
+			[2733303588, 16, "ShowSeasonFanLvEndTime"],
+			[4240324404, 32, "IsExistFanLv"],
+			[1735630546, 32, "StyleType"],
+			[3645833047, 32, "PrintFilterType"],
+			[2755438492, 16, "DisplayFullName"],
+			[3042000401, 16, "LatinAlpabetFullName"],
+			[3876712742, 32, "NameDisplayType"],
+			[1610363887, 16, "DisplayGeneration"],
+			[1023667814, 16, "GraduateIntroduction"]
+		]
+	},
+	{
+		"tableLabel": "characters.tsv",
+		"fields": [
+			[470145085, 32, "Id"],
+			[3836293355, 16, "NameLast"],
+			[1943078102, 16, "NameFirst"],
+			[2098412662, 16, "LatinAlphabetNameLast"],
+			[4260778275, 16, "LatinAlphabetNameFirst"],
+			[4187172288, 32, "GenerationsId"],
+			[710182547, 32, "SeriesType"],
+			[3325478549, 32, "IconOrderId"],
+			[3112904832, 16, "CharacterVoice"],
+			[1771654008, 16, "ThemeColor"],
+			[3806681961, 16, "Introduction"],
+			[3471926461, 16, "ShowSeasonFanLvStartTime"],
+			[2733303588, 16, "ShowSeasonFanLvEndTime"],
+			[4240324404, 32, "IsExistFanLv"],
+			[1735630546, 32, "StyleType"],
+			[3645833047, 32, "PrintFilterType"],
+			[2755438492, 16, "DisplayFullName"],
+			[3042000401, 16, "LatinAlpabetFullName"],
+			[3876712742, 32, "NameDisplayType"],
+			[1610363887, 16, "DisplayGeneration"],
+			[1023667814, 16, "GraduateIntroduction"],
+			[685343911, 16, "ContainedCharacters"],
+			[2145683356, 32, "MemberProfileCategoryId"],
+			[2313860171, 32, "MemberProfileOrder"],
+			[1173407623, 32, "IsShowOnlyCardList"],
+			[2004828478, 16, "CurrentStudentOverrideStartTime"],
+			[3954483811, 16, "CurrentStudentOverrideEndTime"]
+		]
+	},
+	{
+		"tableLabel": "cheermembers.tsv",
+		"fields": [
+			[1650962753, 32, "Id"],
+			[2418832455, 32, "CharactersId"],
+			[3011265640, 32, "Order"],
+			[3631565185, 16, "StartTime"],
+			[4165405539, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "cheerrankings.tsv",
+		"fields": [
+			[575285382, 32, "Id"],
+			[1930467011, 32, "CheerMembersId"],
+			[1239620743, 16, "StartTime"],
+			[2748713776, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "cheerrewarddatas.tsv",
+		"fields": [
+			[376192337, 51, "Id"],
+			[620412735, 51, "CheerRewardsId"],
+			[3239947880, 32, "RewardType"],
+			[2566639182, 32, "RewardItemId"],
+			[2916857358, 32, "RewardNum"],
+			[2151489722, 32, "LifeTimeDay"],
+			[3417798276, 32, "RewardTextId"]
+		]
+	},
+	{
+		"tableLabel": "cheerrewards.tsv",
+		"fields": [
+			[2684226950, 51, "Id"],
+			[439017968, 32, "CheerRankingsId"],
+			[4265215396, 32, "MinTargetNum"],
+			[1850283342, 32, "MaxTargetNum"]
+		]
+	},
+	{
+		"tableLabel": "comics.tsv",
+		"fields": [
+			[2481416307, 32, "Id"],
+			[1882535976, 16, "Name"],
+			[4226046482, 32, "ViewType"],
+			[1568960845, 16, "StartTime"],
+			[2489900522, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "comics.tsv",
+		"fields": [
+			[2481416307, 32, "Id"],
+			[1882535976, 16, "Name"],
+			[4226046482, 32, "ViewType"],
+			[1568960845, 16, "StartTime"],
+			[2489900522, 16, "EndTime"],
+			[899840556, 32, "TabListId"],
+			[517045787, 16, "AppearanceCharacterIds"]
+		]
+	},
+	{
+		"tableLabel": "commonmissions.tsv",
+		"fields": [
+			[2922059377, 32, "Id"],
+			[2706659416, 32, "ClearConditionNum"],
+			[3342587993, 32, "RewardType"],
+			[3588578363, 32, "ItemsId"],
+			[1025022027, 32, "RewardNum"],
+			[2574967156, 32, "OrderId"],
+			[3583453555, 16, "StartTime"],
+			[2534768319, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "contentguidances.tsv",
+		"fields": [
+			[4116564411, 32, "Id"],
+			[3372966300, 32, "ContentId"],
+			[410746579, 32, "Priority"],
+			[474738703, 32, "IsSkip"],
+			[1209360412, 32, "IsEnable"],
+			[1256854648, 16, "ConditionValues"]
+		]
+	},
+	{
+		"tableLabel": "contentsreleaseconditions.tsv",
+		"fields": [
+			[3596279680, 32, "Id"],
+			[3313273587, 32, "ReleaseContentsId"],
+			[3922546069, 32, "ConditionsType"],
+			[3754275977, 32, "ConditionsValue"],
+			[1262491246, 16, "StartTime"],
+			[1540446023, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "costumemodels.tsv",
+		"fields": [
+			[3821191884, 51, "Id"],
+			[61960728, 16, "Label"],
+			[2251620680, 32, "CharactersId"],
+			[2215953127, 32, "CostumesId"],
+			[1358813342, 32, "HairStyleId"]
+		]
+	},
+	{
+		"tableLabel": "costumes.tsv",
+		"fields": [[1145533072, 32, "Id"], [520125564, 16, "Label"]]
+	},
+	{
+		"tableLabel": "customcomplementmaterials.tsv",
+		"fields": [
+			[2635575927, 32, "Id"],
+			[1918879766, 16, "Name"],
+			[220848962, 32, "OrderId"],
+			[2995080569, 16, "StartTime"],
+			[54951049, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "dailylivereleaseconditions.tsv",
+		"fields": [
+			[1518693498, 51, "Id"],
+			[1766932284, 32, "ReleaseDailyLivesId"],
+			[2942661885, 32, "ConditionsType"],
+			[2632644058, 32, "ConditionsValue"],
+			[3141202729, 16, "StartTime"],
+			[1198611333, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "dailyquestseries.tsv",
+		"fields": [
+			[3589581472, 32, "Id"],
+			[2940881787, 16, "Name"],
+			[504628013, 16, "Description"],
+			[3360065093, 32, "IsSunday"],
+			[3687475853, 32, "IsMonday"],
+			[114093959, 32, "IsTuesday"],
+			[3742820272, 32, "IsWednesday"],
+			[4188020680, 32, "IsThursday"],
+			[3031101892, 32, "IsFriday"],
+			[2805808082, 32, "IsSaturday"],
+			[45104537, 16, "StartTime"],
+			[1043991364, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "dailyqueststages.tsv",
+		"fields": [
+			[3427053831, 32, "Id"],
+			[1302293695, 32, "DailyQuestSeriesId"],
+			[3295260937, 16, "Name"],
+			[3148668294, 16, "Description"],
+			[2928462940, 16, "Hint"],
+			[967495766, 32, "StageType"],
+			[600286211, 32, "UseType"],
+			[2952975924, 32, "UseItem"],
+			[3484142023, 32, "UseNum"],
+			[1554539152, 32, "LiveStagesId"],
+			[935334358, 32, "QuestMusicsType"],
+			[580771162, 32, "QuestMusicsDetail"],
+			[3088441234, 32, "DeckRestrictedType"],
+			[3394516793, 32, "DeckRestrictedDetail"],
+			[2520414046, 32, "QuestLevel"],
+			[4007238958, 32, "QuestRank"],
+			[845925366, 51, "FirstClearRewardSeriesId"],
+			[2103843017, 51, "CompleteRewardSeriesId"],
+			[19853783, 51, "DropRewardSeriesId"],
+			[3744786088, 51, "RandomDropRewardSeriesId"],
+			[331435590, 51, "Score1"],
+			[2328371196, 51, "Score2"],
+			[4258213738, 51, "Score3"],
+			[3508363901, 32, "GainStylePoint"],
+			[611009294, 32, "GainMusicExp"]
+		]
+	},
+	{
+		"tableLabel": "dailyqueststages.tsv",
+		"fields": [
+			[3427053831, 32, "Id"],
+			[1302293695, 32, "DailyQuestSeriesId"],
+			[3295260937, 16, "Name"],
+			[3148668294, 16, "Description"],
+			[2928462940, 16, "Hint"],
+			[967495766, 32, "StageType"],
+			[600286211, 32, "UseType"],
+			[2952975924, 32, "UseItem"],
+			[3484142023, 32, "UseNum"],
+			[1554539152, 32, "LiveStagesId"],
+			[935334358, 32, "QuestMusicsType"],
+			[580771162, 32, "QuestMusicsDetail"],
+			[3088441234, 32, "DeckRestrictedType"],
+			[3394516793, 32, "DeckRestrictedDetail"],
+			[2520414046, 32, "QuestLevel"],
+			[4007238958, 32, "QuestRank"],
+			[845925366, 51, "FirstClearRewardSeriesId"],
+			[2103843017, 51, "CompleteRewardSeriesId"],
+			[19853783, 51, "DropRewardSeriesId"],
+			[3744786088, 51, "RandomDropRewardSeriesId"],
+			[331435590, 51, "Score1"],
+			[2328371196, 51, "Score2"],
+			[4258213738, 51, "Score3"],
+			[3508363901, 32, "GainStylePoint"],
+			[611009294, 32, "GainMusicExp"],
+			[777894261, 32, "ItemSourceIconId"]
+		]
+	},
+	{
+		"tableLabel": "dailyqueststages.tsv",
+		"fields": [
+			[3427053831, 32, "Id"],
+			[4136395851, 32, "LearningLiveSeriesId"],
+			[3295260937, 16, "Name"],
+			[3148668294, 16, "Description"],
+			[2928462940, 16, "Hint"],
+			[967495766, 32, "StageType"],
+			[600286211, 32, "UseType"],
+			[2952975924, 32, "UseItem"],
+			[3484142023, 32, "UseNum"],
+			[1554539152, 32, "LiveStagesId"],
+			[935334358, 32, "QuestMusicsType"],
+			[580771162, 32, "QuestMusicsDetail"],
+			[3088441234, 32, "DeckRestrictedType"],
+			[3394516793, 32, "DeckRestrictedDetail"],
+			[2520414046, 32, "QuestLevel"],
+			[4007238958, 32, "QuestRank"],
+			[845925366, 51, "FirstClearRewardSeriesId"],
+			[2103843017, 51, "CompleteRewardSeriesId"],
+			[19853783, 51, "DropRewardSeriesId"],
+			[3744786088, 51, "RandomDropRewardSeriesId"],
+			[331435590, 51, "Score1"],
+			[2328371196, 51, "Score2"],
+			[4258213738, 51, "Score3"],
+			[3508363901, 32, "GainStylePoint"],
+			[611009294, 32, "GainMusicExp"]
+		]
+	},
+	{
+		"tableLabel": "deckmemberpositions.tsv",
+		"fields": [
+			[3459303680, 32, "Id"],
+			[4070520305, 32, "GenerationsId"],
+			[1975990993, 32, "CharactersId"],
+			[1450288882, 32, "OrderId"],
+			[1358302598, 16, "StartTime"],
+			[1478375737, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "difficultybgimages.tsv",
+		"fields": [
+			[3566638237, 32, "Id"],
+			[1228538540, 32, "MusicDifficulty"],
+			[2165594754, 32, "OutGameBgImageId"],
+			[829167358, 32, "InGameBgImageId"]
+		]
+	},
+	{
+		"tableLabel": "downloadimages.tsv",
+		"fields": [
+			[2863332349, 51, "Id"],
+			[2944377984, 32, "DownloadType"],
+			[1315221925, 16, "Title"],
+			[1306694065, 32, "OrderId"],
+			[857714652, 16, "StartTime"],
+			[1133317754, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "dreamlivereleaseconditions.tsv",
+		"fields": [
+			[1068826023, 51, "Id"],
+			[288181108, 32, "ReleaseDreamLiveId"],
+			[3827975046, 32, "ConditionsType"],
+			[1534464601, 32, "ConditionsValue"],
+			[934134349, 16, "StartTime"],
+			[248215273, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "dreamliveserieslist.tsv",
+		"fields": [
+			[1414083891, 32, "Id"],
+			[2930004787, 32, "DisplayPosition"],
+			[1176406926, 32, "ImageId"],
+			[2366826581, 16, "StartTime"],
+			[2728485695, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "dreamquestseries.tsv",
+		"fields": [
+			[1504820994, 32, "Id"],
+			[1198890309, 32, "CharactersId"],
+			[1588002238, 16, "Name"],
+			[3155322808, 32, "OrderId"],
+			[3053695564, 16, "StartTime"],
+			[2994600051, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "dreamquestseries.tsv",
+		"fields": [
+			[1504820994, 32, "Id"],
+			[1198890309, 32, "CharactersId"],
+			[1588002238, 16, "Name"],
+			[3155322808, 32, "OrderId"],
+			[3053695564, 16, "StartTime"],
+			[2994600051, 16, "EndTime"],
+			[1478046252, 32, "DreamLiveSeriesListId"]
+		]
+	},
+	{
+		"tableLabel": "dreamquestseries.tsv",
+		"fields": [
+			[1504820994, 32, "Id"],
+			[1198890309, 32, "CharactersId"],
+			[1588002238, 16, "Name"],
+			[3155322808, 32, "OrderId"],
+			[3053695564, 16, "StartTime"],
+			[2994600051, 16, "EndTime"],
+			[1478046252, 32, "DreamLiveSeriesListId"],
+			[3847918404, 16, "ReleaseStartTime"],
+			[1621113875, 32, "MessageTextId"]
+		]
+	},
+	{
+		"tableLabel": "dreamqueststages.tsv",
+		"fields": [
+			[1073849509, 32, "Id"],
+			[1764436907, 32, "DreamQuestSeriesId"],
+			[897910732, 16, "Name"],
+			[988071646, 16, "Description"],
+			[1600158361, 16, "Hint"],
+			[2367250307, 32, "StageType"],
+			[2944423732, 32, "UseType"],
+			[1011164419, 32, "UseItem"],
+			[1529089433, 32, "UseNum"],
+			[966390605, 32, "LiveStagesId"],
+			[2333412529, 32, "QuestMusicsType"],
+			[1797779510, 32, "QuestMusicsDetail"],
+			[4233644236, 32, "DeckRestrictedType"],
+			[2147943753, 32, "DeckRestrictedDetail"],
+			[2032467085, 51, "FirstClearRewardSeriesId"],
+			[1164142217, 51, "DropRewardSeriesId"],
+			[2491142611, 51, "RandomDropRewardSeriesId"],
+			[2270071320, 51, "Score1"]
+		]
+	},
+	{
+		"tableLabel": "effectsticker.tsv",
+		"fields": [
+			[4147147445, 32, "Id"],
+			[284677453, 16, "Name"],
+			[1252091319, 32, "OrderId"],
+			[1846121258, 32, "BlockCount"],
+			[989049189, 16, "IconColorCode"],
+			[65287857, 32, "IsRestrictCustom"]
+		]
+	},
+	{
+		"tableLabel": "emojicategory.tsv",
+		"fields": [
+			[1490512686, 32, "Id"],
+			[3861479867, 16, "Name"],
+			[1146359200, 32, "OrderId"],
+			[2575260181, 16, "StartTime"],
+			[1245418091, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "emojis.tsv",
+		"fields": [
+			[1650003508, 32, "Id"],
+			[1809634361, 16, "Name"],
+			[1463793923, 16, "Alias"],
+			[3212579025, 32, "Category"],
+			[2902355265, 32, "OrderId"],
+			[1170427422, 32, "RequirementType"],
+			[3664428666, 16, "RequirementDetail"],
+			[2768494626, 32, "RequirementValue"],
+			[4069965552, 16, "RequirementText"],
+			[3861332160, 32, "IsVisibleOnlyPossess"],
+			[2477265226, 16, "StartTime"],
+			[2727473802, 16, "EndTime"],
+			[2184211209, 16, "AvailableStartTime"],
+			[3672085385, 16, "AvailableEndTime"]
+		]
+	},
+	{
+		"tableLabel": "eventloginbonuses.tsv",
+		"fields": [
+			[4152252769, 32, "Id"],
+			[1495215192, 16, "Name"],
+			[2126356427, 32, "LoginBonusRewardSeriesId"],
+			[650590319, 32, "EventLoginBonusType"],
+			[179375511, 16, "StartTime"],
+			[898411280, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "eventloginbonuses.tsv",
+		"fields": [
+			[4152252769, 32, "Id"],
+			[1495215192, 16, "Name"],
+			[2126356427, 32, "LoginBonusRewardSeriesId"],
+			[650590319, 32, "EventLoginBonusType"],
+			[1976459308, 16, "LoginBonusTextId"],
+			[179375511, 16, "StartTime"],
+			[898411280, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "eventmissionachieverewards.tsv",
+		"fields": [
+			[2200702314, 32, "Id"],
+			[2356529238, 32, "EvemtMissionSeriesId"],
+			[2365758003, 32, "AchieveMarkNum"],
+			[606211745, 32, "RewardCategory"],
+			[2808604189, 32, "RewardType"],
+			[1621648988, 32, "ItemsId"],
+			[3517450708, 32, "RewardNum"],
+			[2296583478, 32, "SortOrder"]
+		]
+	},
+	{
+		"tableLabel": "eventmissionachieverewards.tsv",
+		"fields": [
+			[2200702314, 32, "Id"],
+			[2356529238, 32, "EvemtMissionSeriesId"],
+			[2365758003, 32, "AchieveMarkNum"],
+			[606211745, 32, "RewardCategory"],
+			[2808604189, 32, "RewardType"],
+			[1621648988, 32, "ItemsId"],
+			[3517450708, 32, "RewardNum"],
+			[3791148271, 32, "RewardTextId"],
+			[2296583478, 32, "SortOrder"]
+		]
+	},
+	{
+		"tableLabel": "eventmissionrewards.tsv",
+		"fields": [
+			[1724133115, 32, "Id"],
+			[3839689275, 32, "EventMissionSeriesId"],
+			[649034638, 32, "EventMissionsId"],
+			[2561843237, 32, "RewardCategory"],
+			[2688262195, 32, "RewardType"],
+			[3132223133, 32, "ItemsId"],
+			[3760864976, 32, "RewardNum"],
+			[1967177274, 32, "RewardTextId"],
+			[3110150706, 32, "SortOrder"]
+		]
+	},
+	{
+		"tableLabel": "eventmissionrewards.tsv",
+		"fields": [
+			[1724133115, 32, "Id"],
+			[3839689275, 32, "EventMissionSeriesId"],
+			[649034638, 32, "EventMissionsId"],
+			[2561843237, 32, "RewardCategory"],
+			[2688262195, 32, "RewardType"],
+			[3132223133, 32, "ItemsId"],
+			[3760864976, 32, "RewardNum"],
+			[3110150706, 32, "SortOrder"]
+		]
+	},
+	{
+		"tableLabel": "eventmissions.tsv",
+		"fields": [
+			[746164238, 32, "Id"],
+			[2888132041, 32, "EventMissionSeriesId"],
+			[1505950243, 16, "Name"],
+			[4246984197, 16, "Description"],
+			[1780867255, 32, "MissionType"],
+			[3807424330, 32, "MissionCondition"],
+			[220312384, 32, "MissionConditionNum"],
+			[1539536581, 32, "OpenType"],
+			[1206173934, 32, "NextMissionsId"],
+			[3004772789, 32, "SortOrder"],
+			[2450542065, 32, "TransitionContentsId"]
+		]
+	},
+	{
+		"tableLabel": "eventmissions.tsv",
+		"fields": [
+			[746164238, 32, "Id"],
+			[2888132041, 32, "EventMissionSeriesId"],
+			[1505950243, 16, "Name"],
+			[4246984197, 16, "Description"],
+			[1780867255, 32, "MissionType"],
+			[3807424330, 32, "MissionCondition"],
+			[220312384, 32, "MissionConditionNum"],
+			[1539536581, 32, "OpenType"],
+			[1206173934, 32, "NextMissionsId"],
+			[3004772789, 32, "SortOrder"],
+			[2450542065, 32, "TransitionContentsId"],
+			[1495157121, 32, "MissionConditionDetail"]
+		]
+	},
+	{
+		"tableLabel": "eventmissionseries.tsv",
+		"fields": [
+			[2220999662, 32, "Id"],
+			[4125008281, 16, "Name"],
+			[3183665889, 16, "Description"],
+			[2931702906, 32, "GrandPrixesId"],
+			[1395174792, 16, "StartTime"],
+			[3350152171, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "exchangepointconvert.tsv",
+		"fields": [
+			[2897201332, 32, "Id"],
+			[2624880884, 32, "ConvertItemType"],
+			[2018144853, 32, "ConvertItemId"],
+			[2320765120, 32, "ConvertItemQuantity"],
+			[486189853, 16, "ConvertTime"]
+		]
+	},
+	{
+		"tableLabel": "exchangepointrate.tsv",
+		"fields": [
+			[1822544651, 32, "Id"],
+			[4281292980, 32, "ExchangePointId"],
+			[3214010355, 32, "ExchangeItemType"],
+			[2065060977, 32, "ExchangeItemId"],
+			[3681911559, 32, "ExchangeItemQuantity"],
+			[1171242414, 32, "ExchangePrice"],
+			[2067038409, 32, "LimitedCount"],
+			[4223182767, 16, "StartTime"],
+			[1888138111, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "exchangepointrate.tsv",
+		"fields": [
+			[1822544651, 32, "Id"],
+			[4281292980, 32, "ExchangePointId"],
+			[3214010355, 32, "ExchangeItemType"],
+			[2065060977, 32, "ExchangeItemId"],
+			[3681911559, 32, "ExchangeItemQuantity"],
+			[1171242414, 32, "ExchangePrice"],
+			[2067038409, 32, "LimitedCount"],
+			[4223182767, 16, "StartTime"],
+			[1888138111, 16, "EndTime"],
+			[1266996711, 32, "GachaSeriesId"],
+			[1635660766, 32, "BonusItemQuantity"]
+		]
+	},
+	{
+		"tableLabel": "flowerstandcolors.tsv",
+		"fields": [
+			[3917738129, 32, "Id"],
+			[3802777684, 16, "Name"],
+			[2498855388, 16, "ColorCode"],
+			[719973717, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "flowerstandidolpictures.tsv",
+		"fields": [
+			[2129273670, 32, "Id"],
+			[856330123, 16, "Name"],
+			[4275266359, 32, "CharactersId"]
+		]
+	},
+	{
+		"tableLabel": "flowerstandtypes.tsv",
+		"fields": [[2953834438, 32, "Id"], [2589677502, 16, "Name"]]
+	},
+	{
+		"tableLabel": "forbiddencards.tsv",
+		"fields": [
+			[3013459142, 32, "Id"],
+			[1349345618, 32, "ConditionType"],
+			[3665576886, 32, "ConditionValue"],
+			[2848036648, 32, "TargetType"],
+			[1783986018, 32, "TargetValue"]
+		]
+	},
+	{
+		"tableLabel": "gachacampaigns.tsv",
+		"fields": [
+			[1063744930, 32, "Id"],
+			[3506770390, 16, "CampaignName"],
+			[66599161, 32, "CampaignType"],
+			[3261165330, 32, "ConsectiveTimesType"],
+			[4086377352, 32, "ResetType"],
+			[3809013035, 32, "PerDayCampaignTimes"],
+			[3537368352, 51, "GachaSeriesId_1"],
+			[1272882330, 51, "GachaSeriesId_2"],
+			[1020892172, 51, "GachaSeriesId_3"],
+			[2730295727, 51, "GachaSeriesId_4"],
+			[3585749305, 51, "GachaSeriesId_5"],
+			[1495498454, 16, "StartTime"],
+			[1628040228, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "gachacampaigns.tsv",
+		"fields": [
+			[1063744930, 32, "Id"],
+			[3506770390, 16, "CampaignName"],
+			[66599161, 32, "CampaignType"],
+			[3261165330, 32, "ConsectiveTimesType"],
+			[4086377352, 32, "ResetType"],
+			[3809013035, 32, "PerDayCampaignTimes"],
+			[3537368352, 51, "GachaSeriesId_1"],
+			[1272882330, 51, "GachaSeriesId_2"],
+			[1020892172, 51, "GachaSeriesId_3"],
+			[2730295727, 51, "GachaSeriesId_4"],
+			[3585749305, 51, "GachaSeriesId_5"],
+			[1495498454, 16, "StartTime"],
+			[1628040228, 16, "EndTime"],
+			[1187798298, 32, "MiniBannerPopId"]
+		]
+	},
+	{
+		"tableLabel": "gachaprizedatas.tsv",
+		"fields": [
+			[1048455406, 51, "Id"],
+			[1000678251, 51, "GachaPrizeId"],
+			[2596615793, 32, "ItemType"],
+			[370421329, 32, "ItemId"],
+			[2884481713, 32, "ItemNum"],
+			[3253647462, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "gachaprizes.tsv",
+		"fields": [
+			[2123892797, 51, "Id"],
+			[2426822873, 32, "GachaSeriesId"],
+			[2315776867, 32, "GachaPlayCount"],
+			[4070568390, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "gachaseries.tsv",
+		"fields": [
+			[719927208, 32, "Id"],
+			[3400193426, 16, "GachaSeriesName"],
+			[4085536471, 16, "Description"],
+			[1832773849, 32, "GachaType"],
+			[271991946, 32, "LimitedGachaCount"],
+			[1851557190, 32, "LimitedGachaResetType"],
+			[193575343, 32, "GachaExchangePointId"],
+			[1645379461, 32, "ExchangePointNoticeNum"],
+			[2678481295, 32, "ExchangePointLockFlag"],
+			[3369413478, 32, "OrderId"],
+			[2194682424, 32, "FilterType"],
+			[3424450120, 32, "PickUpCardSeriesId_1"],
+			[2801757942, 32, "PickUpCardBonusItemQuantity_1"],
+			[1427482610, 32, "PickUpCardSeriesId_2"],
+			[1073102668, 32, "PickUpCardBonusItemQuantity_2"],
+			[571643748, 32, "PickUpCardSeriesId_3"],
+			[1223757786, 32, "PickUpCardBonusItemQuantity_3"],
+			[3161850567, 32, "PickUpCardSeriesId_4"],
+			[3600128633, 32, "PickUpCardBonusItemQuantity_4"],
+			[3413193297, 32, "PickUpCardSeriesId_5"],
+			[2710743791, 32, "PickUpCardBonusItemQuantity_5"],
+			[1383621611, 32, "PickUpCardSeriesId_6"],
+			[949746517, 32, "PickUpCardBonusItemQuantity_6"],
+			[3604095905, 16, "StartTime"],
+			[3334124717, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "gachaseries.tsv",
+		"fields": [
+			[719927208, 32, "Id"],
+			[3400193426, 16, "GachaSeriesName"],
+			[4085536471, 16, "Description"],
+			[1832773849, 32, "GachaType"],
+			[271991946, 32, "LimitedGachaCount"],
+			[1851557190, 32, "LimitedGachaResetType"],
+			[193575343, 32, "GachaExchangePointId"],
+			[1645379461, 32, "ExchangePointNoticeNum"],
+			[2678481295, 32, "ExchangePointLockFlag"],
+			[3369413478, 32, "OrderId"],
+			[2194682424, 32, "FilterType"],
+			[3424450120, 32, "PickUpCardSeriesId_1"],
+			[2801757942, 32, "PickUpCardBonusItemQuantity_1"],
+			[1427482610, 32, "PickUpCardSeriesId_2"],
+			[1073102668, 32, "PickUpCardBonusItemQuantity_2"],
+			[571643748, 32, "PickUpCardSeriesId_3"],
+			[1223757786, 32, "PickUpCardBonusItemQuantity_3"],
+			[3161850567, 32, "PickUpCardSeriesId_4"],
+			[3600128633, 32, "PickUpCardBonusItemQuantity_4"],
+			[3413193297, 32, "PickUpCardSeriesId_5"],
+			[2710743791, 32, "PickUpCardBonusItemQuantity_5"],
+			[1383621611, 32, "PickUpCardSeriesId_6"],
+			[949746517, 32, "PickUpCardBonusItemQuantity_6"],
+			[4235669896, 32, "BgType"],
+			[3604095905, 16, "StartTime"],
+			[3334124717, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "gachaseries.tsv",
+		"fields": [
+			[719927208, 32, "Id"],
+			[3400193426, 16, "GachaSeriesName"],
+			[4085536471, 16, "Description"],
+			[1832773849, 32, "GachaType"],
+			[271991946, 32, "LimitedGachaCount"],
+			[1851557190, 32, "LimitedGachaResetType"],
+			[193575343, 32, "GachaExchangePointId"],
+			[1645379461, 32, "ExchangePointNoticeNum"],
+			[2678481295, 32, "ExchangePointLockFlag"],
+			[3369413478, 32, "OrderId"],
+			[2194682424, 32, "FilterType"],
+			[3424450120, 32, "PickUpCardSeriesId_1"],
+			[2801757942, 32, "PickUpCardBonusItemQuantity_1"],
+			[1427482610, 32, "PickUpCardSeriesId_2"],
+			[1073102668, 32, "PickUpCardBonusItemQuantity_2"],
+			[571643748, 32, "PickUpCardSeriesId_3"],
+			[1223757786, 32, "PickUpCardBonusItemQuantity_3"],
+			[3161850567, 32, "PickUpCardSeriesId_4"],
+			[3600128633, 32, "PickUpCardBonusItemQuantity_4"],
+			[3413193297, 32, "PickUpCardSeriesId_5"],
+			[2710743791, 32, "PickUpCardBonusItemQuantity_5"],
+			[1383621611, 32, "PickUpCardSeriesId_6"],
+			[949746517, 32, "PickUpCardBonusItemQuantity_6"],
+			[4235669896, 32, "BgType"],
+			[3604095905, 16, "StartTime"],
+			[3334124717, 16, "EndTime"],
+			[4169565367, 16, "NoticeText"]
+		]
+	},
+	{
+		"tableLabel": "gachaseries.tsv",
+		"fields": [
+			[719927208, 32, "Id"],
+			[3400193426, 16, "GachaSeriesName"],
+			[4085536471, 16, "Description"],
+			[1832773849, 32, "GachaType"],
+			[271991946, 32, "LimitedGachaCount"],
+			[1851557190, 32, "LimitedGachaResetType"],
+			[193575343, 32, "GachaExchangePointId"],
+			[1645379461, 32, "ExchangePointNoticeNum"],
+			[2678481295, 32, "ExchangePointLockFlag"],
+			[3369413478, 32, "OrderId"],
+			[2194682424, 32, "FilterType"],
+			[3424450120, 32, "PickUpCardSeriesId_1"],
+			[2801757942, 32, "PickUpCardBonusItemQuantity_1"],
+			[1427482610, 32, "PickUpCardSeriesId_2"],
+			[1073102668, 32, "PickUpCardBonusItemQuantity_2"],
+			[571643748, 32, "PickUpCardSeriesId_3"],
+			[1223757786, 32, "PickUpCardBonusItemQuantity_3"],
+			[3161850567, 32, "PickUpCardSeriesId_4"],
+			[3600128633, 32, "PickUpCardBonusItemQuantity_4"],
+			[3413193297, 32, "PickUpCardSeriesId_5"],
+			[2710743791, 32, "PickUpCardBonusItemQuantity_5"],
+			[1383621611, 32, "PickUpCardSeriesId_6"],
+			[949746517, 32, "PickUpCardBonusItemQuantity_6"],
+			[4235669896, 32, "BgType"],
+			[3604095905, 16, "StartTime"],
+			[3334124717, 16, "EndTime"],
+			[4169565367, 16, "NoticeText"],
+			[694040590, 32, "GachaTimeLimitType"],
+			[679783648, 32, "AvailableTime"]
+		]
+	},
+	{
+		"tableLabel": "gachaseries.tsv",
+		"fields": [
+			[719927208, 32, "Id"],
+			[3400193426, 16, "GachaSeriesName"],
+			[4085536471, 16, "Description"],
+			[1832773849, 32, "GachaType"],
+			[271991946, 32, "LimitedGachaCount"],
+			[1851557190, 32, "LimitedGachaResetType"],
+			[193575343, 32, "GachaExchangePointId"],
+			[1645379461, 32, "ExchangePointNoticeNum"],
+			[2678481295, 32, "ExchangePointLockFlag"],
+			[3369413478, 32, "OrderId"],
+			[2194682424, 32, "FilterType"],
+			[3424450120, 32, "PickUpCardSeriesId_1"],
+			[2801757942, 32, "PickUpCardBonusItemQuantity_1"],
+			[1427482610, 32, "PickUpCardSeriesId_2"],
+			[1073102668, 32, "PickUpCardBonusItemQuantity_2"],
+			[571643748, 32, "PickUpCardSeriesId_3"],
+			[1223757786, 32, "PickUpCardBonusItemQuantity_3"],
+			[3161850567, 32, "PickUpCardSeriesId_4"],
+			[3600128633, 32, "PickUpCardBonusItemQuantity_4"],
+			[3413193297, 32, "PickUpCardSeriesId_5"],
+			[2710743791, 32, "PickUpCardBonusItemQuantity_5"],
+			[1383621611, 32, "PickUpCardSeriesId_6"],
+			[949746517, 32, "PickUpCardBonusItemQuantity_6"],
+			[4235669896, 32, "BgType"],
+			[3604095905, 16, "StartTime"],
+			[3334124717, 16, "EndTime"],
+			[4169565367, 16, "NoticeText"],
+			[694040590, 32, "GachaTimeLimitType"],
+			[679783648, 32, "AvailableTime"],
+			[2074509785, 32, "GachaStartBgm"]
+		]
+	},
+	{
+		"tableLabel": "gachaseries.tsv",
+		"fields": [
+			[719927208, 32, "Id"],
+			[3400193426, 16, "GachaSeriesName"],
+			[4085536471, 16, "Description"],
+			[1832773849, 32, "GachaType"],
+			[271991946, 32, "LimitedGachaCount"],
+			[1851557190, 32, "LimitedGachaResetType"],
+			[193575343, 32, "GachaExchangePointId"],
+			[1645379461, 32, "ExchangePointNoticeNum"],
+			[2678481295, 32, "ExchangePointLockFlag"],
+			[3369413478, 32, "OrderId"],
+			[2194682424, 32, "FilterType"],
+			[3424450120, 32, "PickUpCardSeriesId_1"],
+			[2801757942, 32, "PickUpCardBonusItemQuantity_1"],
+			[1427482610, 32, "PickUpCardSeriesId_2"],
+			[1073102668, 32, "PickUpCardBonusItemQuantity_2"],
+			[571643748, 32, "PickUpCardSeriesId_3"],
+			[1223757786, 32, "PickUpCardBonusItemQuantity_3"],
+			[3161850567, 32, "PickUpCardSeriesId_4"],
+			[3600128633, 32, "PickUpCardBonusItemQuantity_4"],
+			[3413193297, 32, "PickUpCardSeriesId_5"],
+			[2710743791, 32, "PickUpCardBonusItemQuantity_5"],
+			[1383621611, 32, "PickUpCardSeriesId_6"],
+			[949746517, 32, "PickUpCardBonusItemQuantity_6"],
+			[4235669896, 32, "BgType"],
+			[3604095905, 16, "StartTime"],
+			[3334124717, 16, "EndTime"],
+			[4169565367, 16, "NoticeText"],
+			[694040590, 32, "GachaTimeLimitType"],
+			[679783648, 32, "AvailableTime"],
+			[2074509785, 32, "GachaStartBgm"],
+			[655009115, 32, "IsGachaPrize"]
+		]
+	},
+	{
+		"tableLabel": "generations.tsv",
+		"fields": [
+			[581539674, 32, "Id"],
+			[426899712, 16, "Name"],
+			[2707974425, 16, "StartTime"],
+			[23505245, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "generations.tsv",
+		"fields": [
+			[581539674, 32, "Id"],
+			[426899712, 16, "Name"],
+			[2707974425, 16, "StartTime"],
+			[23505245, 16, "EndTime"],
+			[3547815199, 32, "EditOnlyDisplay"],
+			[252262038, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "giftbonusgachas.tsv",
+		"fields": [
+			[3305719682, 32, "Id"],
+			[927506145, 32, "SingleGachaPrice"],
+			[2661316066, 32, "SingleGachaPopId"],
+			[2953876233, 32, "ConsectiveGachaPrice"],
+			[1729060700, 32, "ConsectiveGachaTimes"],
+			[435714058, 32, "ConsectiveGachaPopId"],
+			[3832380647, 32, "PaidSIsCaOnlyGachaFlag"],
+			[3830036175, 32, "PaidSIsCaOnlyGachaPrice"],
+			[861305498, 32, "PaidSIsCaOnlyGachaTimes"],
+			[507994989, 32, "PaidSIsCaOnlyGachaPointFlag"],
+			[3858718060, 32, "PaidSIsCaOnlyGachaaPopId"]
+		]
+	},
+	{
+		"tableLabel": "giftbonusgachas.tsv",
+		"fields": [
+			[3305719682, 32, "Id"],
+			[927506145, 32, "SingleGachaPrice"],
+			[2661316066, 32, "SingleGachaPopId"],
+			[2953876233, 32, "ConsectiveGachaPrice"],
+			[1729060700, 32, "ConsectiveGachaTimes"],
+			[435714058, 32, "ConsectiveGachaPopId"],
+			[3832380647, 32, "PaidSIsCaOnlyGachaFlag"],
+			[3830036175, 32, "PaidSIsCaOnlyGachaPrice"],
+			[861305498, 32, "PaidSIsCaOnlyGachaTimes"],
+			[507994989, 32, "PaidSIsCaOnlyGachaPointFlag"],
+			[3858718060, 32, "PaidSIsCaOnlyGachaaPopId"],
+			[3553688209, 32, "LimitedPaidGachaCount"],
+			[751649186, 32, "LimitedPaidGachaResetType"],
+			[902435671, 32, "LimitedPaidButtonDesignType"]
+		]
+	},
+	{
+		"tableLabel": "giftbonusgachas.tsv",
+		"fields": [
+			[3305719682, 32, "Id"],
+			[927506145, 32, "SingleGachaPrice"],
+			[2661316066, 32, "SingleGachaPopId"],
+			[2953876233, 32, "ConsectiveGachaPrice"],
+			[1729060700, 32, "ConsectiveGachaTimes"],
+			[435714058, 32, "ConsectiveGachaPopId"],
+			[3832380647, 32, "PaidSIsCaOnlyGachaFlag"],
+			[3830036175, 32, "PaidSIsCaOnlyGachaPrice"],
+			[861305498, 32, "PaidSIsCaOnlyGachaTimes"],
+			[507994989, 32, "PaidSIsCaOnlyGachaPointFlag"],
+			[3858718060, 32, "PaidSIsCaOnlyGachaaPopId"],
+			[3553688209, 32, "LimitedPaidGachaCount"],
+			[751649186, 32, "LimitedPaidGachaResetType"],
+			[902435671, 32, "LimitedPaidButtonDesignType"],
+			[141303578, 32, "MiniBannerPopId"]
+		]
+	},
+	{
+		"tableLabel": "giftlessgachas.tsv",
+		"fields": [
+			[109768425, 32, "Id"],
+			[1329510734, 32, "SingleGachaPrice"],
+			[3872805453, 32, "SingleGachaPopId"],
+			[3215060289, 32, "ConsectiveGachaPrice"],
+			[1757290772, 32, "ConsectiveGachaTimes"],
+			[373884482, 32, "ConsectiveGachaPopId"],
+			[1802562144, 32, "PaidSIsCaOnlyGachaFlag"],
+			[2535112154, 32, "PaidSIsCaOnlyGachaPrice"],
+			[1074098575, 32, "PaidSIsCaOnlyGachaTimes"],
+			[760153392, 32, "PaidSIsCaOnlyGachaPointFlag"],
+			[2287069836, 32, "PaidSIsCaOnlyGachaaPopId"]
+		]
+	},
+	{
+		"tableLabel": "giftlessgachas.tsv",
+		"fields": [
+			[109768425, 32, "Id"],
+			[1329510734, 32, "SingleGachaPrice"],
+			[3872805453, 32, "SingleGachaPopId"],
+			[3215060289, 32, "ConsectiveGachaPrice"],
+			[1757290772, 32, "ConsectiveGachaTimes"],
+			[373884482, 32, "ConsectiveGachaPopId"],
+			[1802562144, 32, "PaidSIsCaOnlyGachaFlag"],
+			[2535112154, 32, "PaidSIsCaOnlyGachaPrice"],
+			[1074098575, 32, "PaidSIsCaOnlyGachaTimes"],
+			[760153392, 32, "PaidSIsCaOnlyGachaPointFlag"],
+			[2287069836, 32, "PaidSIsCaOnlyGachaaPopId"],
+			[1861718702, 32, "GachaOddsId_1"],
+			[1561538664, 32, "OddsIdMin_1"],
+			[2148321093, 32, "OddsIdMax_1"],
+			[4160668436, 32, "GachaOddsId_2"],
+			[3290063314, 32, "OddsIdMin_2"],
+			[419796735, 32, "OddsIdMax_2"],
+			[2163864450, 32, "GachaOddsId_3"],
+			[3005043012, 32, "OddsIdMin_3"],
+			[1845667433, 32, "OddsIdMax_3"]
+		]
+	},
+	{
+		"tableLabel": "giftlessgachas.tsv",
+		"fields": [
+			[109768425, 32, "Id"],
+			[1329510734, 32, "SingleGachaPrice"],
+			[3872805453, 32, "SingleGachaPopId"],
+			[3215060289, 32, "ConsectiveGachaPrice"],
+			[1757290772, 32, "ConsectiveGachaTimes"],
+			[373884482, 32, "ConsectiveGachaPopId"],
+			[1802562144, 32, "PaidSIsCaOnlyGachaFlag"],
+			[2535112154, 32, "PaidSIsCaOnlyGachaPrice"],
+			[1074098575, 32, "PaidSIsCaOnlyGachaTimes"],
+			[760153392, 32, "PaidSIsCaOnlyGachaPointFlag"],
+			[2287069836, 32, "PaidSIsCaOnlyGachaaPopId"],
+			[2883093069, 32, "LimitedPaidGachaCount"],
+			[2359954797, 32, "LimitedPaidGachaResetType"],
+			[113407242, 32, "LimitedPaidButtonDesignType"]
+		]
+	},
+	{
+		"tableLabel": "giftlessgachas.tsv",
+		"fields": [
+			[109768425, 32, "Id"],
+			[1329510734, 32, "SingleGachaPrice"],
+			[3872805453, 32, "SingleGachaPopId"],
+			[3215060289, 32, "ConsectiveGachaPrice"],
+			[1757290772, 32, "ConsectiveGachaTimes"],
+			[373884482, 32, "ConsectiveGachaPopId"],
+			[1802562144, 32, "PaidSIsCaOnlyGachaFlag"],
+			[2535112154, 32, "PaidSIsCaOnlyGachaPrice"],
+			[1074098575, 32, "PaidSIsCaOnlyGachaTimes"],
+			[760153392, 32, "PaidSIsCaOnlyGachaPointFlag"],
+			[2287069836, 32, "PaidSIsCaOnlyGachaaPopId"],
+			[2883093069, 32, "LimitedPaidGachaCount"],
+			[2359954797, 32, "LimitedPaidGachaResetType"],
+			[113407242, 32, "LimitedPaidButtonDesignType"],
+			[2038567506, 32, "MiniBannerPopId"]
+		]
+	},
+	{
+		"tableLabel": "gpprizeexchanges.tsv",
+		"fields": [
+			[1178538701, 32, "Id"],
+			[825326083, 32, "ProductItemType"],
+			[149791203, 32, "ProductItemId"],
+			[2392627614, 32, "ProductItemNum"],
+			[1382371856, 32, "MaterialItemType"],
+			[616925776, 32, "MaterialItemId"],
+			[3705164675, 32, "MaterialItemNum"],
+			[749080805, 32, "LimitNum"],
+			[2244625274, 32, "ResetType"],
+			[1319625086, 32, "OrderId"],
+			[796399140, 16, "StartTime"],
+			[1086881461, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "grade.tsv",
+		"fields": [
+			[3188832201, 32, "Id"],
+			[2020842665, 16, "Name"],
+			[44653307, 32, "MaxGradeTier"]
+		]
+	},
+	{
+		"tableLabel": "gradeaddskilleffectdetails.tsv",
+		"fields": [
+			[1707033499, 51, "Id"],
+			[1240869995, 16, "SkillEffectDetailType"],
+			[920841236, 32, "TargetMood"],
+			[238756202, 51, "EffectValue"]
+		]
+	},
+	{
+		"tableLabel": "gradeaddskilleffects.tsv",
+		"fields": [
+			[1412418861, 51, "Id"],
+			[41443460, 32, "ActionType"],
+			[2090228941, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "gradeaddskills.tsv",
+		"fields": [
+			[1567395749, 51, "Id"],
+			[2570707937, 16, "Name"],
+			[3419505854, 16, "Description"],
+			[994711400, 32, "SkillIcon"],
+			[3459555958, 16, "GradeAddSkillEffectsId"],
+			[1862516728, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "gradechalqueststagerewarddatas.tsv",
+		"fields": [
+			[3998758853, 51, "Id"],
+			[3271581884, 51, "GradeChalQuestStagesRewardsId"],
+			[688395530, 32, "RewardType"],
+			[2474853754, 32, "RewardItemId"],
+			[11855689, 32, "RewardNum"],
+			[3262979831, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "gradechalqueststages.tsv",
+		"fields": [
+			[4098832864, 32, "Id"],
+			[2523613776, 32, "GradeChalSeasonId"],
+			[909502267, 16, "Name"],
+			[2399895281, 16, "Description"],
+			[1557174894, 16, "Hint"],
+			[3088690724, 32, "CharacterId"],
+			[2194114206, 32, "OrderId"],
+			[1325481765, 32, "StageType"],
+			[3844065127, 32, "StageIconId"],
+			[2466062764, 32, "LiveStagesId"],
+			[3672421457, 32, "QuestMusicsType"],
+			[4041435541, 32, "QuestMusicsDetail"],
+			[3004988935, 32, "DeckRestrictedType"],
+			[1739837713, 32, "DeckRestrictedDetail"]
+		]
+	},
+	{
+		"tableLabel": "gradechalqueststagesrewards.tsv",
+		"fields": [
+			[3641520545, 51, "Id"],
+			[3707456112, 32, "GradeChalQuestStagesId"],
+			[1909775561, 32, "OrderId"],
+			[2607480899, 32, "ConditionsType"],
+			[2953274661, 32, "ConditionsValue"]
+		]
+	},
+	{
+		"tableLabel": "gradechalseason.tsv",
+		"fields": [
+			[1078412951, 32, "Id"],
+			[2532429999, 16, "Name"],
+			[1466032370, 32, "GiveSeasonGradeId"],
+			[1363009096, 32, "BgImageId"],
+			[3540721390, 16, "StartTime"],
+			[2059185988, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "gradechalseason.tsv",
+		"fields": [
+			[1078412951, 32, "Id"],
+			[2532429999, 16, "Name"],
+			[1466032370, 32, "GiveSeasonGradeId"],
+			[1363009096, 32, "BgImageId"],
+			[3540721390, 16, "StartTime"],
+			[2059185988, 16, "EndTime"],
+			[823822287, 32, "IsRankingPrize"]
+		]
+	},
+	{
+		"tableLabel": "gradechalstagerankingrewarddata.tsv",
+		"fields": [
+			[3846069403, 51, "Id"],
+			[1506118307, 51, "GradeChalStageRankingRewardId"],
+			[1231565239, 32, "RewardType"],
+			[4276818238, 32, "RewardItemId"],
+			[3491663830, 32, "RewardNum"],
+			[114782470, 32, "OrderId"],
+			[2096238154, 32, "IsUsePresentBox"],
+			[2530843232, 32, "LifeTimeDay"],
+			[2913446388, 32, "RewardTextId"]
+		]
+	},
+	{
+		"tableLabel": "gradechalstagerankingrewards.tsv",
+		"fields": [
+			[1639957776, 51, "Id"],
+			[2664757355, 32, "GradeChalQuestStagesId"],
+			[1941635410, 32, "GradeChalSeasonId"],
+			[845806406, 32, "MinRank"],
+			[832183049, 32, "MaxRank"],
+			[3216077395, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "gradechaltotalrankingrewarddata.tsv",
+		"fields": [
+			[2833617352, 51, "Id"],
+			[3151626974, 32, "GradeChalTotalRankingRewardId"],
+			[3885059021, 32, "RewardType"],
+			[2615916185, 32, "RewardItemId"],
+			[4161716030, 32, "RewardNum"],
+			[961026399, 32, "OrderId"],
+			[1099132900, 32, "IsUsePresentBox"],
+			[648543032, 32, "LifeTimeDay"],
+			[3366391379, 32, "RewardTextId"]
+		]
+	},
+	{
+		"tableLabel": "gradechaltotalrankingrewards.tsv",
+		"fields": [
+			[2725054846, 32, "Id"],
+			[3662641207, 32, "GradeChalSeasonId"],
+			[1177159175, 32, "MinRank"],
+			[1171908168, 32, "MaxRank"],
+			[3421671186, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "gradechaltotalscorerewarddatas.tsv",
+		"fields": [
+			[338510150, 32, "Id"],
+			[2815361106, 32, "GradeChalTotalScoreRewardsId"],
+			[577742508, 32, "RewardType"],
+			[968275780, 32, "RewardItemId"],
+			[3168297094, 32, "RewardNum"],
+			[3322316921, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "gradechaltotalscorerewards.tsv",
+		"fields": [
+			[4174474259, 32, "Id"],
+			[2279894322, 32, "GradeChalSeasonId"],
+			[1706326001, 51, "TotalScore"],
+			[716736885, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "gradedatas.tsv",
+		"fields": [
+			[1383665218, 32, "Id"],
+			[2621710452, 32, "GradeNum"],
+			[1740446650, 32, "GradeId"],
+			[3653003647, 32, "GradeTier"],
+			[2264950067, 32, "RequireGradePoints"],
+			[2696327890, 32, "GradeLiveBonus"]
+		]
+	},
+	{
+		"tableLabel": "gradequestlivepointbonus.tsv",
+		"fields": [
+			[323972673, 32, "Id"],
+			[1004419353, 32, "GradeQuestSeriesId"],
+			[2288345736, 32, "OrderId"],
+			[678836667, 16, "Description"],
+			[2401137666, 32, "ConditionsType"],
+			[2982699351, 32, "ConditionsValue"],
+			[2964820691, 32, "BonusNum"],
+			[3930283495, 32, "BonusLimitUp"]
+		]
+	},
+	{
+		"tableLabel": "gradequestrewards.tsv",
+		"fields": [
+			[1597632940, 32, "Id"],
+			[1021274105, 32, "GradeQuestSeriesId"],
+			[2981266687, 32, "OrderId"],
+			[3493492314, 32, "ConditionsType"],
+			[3559365779, 32, "ConditionsValue"],
+			[1929861999, 32, "ConditionsValue2"],
+			[538676486, 16, "ConditionsDescription"],
+			[985390285, 32, "DisplayType"]
+		]
+	},
+	{
+		"tableLabel": "gradequestrewardsdatas.tsv",
+		"fields": [
+			[3438224491, 51, "Id"],
+			[2980668536, 32, "GradeQuestRewardsId"],
+			[2083993934, 32, "RewardType"],
+			[894367399, 32, "RewardItemId"],
+			[985566462, 32, "RewardNum"]
+		]
+	},
+	{
+		"tableLabel": "gradequestseason.tsv",
+		"fields": [
+			[1920783120, 32, "Id"],
+			[1649839059, 16, "Name"],
+			[952439707, 32, "OrderId"],
+			[1620144848, 32, "Generation"],
+			[3246149653, 32, "Season"],
+			[1606612191, 16, "StartTime"],
+			[917146704, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "gradequestseasonreleasecond.tsv",
+		"fields": [
+			[1191555714, 32, "Id"],
+			[1804760148, 32, "GradeQuestSeasonId"],
+			[189236109, 32, "ConditionsType"],
+			[3427509777, 32, "ConditionsValue"],
+			[4214694529, 16, "ConditionsDescription"],
+			[3607807256, 16, "StartTime"],
+			[3890739503, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "gradequestseries.tsv",
+		"fields": [
+			[2047694349, 32, "Id"],
+			[15243281, 16, "Name"],
+			[1280097734, 32, "GradeQuestSeasonId"],
+			[3889729230, 32, "OrderId"],
+			[1333691343, 32, "BackGroundId"],
+			[483421327, 16, "MapImageId"],
+			[1791266752, 32, "SoundId"],
+			[591433963, 32, "IsTutorial"],
+			[478041938, 16, "DefaultGradeAddSkillsId"],
+			[4138270973, 32, "DefaultActionPoint"],
+			[205490561, 32, "LivePointBonusLimit"],
+			[380661034, 16, "StartTime"],
+			[3921088773, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "gradequestseriesreleasecond.tsv",
+		"fields": [
+			[376845608, 32, "Id"],
+			[2535911531, 32, "GradeQuestSeriesId"],
+			[3205207110, 32, "ConditionsType"],
+			[3226071358, 32, "ConditionsValue"],
+			[4205289344, 16, "StartTime"],
+			[1491683974, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "gradequestsquare.tsv",
+		"fields": [
+			[1131958799, 32, "Id"],
+			[2078402680, 32, "GradeQuestSeriesId"],
+			[494819555, 32, "SquareId"],
+			[3529449751, 32, "XCoord"],
+			[419689138, 32, "YCoord"],
+			[188893989, 16, "OpenGradeQuestSquareIds"]
+		]
+	},
+	{
+		"tableLabel": "gradequestsquaredatas.tsv",
+		"fields": [
+			[865717612, 32, "Id"],
+			[466862511, 16, "Name"],
+			[2524884045, 32, "SquareType"],
+			[3574476149, 51, "TargetId"],
+			[971677912, 32, "MinActionPoint"],
+			[2160868265, 32, "MaxActionPoint"]
+		]
+	},
+	{
+		"tableLabel": "gradequeststages.tsv",
+		"fields": [
+			[1673350570, 32, "Id"],
+			[1808491107, 16, "Name"],
+			[523199753, 16, "Description"],
+			[19799862, 16, "Hint"],
+			[766148837, 32, "StageType"],
+			[554401689, 32, "LiveStagesId"],
+			[2292364394, 32, "QuestMusicsType"],
+			[3427914987, 32, "QuestMusicsDetail"],
+			[77435009, 32, "DeckRestrictedType"],
+			[1306039842, 32, "DeckRestrictedDetail"],
+			[3135299327, 51, "LivePoint"]
+		]
+	},
+	{
+		"tableLabel": "graderewarddatas.tsv",
+		"fields": [
+			[2701536472, 32, "Id"],
+			[3424844129, 32, "GradeRewardsId"],
+			[1195925467, 32, "RewardType"],
+			[2645129194, 32, "RewardItemId"],
+			[737726942, 32, "RewardNum"]
+		]
+	},
+	{
+		"tableLabel": "graderewards.tsv",
+		"fields": [[3558404533, 32, "Id"], [949303565, 32, "GradeNum"]]
+	},
+	{
+		"tableLabel": "grandprix.tsv",
+		"fields": [
+			[1935674805, 32, "Id"],
+			[3494722992, 16, "Name"],
+			[2349419098, 16, "Description"],
+			[1291974182, 32, "GrandPrixType"],
+			[2787525567, 16, "GuildRankingTabs"],
+			[995486438, 16, "PersonalRankingTabs"],
+			[59871319, 32, "GuildPresentCommentId"],
+			[2494122300, 32, "PersonalPresentCommentId"],
+			[1459467143, 16, "InfoStartTime"],
+			[4008861897, 16, "InfoEndTime"],
+			[2143905967, 16, "StartTime"],
+			[1153513801, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "grandprixdailypoints.tsv",
+		"fields": [
+			[1680273195, 32, "Id"],
+			[2762099377, 32, "MinRank"],
+			[2807147262, 32, "MaxRank"],
+			[2991279716, 32, "BasePoint"],
+			[2765927551, 32, "AdditionalPoint"]
+		]
+	},
+	{
+		"tableLabel": "grandprixdailypoints.tsv",
+		"fields": [
+			[1680273195, 32, "Id"],
+			[2762099377, 32, "MinRank"],
+			[2807147262, 32, "MaxRank"],
+			[2991279716, 32, "BasePoint"],
+			[2765927551, 32, "AdditionalPoint"],
+			[340020137, 32, "CalculationType"]
+		]
+	},
+	{
+		"tableLabel": "grandprixpointbonuses.tsv",
+		"fields": [
+			[3957879502, 51, "Id"],
+			[2318096297, 32, "GrandPrixesId"],
+			[3045748787, 32, "TargetType"],
+			[992020855, 32, "TargetDetail"],
+			[2346153869, 32, "TargetNum"],
+			[1112339234, 32, "BonusValue"]
+		]
+	},
+	{
+		"tableLabel": "grandprixquestseries.tsv",
+		"fields": [
+			[295307449, 32, "Id"],
+			[210953417, 16, "Name"],
+			[2817490156, 16, "Description"],
+			[212330073, 32, "GrandPrixesId"],
+			[2064639004, 16, "StartTime"],
+			[1501027161, 16, "EndTime"],
+			[3524520252, 32, "PlayLimitCount"],
+			[1099184089, 32, "RetireLimitCount"],
+			[1461208210, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "grandprixquestseries.tsv",
+		"fields": [
+			[295307449, 32, "Id"],
+			[210953417, 16, "Name"],
+			[2817490156, 16, "Description"],
+			[212330073, 32, "GrandPrixesId"],
+			[3524520252, 32, "PlayLimitCount"],
+			[1099184089, 32, "RetireLimitCount"],
+			[1461208210, 32, "OrderId"],
+			[631162905, 32, "SeriesNum"],
+			[2064639004, 16, "StartTime"],
+			[1501027161, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "grandprixqueststages.tsv",
+		"fields": [
+			[136975134, 32, "Id"],
+			[1881132076, 32, "GrandPrixSeriesId"],
+			[1739660987, 16, "Name"],
+			[39297607, 16, "Description"],
+			[223634414, 16, "Hint"],
+			[1280934018, 32, "OrderId"],
+			[1075120595, 32, "StageType"],
+			[2960288713, 32, "LiveStagesId"],
+			[3815343238, 32, "QuestMusicsType"],
+			[407057260, 32, "QuestMusicsDetail"],
+			[2006291685, 32, "DeckRestrictedType"],
+			[1260687248, 32, "DeckRestrictedDetail"],
+			[194101032, 32, "QuestLevel"],
+			[2540061867, 32, "QuestRank"],
+			[2093349009, 51, "FirstClearRewardSeriesId"],
+			[3340346791, 51, "CompleteRewardSeriesId"],
+			[3467557536, 51, "DropRewardSeriesId"],
+			[2442843599, 51, "RandomDropRewardSeriesId"],
+			[2203819997, 51, "Score1"],
+			[441634407, 51, "Score2"],
+			[1834352369, 51, "Score3"],
+			[1196973340, 32, "StylePoint"],
+			[3367062103, 32, "GainMusicExp"]
+		]
+	},
+	{
+		"tableLabel": "grandprixqueststages.tsv",
+		"fields": [
+			[136975134, 32, "Id"],
+			[1881132076, 32, "GrandPrixSeriesId"],
+			[1739660987, 16, "Name"],
+			[39297607, 16, "Description"],
+			[223634414, 16, "Hint"],
+			[1280934018, 32, "OrderId"],
+			[1075120595, 32, "StageType"],
+			[2960288713, 32, "LiveStagesId"],
+			[3815343238, 32, "QuestMusicsType"],
+			[407057260, 32, "QuestMusicsDetail"],
+			[2006291685, 32, "DeckRestrictedType"],
+			[1260687248, 32, "DeckRestrictedDetail"],
+			[194101032, 32, "QuestLevel"],
+			[2540061867, 32, "QuestRank"],
+			[2093349009, 51, "FirstClearRewardSeriesId"],
+			[3340346791, 51, "CompleteRewardSeriesId"],
+			[3467557536, 51, "DropRewardSeriesId"],
+			[2442843599, 51, "RandomDropRewardSeriesId"],
+			[2203819997, 51, "Score1"],
+			[441634407, 51, "Score2"],
+			[1834352369, 51, "Score3"],
+			[1196973340, 32, "StylePoint"],
+			[3367062103, 32, "GainMusicExp"],
+			[1683645117, 32, "ScoreBonusValue0"],
+			[324882987, 32, "ScoreBonusValue1"],
+			[2320761745, 32, "ScoreBonusValue2"],
+			[4250088199, 32, "ScoreBonusValue3"]
+		]
+	},
+	{
+		"tableLabel": "grandprixqueststages.tsv",
+		"fields": [
+			[136975134, 32, "Id"],
+			[1881132076, 32, "GrandPrixSeriesId"],
+			[1739660987, 16, "Name"],
+			[39297607, 16, "Description"],
+			[223634414, 16, "Hint"],
+			[1280934018, 32, "OrderId"],
+			[1075120595, 32, "StageType"],
+			[2960288713, 32, "LiveStagesId"],
+			[3815343238, 32, "QuestMusicsType"],
+			[407057260, 32, "QuestMusicsDetail"],
+			[2006291685, 32, "DeckRestrictedType"],
+			[1260687248, 32, "DeckRestrictedDetail"],
+			[194101032, 32, "QuestLevel"],
+			[2540061867, 32, "QuestRank"],
+			[2093349009, 51, "FirstClearRewardSeriesId"],
+			[3340346791, 51, "CompleteRewardSeriesId"],
+			[3467557536, 51, "DropRewardSeriesId"],
+			[2442843599, 51, "RandomDropRewardSeriesId"],
+			[2203819997, 51, "Score1"],
+			[441634407, 51, "Score2"],
+			[1834352369, 51, "Score3"],
+			[1196973340, 32, "StylePoint"],
+			[3367062103, 32, "GainMusicExp"],
+			[1683645117, 32, "ScoreBonusValue0"],
+			[324882987, 32, "ScoreBonusValue1"],
+			[2320761745, 32, "ScoreBonusValue2"],
+			[4250088199, 32, "ScoreBonusValue3"],
+			[2535045522, 32, "SkipRestrictedType"]
+		]
+	},
+	{
+		"tableLabel": "grandprixreleasecondition.tsv",
+		"fields": [
+			[4200882209, 51, "Id"],
+			[3138159271, 32, "ReleaseGrandPrixId"],
+			[3558014107, 32, "ConditionsType"],
+			[943736383, 32, "ConditionsValue"],
+			[3052763509, 16, "StartTime"],
+			[1145248921, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "grandprixrewarddatas.tsv",
+		"fields": [
+			[3398529644, 51, "Id"],
+			[2895644490, 32, "GrandPrixRewardsId"],
+			[2292151755, 32, "RewardType"],
+			[214983610, 32, "RewardItemId"],
+			[1179080936, 32, "RewardNum"],
+			[728179085, 32, "IsEmphasize"],
+			[919359412, 32, "IsUsePresentBox"],
+			[3484110899, 32, "LifeTimeDay"],
+			[1604115312, 32, "RewardTextId"]
+		]
+	},
+	{
+		"tableLabel": "grandprixrewards.tsv",
+		"fields": [
+			[68453469, 32, "Id"],
+			[4257102689, 32, "GrandPrixesId"],
+			[1414577151, 32, "GrandPrixRewardType"],
+			[1826806881, 32, "MinTargetNum"],
+			[4237413515, 32, "MaxTargetNum"]
+		]
+	},
+	{
+		"tableLabel": "grandprixrewards.tsv",
+		"fields": [
+			[68453469, 32, "Id"],
+			[4257102689, 32, "GrandPrixesId"],
+			[1414577151, 32, "GrandPrixRewardType"],
+			[1826806881, 32, "MinTargetNum"],
+			[4237413515, 32, "MaxTargetNum"],
+			[1748175777, 32, "IsDisplay"]
+		]
+	},
+	{
+		"tableLabel": "grandprixrhythmgameseries.tsv",
+		"fields": [
+			[1076256428, 32, "Id"],
+			[1355855886, 32, "GrandPrixesId"],
+			[3106908064, 16, "Name"],
+			[4076240661, 16, "Description"],
+			[2124048255, 32, "OrderId"],
+			[228432504, 32, "QuestMusicsType"],
+			[1752378568, 32, "QuestMusicsDetail"]
+		]
+	},
+	{
+		"tableLabel": "helpimages.tsv",
+		"fields": [
+			[4220370802, 32, "Id"],
+			[1905862260, 16, "Name"],
+			[1734165906, 32, "Scene"],
+			[4102047208, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "helpimages.tsv",
+		"fields": [
+			[4220370802, 32, "Id"],
+			[1905862260, 16, "Name"],
+			[1734165906, 32, "Scene"],
+			[4102047208, 32, "OrderId"],
+			[2464003107, 32, "TitleTextId"]
+		]
+	},
+	{
+		"tableLabel": "homebgms.tsv",
+		"fields": [
+			[1881323184, 32, "Id"],
+			[2609363918, 32, "DaytimeBgmId"],
+			[394949053, 32, "NighttimeBgmId"],
+			[1836712057, 16, "StartTime"],
+			[509703631, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "iconframe.tsv",
+		"fields": [
+			[248435688, 32, "Id"],
+			[3191053524, 16, "Name"],
+			[353555541, 16, "ConditionText"],
+			[1924671002, 32, "EndTimeType"],
+			[197036872, 16, "EndTime"],
+			[1246428808, 32, "IsVisibleDisplay"]
+		]
+	},
+	{
+		"tableLabel": "ingamemissionskilldetails.tsv",
+		"fields": [
+			[662784986, 51, "Id"],
+			[2397478847, 51, "GroupId"],
+			[1911601948, 32, "RareFlag"],
+			[1173298869, 32, "MissionType"],
+			[1986525266, 51, "Param1"],
+			[4017007080, 51, "Param2"],
+			[2788852960, 51, "AddParam"],
+			[1012227281, 51, "BaseScore"],
+			[811192120, 51, "AddScore"],
+			[1638073962, 32, "Probability"],
+			[4072336987, 16, "MissionText"]
+		]
+	},
+	{
+		"tableLabel": "itemconversions.tsv",
+		"fields": [
+			[3309378987, 32, "Id"],
+			[926307264, 51, "BeforeConversionItemType"],
+			[2681782488, 32, "BeforeConversionItemId"],
+			[1187184180, 32, "AfterConversionItemType"],
+			[1761210869, 32, "AfterConversionItemId"],
+			[2049456287, 32, "AfterConversionItemNum"]
+		]
+	},
+	{
+		"tableLabel": "itemexchangecategorydatas.tsv",
+		"fields": [
+			[1193855827, 32, "Id"],
+			[3921960442, 16, "ItemExchangeCategoryName"],
+			[2542855589, 32, "ItemId"]
+		]
+	},
+	{
+		"tableLabel": "itemexchangecategoryfilter.tsv",
+		"fields": [
+			[4210793087, 32, "Id"],
+			[771532062, 16, "ItemExchangeCategoryName"],
+			[265283657, 32, "ItemId"],
+			[3202004376, 32, "CategoryListId"],
+			[3860623145, 32, "FilterOrderId"]
+		]
+	},
+	{
+		"tableLabel": "itemexchangecategorylist.tsv",
+		"fields": [
+			[3517051342, 32, "Id"],
+			[448529528, 16, "CategoryListName"],
+			[812117618, 32, "ShopListId"],
+			[71367775, 32, "OrderId"],
+			[3883325688, 32, "FilterType"]
+		]
+	},
+	{
+		"tableLabel": "itemexchanges.tsv",
+		"fields": [
+			[4177490568, 32, "Id"],
+			[2795456893, 32, "ItemExchangeCategoryId"],
+			[2287444809, 32, "ProductItemType"],
+			[95344611, 32, "ProductItemId"],
+			[2391923432, 32, "ProductItemNum"],
+			[3302333511, 32, "MaterialItemType"],
+			[617138470, 32, "MaterialItemId"],
+			[1706986185, 32, "MaterialItemNum"],
+			[1401733483, 32, "LimitNum"],
+			[2411054988, 32, "ResetType"],
+			[510822621, 32, "IsVisibleEndTime"],
+			[242996274, 32, "OrderId"],
+			[621253330, 16, "StartTime"],
+			[1330169, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "itemexchanges.tsv",
+		"fields": [
+			[4177490568, 32, "Id"],
+			[2795456893, 32, "ItemExchangeCategoryId"],
+			[2287444809, 32, "ProductItemType"],
+			[95344611, 32, "ProductItemId"],
+			[2391923432, 32, "ProductItemNum"],
+			[3302333511, 32, "MaterialItemType"],
+			[617138470, 32, "MaterialItemId"],
+			[1706986185, 32, "MaterialItemNum"],
+			[1401733483, 32, "LimitNum"],
+			[2411054988, 32, "ResetType"],
+			[510822621, 32, "IsVisibleEndTime"],
+			[242996274, 32, "OrderId"],
+			[621253330, 16, "StartTime"],
+			[1330169, 16, "EndTime"],
+			[1094397843, 16, "DisplayName"],
+			[874805277, 32, "CategoryListId"],
+			[2461400276, 16, "ItemGroup"],
+			[1661598260, 32, "UnlockConditions"],
+			[1203885941, 32, "UnlockConditionValue"],
+			[1047130911, 32, "DisplayConditions"],
+			[1325695531, 32, "DisplayConditionValue"]
+		]
+	},
+	{
+		"tableLabel": "items.tsv",
+		"fields": [
+			[2354868773, 32, "Id"],
+			[1639326779, 16, "Name"],
+			[1140053762, 16, "NameFurigana"],
+			[1604862631, 32, "ItemType"],
+			[2006508620, 32, "ItemCategory"],
+			[1452700039, 32, "Rarity"],
+			[3304693574, 32, "EffectValue"],
+			[4196971836, 32, "LimitNum"],
+			[1337201321, 32, "RequestableNum"],
+			[3102470066, 16, "Description"],
+			[3500274417, 16, "StartTime"],
+			[416173845, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "itemsources.tsv",
+		"fields": [
+			[969377615, 32, "ItemsId"],
+			[2801181895, 16, "StandardQuestStagesId"],
+			[1113896285, 16, "DailyQuestStagesId"]
+		]
+	},
+	{
+		"tableLabel": "launcherbanners.tsv",
+		"fields": [
+			[3806069197, 32, "Id"],
+			[1918610691, 32, "DisplayPosition"],
+			[2266265953, 32, "ImageId"],
+			[122115404, 16, "StartTime"],
+			[1672188368, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "learninglivereleaseconditions.tsv",
+		"fields": [
+			[3600368199, 51, "Id"],
+			[3159732601, 32, "ReleaseLearningLiveId"],
+			[1291482619, 32, "ConditionsType"],
+			[1969934318, 32, "ConditionsValue"],
+			[1303847165, 16, "StartTime"],
+			[3693572844, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "limitbreakmaterialconvertrate.tsv",
+		"fields": [
+			[3666965377, 32, "Id"],
+			[1717945051, 32, "LimitBreakMaterialRarity"],
+			[2556117114, 32, "LimitBreakMaterialNum"],
+			[3714943773, 32, "ProductItemType"],
+			[3201547589, 32, "ProductItemId"],
+			[2980028767, 32, "ProductItemNum"]
+		]
+	},
+	{
+		"tableLabel": "limitbreakmaterialrate.tsv",
+		"fields": [
+			[2460520469, 32, "Id"],
+			[1626379330, 32, "CardSeriesId"],
+			[2608420358, 32, "LimitBreakMaterialId"],
+			[2100681451, 32, "LimitBreakMaterialQuantity"]
+		]
+	},
+	{
+		"tableLabel": "livechannels.tsv",
+		"fields": [
+			[1777838017, 32, "Id"],
+			[2904412451, 16, "Name"],
+			[2464762504, 16, "Description"],
+			[744181058, 32, "OrderId"],
+			[2213274340, 16, "StartTime"],
+			[573887113, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "livecharacters.tsv",
+		"fields": [
+			[3821835675, 32, "Id"],
+			[2013310137, 16, "Label"],
+			[1024826964, 16, "SkeletonName"],
+			[3634583239, 16, "ItemsIds"],
+			[997269172, 16, "PosesIds"]
+		]
+	},
+	{
+		"tableLabel": "liveevents.tsv",
+		"fields": [
+			[2900640435, 32, "Id"],
+			[3046260876, 16, "Label"],
+			[975324119, 32, "ContentsType"],
+			[1608874244, 32, "LocationsId"],
+			[3909531636, 16, "CharactersIds"],
+			[195465683, 16, "CostumesIds"],
+			[2926188223, 16, "TimelinesIds"]
+		]
+	},
+	{
+		"tableLabel": "liveeventsevol.tsv",
+		"fields": [
+			[3723220303, 32, "Id"],
+			[2817772293, 16, "Label"],
+			[228182276, 32, "ContentsType"],
+			[1012161263, 32, "LocationsId"],
+			[4142632720, 16, "CharactersIds"],
+			[1746383416, 16, "CostumesIds"],
+			[2580651116, 16, "TimelinesIds"]
+		]
+	},
+	{
+		"tableLabel": "liveitems.tsv",
+		"fields": [
+			[3602123076, 32, "Id"],
+			[2113921689, 16, "Label"],
+			[3469203685, 32, "BindBoneId"],
+			[347357631, 32, "PosesId"]
+		]
+	},
+	{
+		"tableLabel": "livelocations.tsv",
+		"fields": [
+			[868260881, 32, "Id"],
+			[1289143645, 16, "Label"],
+			[2483611375, 16, "PropsIds"]
+		]
+	},
+	{
+		"tableLabel": "livemovies.tsv",
+		"fields": [[1078538005, 32, "Id"], [273918733, 16, "Label"]]
+	},
+	{
+		"tableLabel": "livemusic.tsv",
+		"fields": [
+			[3096257718, 32, "Id"],
+			[3029374894, 16, "Label"],
+			[1449684332, 32, "MusicId"],
+			[2448386846, 32, "HaveMusic"],
+			[2577697100, 32, "HaveMotion"],
+			[2394561189, 32, "CharactersCount"],
+			[1285121967, 16, "CharactersIds"]
+		]
+	},
+	{
+		"tableLabel": "liveposes.tsv",
+		"fields": [
+			[526121866, 32, "Id"],
+			[4042335692, 16, "Label"],
+			[1481793718, 32, "HandSide"]
+		]
+	},
+	{
+		"tableLabel": "liveprops.tsv",
+		"fields": [[192985826, 32, "Id"], [1314310744, 16, "Label"]]
+	},
+	{
+		"tableLabel": "livestages.tsv",
+		"fields": [
+			[1912209805, 32, "Id"],
+			[3462713338, 16, "Name"],
+			[1212134822, 16, "Description"],
+			[3843387035, 32, "BaseUseMental"],
+			[3290076768, 32, "MentalStepClass"],
+			[1196867194, 32, "BaseGainVoltage"],
+			[1710842565, 32, "VoltageStepClass"],
+			[1222766552, 32, "BackGroundId"]
+		]
+	},
+	{
+		"tableLabel": "livestages.tsv",
+		"fields": [
+			[1912209805, 32, "Id"],
+			[3462713338, 16, "Name"],
+			[1212134822, 16, "Description"],
+			[3843387035, 32, "BaseUseMental"],
+			[3290076768, 32, "MentalStepClass"],
+			[1196867194, 32, "BaseGainVoltage"],
+			[1710842565, 32, "VoltageStepClass"],
+			[1222766552, 32, "BackGroundId"],
+			[1274963902, 51, "StageSkillConditionId"],
+			[291466854, 51, "StageSkillEffectId"],
+			[881905256, 16, "StageSkillDescription"]
+		]
+	},
+	{
+		"tableLabel": "livestages.tsv",
+		"fields": [
+			[1912209805, 32, "Id"],
+			[3462713338, 16, "Name"],
+			[1212134822, 16, "Description"],
+			[3843387035, 32, "BaseUseMental"],
+			[3290076768, 32, "MentalStepClass"],
+			[1196867194, 32, "BaseGainVoltage"],
+			[1710842565, 32, "VoltageStepClass"],
+			[1222766552, 32, "BackGroundId"],
+			[1274963902, 51, "StageSkillConditionId"],
+			[291466854, 51, "StageSkillEffectId"],
+			[881905256, 16, "StageSkillDescription"],
+			[1450011644, 16, "StageSkillSetIds"]
+		]
+	},
+	{
+		"tableLabel": "livestages.tsv",
+		"fields": [
+			[1912209805, 32, "Id"],
+			[3462713338, 16, "Name"],
+			[1212134822, 16, "Description"],
+			[3843387035, 32, "BaseUseMental"],
+			[3290076768, 32, "MentalStepClass"],
+			[1196867194, 32, "BaseGainVoltage"],
+			[1710842565, 32, "VoltageStepClass"],
+			[1222766552, 32, "BackGroundId"],
+			[1274963902, 51, "StageSkillConditionId"],
+			[291466854, 51, "StageSkillEffectId"],
+			[881905256, 16, "StageSkillDescription"],
+			[1450011644, 16, "StageSkillSetIds"],
+			[1888171587, 32, "IsHeartCollectCTAvailable"]
+		]
+	},
+	{
+		"tableLabel": "livetimelines.tsv",
+		"fields": [
+			[2999770148, 32, "Id"],
+			[2545541513, 16, "Label"],
+			[244704288, 32, "LocationsId"],
+			[2127913273, 32, "NextId"]
+		]
+	},
+	{
+		"tableLabel": "livetimelinesevol.tsv",
+		"fields": [
+			[2913143393, 51, "Id"],
+			[3951538413, 16, "Label"],
+			[674667478, 32, "MusicId"],
+			[3583791537, 32, "LocationsId"],
+			[3044177363, 32, "FreeId"],
+			[880212521, 51, "NextId"]
+		]
+	},
+	{
+		"tableLabel": "livetimelinesevol.tsv",
+		"fields": [
+			[2913143393, 51, "Id"],
+			[3951538413, 16, "Label"],
+			[674667478, 32, "MusicId"],
+			[3583791537, 32, "LocationsId"],
+			[3044177363, 32, "FreeId"],
+			[880212521, 51, "NextId"],
+			[3265168286, 16, "MovieIds"]
+		]
+	},
+	{
+		"tableLabel": "loginbonuses.tsv",
+		"fields": [
+			[3569287013, 32, "Id"],
+			[46582849, 16, "Name"],
+			[2448392505, 32, "LoginBonusRewardSeriesID"],
+			[2587189093, 32, "IsLoop"],
+			[1781085052, 16, "StartTime"],
+			[2265623080, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "loginbonuses.tsv",
+		"fields": [
+			[3569287013, 32, "Id"],
+			[46582849, 16, "Name"],
+			[2448392505, 32, "LoginBonusRewardSeriesID"],
+			[2587189093, 32, "IsLoop"],
+			[2420731854, 16, "LoginBonusTextId"],
+			[1781085052, 16, "StartTime"],
+			[2265623080, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "loginbonusrewarddatas.tsv",
+		"fields": [
+			[3784258612, 32, "Id"],
+			[3535796156, 32, "LoginBonusRewardSeriesId"],
+			[12065952, 32, "DayCount"],
+			[2789908485, 32, "RewardType"],
+			[3083729167, 32, "RewardId"],
+			[664737685, 32, "RewardNum"],
+			[3008981585, 32, "LifeTimeDay"],
+			[4233898302, 32, "RewardTextId"]
+		]
+	},
+	{
+		"tableLabel": "memberfanlevels.tsv",
+		"fields": [
+			[2840214354, 32, "Id"],
+			[2673978247, 32, "MemberFanLevel"],
+			[3252050160, 32, "Experience"],
+			[1528497400, 32, "CumulativeExperience"]
+		]
+	},
+	{
+		"tableLabel": "membermovies.tsv",
+		"fields": [
+			[1613601285, 32, "Id"],
+			[672858351, 32, "CharactersId"],
+			[2372006053, 32, "MovieType"],
+			[1524860578, 16, "Name"],
+			[3622789962, 32, "Priority"],
+			[2458172726, 16, "ReleaseConditionText"]
+		]
+	},
+	{
+		"tableLabel": "memberprofilecategory.tsv",
+		"fields": [
+			[248567469, 32, "Id"],
+			[914934833, 16, "CategoryName"],
+			[3030695410, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "memberprofiles.tsv",
+		"fields": [
+			[2997026333, 32, "Id"],
+			[2880083009, 32, "CharactersId"],
+			[3739250621, 32, "OrderId"],
+			[490680739, 16, "DisplayGeneration"],
+			[2471450516, 32, "BackgroundImageId"],
+			[2227601846, 32, "MovieID"],
+			[3947881782, 16, "Introduction"],
+			[1960340232, 16, "GraduateIntroduction"]
+		]
+	},
+	{
+		"tableLabel": "membervoices.tsv",
+		"fields": [
+			[3196624083, 32, "Id"],
+			[274667419, 32, "CharactersId"],
+			[1692573611, 16, "Name"],
+			[1634375893, 32, "Priority"],
+			[553828681, 16, "VoiceName"],
+			[494877473, 16, "ReleaseConditionText"]
+		]
+	},
+	{
+		"tableLabel": "messagecards.tsv",
+		"fields": [
+			[2558971504, 32, "Id"],
+			[1937337611, 16, "BackGroundColorCode"],
+			[4056507343, 32, "MessageLengthLimit"],
+			[3853131758, 16, "MessageTextColorCode"],
+			[591810589, 32, "MessageTextSize"],
+			[1701359590, 32, "IsMessageTextBold"],
+			[2109115153, 16, "NameColorCode"]
+		]
+	},
+	{
+		"tableLabel": "missionachieverewards.tsv",
+		"fields": [
+			[4291254910, 32, "Id"],
+			[2499814113, 32, "MissionType"],
+			[168575568, 32, "AchieveMarkNum"],
+			[4182108282, 32, "RewardType"],
+			[2234476990, 32, "ItemsId"],
+			[761225388, 32, "RewardNum"],
+			[754768554, 32, "RewardTextId"],
+			[1947499598, 32, "SortOrder"]
+		]
+	},
+	{
+		"tableLabel": "missionachieverewards.tsv",
+		"fields": [
+			[4291254910, 32, "Id"],
+			[2499814113, 32, "MissionType"],
+			[168575568, 32, "AchieveMarkNum"],
+			[4182108282, 32, "RewardType"],
+			[2234476990, 32, "ItemsId"],
+			[761225388, 32, "RewardNum"],
+			[1947499598, 32, "SortOrder"]
+		]
+	},
+	{
+		"tableLabel": "missionrewards.tsv",
+		"fields": [
+			[1025363682, 32, "Id"],
+			[189060611, 32, "MissionsId"],
+			[2100670407, 32, "RewardCategory"],
+			[3130892057, 32, "RewardType"],
+			[3660173430, 32, "ItemsId"],
+			[2629921220, 32, "RewardNum"]
+		]
+	},
+	{
+		"tableLabel": "missionrewards.tsv",
+		"fields": [
+			[1025363682, 32, "Id"],
+			[189060611, 32, "MissionsId"],
+			[2100670407, 32, "RewardCategory"],
+			[3130892057, 32, "RewardType"],
+			[3660173430, 32, "ItemsId"],
+			[2629921220, 32, "RewardNum"],
+			[2890745225, 32, "RewardTextId"]
+		]
+	},
+	{
+		"tableLabel": "missions.tsv",
+		"fields": [
+			[4159619978, 32, "Id"],
+			[4098849973, 16, "Name"],
+			[1336268605, 16, "Description"],
+			[3634618767, 32, "MissionType"],
+			[3042850584, 32, "MissionConditionType"],
+			[1603296397, 32, "MissionConditionNum"],
+			[2783518969, 32, "MissionConditionDetail"],
+			[1742556, 32, "OpenType"],
+			[1885102880, 32, "NextMissionsId"],
+			[3609804949, 32, "SortOrder"],
+			[2006401555, 32, "TransitionContentsId"],
+			[1726868815, 16, "StartTime"],
+			[1164371182, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "missions.tsv",
+		"fields": [
+			[4159619978, 32, "Id"],
+			[4098849973, 16, "Name"],
+			[1336268605, 16, "Description"],
+			[3634618767, 32, "MissionType"],
+			[3042850584, 32, "MissionConditionType"],
+			[1603296397, 32, "MissionConditionNum"],
+			[2783518969, 32, "MissionConditionDetail"],
+			[1742556, 32, "OpenType"],
+			[1885102880, 32, "NextMissionsId"],
+			[3609804949, 32, "SortOrder"],
+			[2006401555, 32, "TransitionContentsId"],
+			[1726868815, 16, "StartTime"],
+			[1164371182, 16, "EndTime"],
+			[2661941728, 32, "Hint"]
+		]
+	},
+	{
+		"tableLabel": "musicdroprewarddetails.tsv",
+		"fields": [
+			[2558204317, 32, "Id"],
+			[2339263065, 32, "MusicDropRewardsId"],
+			[3353599311, 32, "RewardType"],
+			[2335332947, 32, "RewardItemId"],
+			[3843919435, 32, "RewardNum"],
+			[212535274, 32, "Odds"]
+		]
+	},
+	{
+		"tableLabel": "musicdroprewarddetails.tsv",
+		"fields": [
+			[2558204317, 32, "Id"],
+			[2339263065, 32, "MusicDropRewardsId"],
+			[3353599311, 32, "RewardType"],
+			[2335332947, 32, "RewardItemId"],
+			[3843919435, 32, "RewardNum"],
+			[212535274, 32, "Odds"],
+			[3901382492, 32, "IsRestrictAFKDrop"]
+		]
+	},
+	{
+		"tableLabel": "musicdroprewards.tsv",
+		"fields": [
+			[2278838146, 32, "Id"],
+			[1034358481, 32, "DropRewardSeriesId"],
+			[1806521513, 32, "MusicDropRewardOdds"],
+			[3168696112, 16, "StartTime"],
+			[3562716956, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "musiclearningquestseries.tsv",
+		"fields": [
+			[3155567283, 32, "Id"],
+			[1738317585, 32, "MusicsId"],
+			[767977497, 16, "Name"],
+			[2992570697, 16, "StartTime"],
+			[802073826, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "musiclearningquestseries.tsv",
+		"fields": [
+			[3155567283, 32, "Id"],
+			[1738317585, 32, "MusicsId"],
+			[767977497, 16, "Name"],
+			[2992570697, 16, "StartTime"],
+			[802073826, 16, "EndTime"],
+			[1397687564, 32, "ExReleaseConditionsLevel"]
+		]
+	},
+	{
+		"tableLabel": "musiclearningqueststages.tsv",
+		"fields": [
+			[2779134228, 32, "Id"],
+			[3093657307, 32, "LearningLiveSeriesId"],
+			[1189450347, 16, "Name"],
+			[368825585, 16, "Description"],
+			[738258750, 16, "Hint"],
+			[2303061126, 32, "StageType"],
+			[842204069, 32, "UseType"],
+			[2717282706, 32, "UseItem"],
+			[973550364, 32, "UseNum"],
+			[2456277254, 32, "LiveStagesId"],
+			[174978816, 32, "QuestMusicsType"],
+			[3163997475, 32, "QuestMusicsDetail"],
+			[2438077714, 32, "DeckRestrictedType"],
+			[2226988457, 32, "DeckRestrictedDetail"],
+			[274287286, 32, "QuestLevel"],
+			[1580638718, 32, "QuestRank"],
+			[2387704190, 51, "FirstClearRewardSeriesId"],
+			[677983063, 51, "DropRewardSeriesId"],
+			[1661883424, 51, "RandomDropRewardSeriesId"],
+			[3865949341, 51, "Score1"],
+			[2758697752, 32, "GainStylePoint"],
+			[3936678040, 32, "GainMusicExp"]
+		]
+	},
+	{
+		"tableLabel": "musiclearningqueststages.tsv",
+		"fields": [
+			[2779134228, 32, "Id"],
+			[3093657307, 32, "LearningLiveSeriesId"],
+			[1189450347, 16, "Name"],
+			[368825585, 16, "Description"],
+			[738258750, 16, "Hint"],
+			[2303061126, 32, "StageType"],
+			[842204069, 32, "UseType"],
+			[2717282706, 32, "UseItem"],
+			[973550364, 32, "UseNum"],
+			[2456277254, 32, "LiveStagesId"],
+			[174978816, 32, "QuestMusicsType"],
+			[3163997475, 32, "QuestMusicsDetail"],
+			[2438077714, 32, "DeckRestrictedType"],
+			[2226988457, 32, "DeckRestrictedDetail"],
+			[274287286, 32, "QuestLevel"],
+			[1580638718, 32, "QuestRank"],
+			[2387704190, 51, "FirstClearRewardSeriesId"],
+			[677983063, 51, "DropRewardSeriesId"],
+			[1661883424, 51, "RandomDropRewardSeriesId"],
+			[3865949341, 51, "Score1"],
+			[2758697752, 32, "GainStylePoint"],
+			[3936678040, 32, "GainMusicExp"],
+			[1910386789, 32, "SkipRestrictedType"],
+			[1687424752, 16, "StartTime"],
+			[881813746, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "musiclevels.tsv",
+		"fields": [
+			[4151723422, 32, "Id"],
+			[3263239473, 32, "ExperienceType"],
+			[1074425136, 32, "Level"],
+			[2752714626, 32, "Experience"],
+			[1128576922, 32, "CumulativeExperience"]
+		]
+	},
+	{
+		"tableLabel": "musicmasteryheartbonuses.tsv",
+		"fields": [
+			[4199879021, 32, "Id"],
+			[2335721878, 32, "Level"],
+			[2222721511, 32, "LoveRate"]
+		]
+	},
+	{
+		"tableLabel": "musicmasterylevels.tsv",
+		"fields": [
+			[2352272071, 32, "Id"],
+			[2437612222, 32, "MusicsId"],
+			[2243249173, 32, "Level"],
+			[3594413879, 32, "MusicMasterySkillsId"]
+		]
+	},
+	{
+		"tableLabel": "musicmasterylovebonuses.tsv",
+		"fields": [
+			[3088069424, 32, "Id"],
+			[1314391816, 32, "Level"],
+			[1354342155, 32, "LoveRate"]
+		]
+	},
+	{
+		"tableLabel": "musicmasterymentalbonuses.tsv",
+		"fields": [
+			[1830851797, 32, "Id"],
+			[653135636, 32, "Level"],
+			[571469298, 32, "DemandDamagePt"]
+		]
+	},
+	{
+		"tableLabel": "musicmasterymentalbonuses.tsv",
+		"fields": [
+			[1830851797, 32, "Id"],
+			[653135636, 32, "Level"],
+			[571469298, 32, "DemandDamagePt"],
+			[2245504226, 32, "GainMentalPt"]
+		]
+	},
+	{
+		"tableLabel": "musicmasteryskill.tsv",
+		"fields": [[695121563, 32, "Id"], [374978318, 16, "MusicMasterySkillsName"]]
+	},
+	{
+		"tableLabel": "musicmasteryvoltagebonuses.tsv",
+		"fields": [
+			[1163525118, 32, "Id"],
+			[3645511885, 32, "Level"],
+			[2512319911, 32, "DemandVoltagePt"]
+		]
+	},
+	{
+		"tableLabel": "musicmasteryvoltagebonuses.tsv",
+		"fields": [
+			[1163525118, 32, "Id"],
+			[3645511885, 32, "Level"],
+			[2512319911, 32, "DemandVoltagePt"],
+			[346736066, 32, "GainVoltagePt"]
+		]
+	},
+	{
+		"tableLabel": "musics.tsv",
+		"fields": [
+			[3723604790, 32, "Id"],
+			[2366641865, 32, "OrderId"],
+			[394757378, 16, "Title"],
+			[2165933801, 16, "TitleFurigana"],
+			[123495722, 32, "JacketId"],
+			[792519, 32, "SoundId"],
+			[2047131475, 16, "Description"],
+			[2393079868, 32, "GenerationsId"],
+			[2261759476, 32, "UnitId"],
+			[3302734771, 32, "CenterCharacterId"],
+			[1853614257, 16, "SingerCharacterId"],
+			[572250055, 16, "SupportCharacterId"],
+			[2807556207, 32, "MusicType"],
+			[3456852157, 32, "ExperienceType"],
+			[3692101267, 32, "BeatPointCoefficient"],
+			[704926394, 32, "ApIncrement"],
+			[2541728895, 32, "SongTime"],
+			[111030839, 32, "PlayTime"],
+			[818211514, 32, "FeverSectionNo"],
+			[2794305852, 32, "PreviewStartTime"],
+			[486558597, 32, "PreviewEndTime"],
+			[2478758958, 32, "PreviewFadeInTime"],
+			[890119047, 32, "PreviewFadeOutTime"],
+			[3188660107, 32, "ReleaseConditionType"],
+			[3303789241, 32, "ReleaseConditionDetail"],
+			[156952421, 16, "ReleaseConditionText"],
+			[2804255315, 16, "StartTime"],
+			[2206173442, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "musics.tsv",
+		"fields": [
+			[3723604790, 32, "Id"],
+			[2366641865, 32, "OrderId"],
+			[394757378, 16, "Title"],
+			[2165933801, 16, "TitleFurigana"],
+			[123495722, 32, "JacketId"],
+			[792519, 32, "SoundId"],
+			[2047131475, 16, "Description"],
+			[2393079868, 32, "GenerationsId"],
+			[2261759476, 32, "UnitId"],
+			[3302734771, 32, "CenterCharacterId"],
+			[1853614257, 16, "SingerCharacterId"],
+			[572250055, 16, "SupportCharacterId"],
+			[2807556207, 32, "MusicType"],
+			[3456852157, 32, "ExperienceType"],
+			[3692101267, 32, "BeatPointCoefficient"],
+			[704926394, 32, "ApIncrement"],
+			[2541728895, 32, "SongTime"],
+			[111030839, 32, "PlayTime"],
+			[818211514, 32, "FeverSectionNo"],
+			[2794305852, 32, "PreviewStartTime"],
+			[486558597, 32, "PreviewEndTime"],
+			[2478758958, 32, "PreviewFadeInTime"],
+			[890119047, 32, "PreviewFadeOutTime"],
+			[3188660107, 32, "ReleaseConditionType"],
+			[3303789241, 32, "ReleaseConditionDetail"],
+			[156952421, 16, "ReleaseConditionText"],
+			[2804255315, 16, "StartTime"],
+			[2206173442, 16, "EndTime"],
+			[4214103934, 32, "MaxAp"]
+		]
+	},
+	{
+		"tableLabel": "musics.tsv",
+		"fields": [
+			[3723604790, 32, "Id"],
+			[2366641865, 32, "OrderId"],
+			[394757378, 16, "Title"],
+			[2165933801, 16, "TitleFurigana"],
+			[123495722, 32, "JacketId"],
+			[792519, 32, "SoundId"],
+			[2047131475, 16, "Description"],
+			[2393079868, 32, "GenerationsId"],
+			[2261759476, 32, "UnitId"],
+			[3302734771, 32, "CenterCharacterId"],
+			[1853614257, 16, "SingerCharacterId"],
+			[572250055, 16, "SupportCharacterId"],
+			[2807556207, 32, "MusicType"],
+			[3456852157, 32, "ExperienceType"],
+			[3692101267, 32, "BeatPointCoefficient"],
+			[704926394, 32, "ApIncrement"],
+			[2541728895, 32, "SongTime"],
+			[111030839, 32, "PlayTime"],
+			[818211514, 32, "FeverSectionNo"],
+			[2794305852, 32, "PreviewStartTime"],
+			[486558597, 32, "PreviewEndTime"],
+			[2478758958, 32, "PreviewFadeInTime"],
+			[890119047, 32, "PreviewFadeOutTime"],
+			[3188660107, 32, "ReleaseConditionType"],
+			[3303789241, 32, "ReleaseConditionDetail"],
+			[156952421, 16, "ReleaseConditionText"],
+			[2804255315, 16, "StartTime"],
+			[2206173442, 16, "EndTime"],
+			[4214103934, 32, "MaxAp"],
+			[2926738137, 32, "IsVideoMode"],
+			[2832508040, 32, "VideoBgId"]
+		]
+	},
+	{
+		"tableLabel": "musics.tsv",
+		"fields": [
+			[3723604790, 32, "Id"],
+			[2366641865, 32, "OrderId"],
+			[394757378, 16, "Title"],
+			[2165933801, 16, "TitleFurigana"],
+			[123495722, 32, "JacketId"],
+			[792519, 32, "SoundId"],
+			[2047131475, 16, "Description"],
+			[2393079868, 32, "GenerationsId"],
+			[2261759476, 32, "UnitId"],
+			[3302734771, 32, "CenterCharacterId"],
+			[1853614257, 16, "SingerCharacterId"],
+			[572250055, 16, "SupportCharacterId"],
+			[2807556207, 32, "MusicType"],
+			[3456852157, 32, "ExperienceType"],
+			[3692101267, 32, "BeatPointCoefficient"],
+			[704926394, 32, "ApIncrement"],
+			[2541728895, 32, "SongTime"],
+			[111030839, 32, "PlayTime"],
+			[818211514, 32, "FeverSectionNo"],
+			[2794305852, 32, "PreviewStartTime"],
+			[486558597, 32, "PreviewEndTime"],
+			[2478758958, 32, "PreviewFadeInTime"],
+			[890119047, 32, "PreviewFadeOutTime"],
+			[3188660107, 32, "ReleaseConditionType"],
+			[3303789241, 32, "ReleaseConditionDetail"],
+			[156952421, 16, "ReleaseConditionText"],
+			[2804255315, 16, "StartTime"],
+			[2206173442, 16, "EndTime"],
+			[4214103934, 32, "MaxAp"],
+			[2926738137, 32, "IsVideoMode"],
+			[2832508040, 32, "VideoBgId"],
+			[1949661971, 32, "SongType"],
+			[3671618326, 16, "MusicScoreReleaseTime"]
+		]
+	},
+	{
+		"tableLabel": "musicscorerewarddatas.tsv",
+		"fields": [
+			[2260246510, 32, "Id"],
+			[2881522929, 32, "MissionStars"],
+			[1180094733, 32, "RewardType"],
+			[1087093322, 32, "RewardItemId"],
+			[3993436575, 32, "RewardNum"]
+		]
+	},
+	{
+		"tableLabel": "musicscorerewards.tsv",
+		"fields": [
+			[889640575, 32, "Id"],
+			[3032805824, 32, "ScoreRewardSeriesId"],
+			[3330181609, 32, "ScoreRewardType"],
+			[3753029304, 51, "ScoreRewardConditionValue1"],
+			[1186725634, 51, "ScoreRewardConditionValue2"],
+			[834457492, 51, "ScoreRewardConditionValue3"],
+			[2950191671, 51, "ScoreRewardConditionValue4"],
+			[3078214316, 32, "ScoreRewardDatasId1"],
+			[779125526, 32, "ScoreRewardDatasId2"],
+			[1501016960, 32, "ScoreRewardDatasId3"],
+			[3339920931, 32, "ScoreRewardDatasId4"]
+		]
+	},
+	{
+		"tableLabel": "musicscores.tsv",
+		"fields": [
+			[3024830457, 32, "Id"],
+			[3430448233, 32, "NormalLevel"],
+			[244656122, 32, "HardLevel"],
+			[1854624810, 32, "ExpertLevel"],
+			[4065284960, 32, "MasterLevel"],
+			[4043439021, 32, "NormalMaxCombo"],
+			[2309023644, 32, "HardMaxCombo"],
+			[4197762458, 32, "ExpertMaxCombo"],
+			[1416715646, 32, "MasterMaxCombo"],
+			[2724661574, 32, "ShouldVerifyNotesCount"],
+			[959636584, 32, "ScoreRewardSeriesId"],
+			[3843625061, 32, "NormalGainMusicExp"],
+			[1366335763, 32, "HardGainMusicExp"],
+			[2482176985, 32, "ExpertGainMusicExp"],
+			[2240678225, 32, "MasterGainMusicExp"],
+			[1307914037, 32, "NormalDropRewardSeriesId"],
+			[961547784, 32, "HardDropRewardSeriesId"],
+			[3993216215, 32, "ExpertDropRewardSeriesId"],
+			[3618540864, 32, "MasterDropRewardSeriesId"]
+		]
+	},
+	{
+		"tableLabel": "offlinebgms.tsv",
+		"fields": [
+			[2162924291, 32, "Id"],
+			[3033525030, 16, "LoopCueName"],
+			[1878143116, 16, "NonLoopCueName"],
+			[2501441012, 16, "Title"],
+			[4057228593, 16, "Tag"]
+		]
+	},
+	{
+		"tableLabel": "parallelcard.tsv",
+		"fields": [
+			[3190794119, 32, "Id"],
+			[384051431, 32, "BaseCardSeriesId"],
+			[3047517372, 32, "ParallelCardSeriesId"],
+			[188673656, 16, "Name"]
+		]
+	},
+	{
+		"tableLabel": "petalcoinexchangerate.tsv",
+		"fields": [
+			[388113450, 32, "Id"],
+			[2963615079, 32, "Rarity"],
+			[2825038366, 32, "PetalCoinQuantity"]
+		]
+	},
+	{
+		"tableLabel": "petalexchangerates.tsv",
+		"fields": [
+			[200628131, 32, "Id"],
+			[2889551176, 32, "Rarity"],
+			[819877772, 32, "Price"],
+			[2987634804, 32, "ExchangeLimitLower"],
+			[3537245387, 32, "ExchangeLimitUpper"]
+		]
+	},
+	{
+		"tableLabel": "presenttexts.tsv",
+		"fields": [[1838335619, 32, "Id"], [1020518520, 16, "Description"]]
+	},
+	{
+		"tableLabel": "questareareleaseconditions.tsv",
+		"fields": [
+			[1201956140, 32, "Id"],
+			[912398490, 32, "ReleaseAreaId"],
+			[4202592348, 32, "ConditionsType"],
+			[1030651304, 32, "ConditionsValue"],
+			[2195912602, 16, "StartTime"],
+			[1271492271, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "questlivedownloads.tsv",
+		"fields": [
+			[190572101, 51, "Id"],
+			[2969546810, 16, "Title"],
+			[3426535785, 32, "OrderId"],
+			[525252819, 16, "StartTime"],
+			[3260241570, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "questliveloadings.tsv",
+		"fields": [
+			[3440338151, 51, "Id"],
+			[263214806, 16, "Title"],
+			[2006879627, 32, "OrderId"],
+			[45553558, 16, "StartTime"],
+			[2045841984, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "questlivereleaseconditions.tsv",
+		"fields": [
+			[3956796084, 51, "Id"],
+			[2504472344, 32, "ReleaseQuestId"],
+			[1801060996, 32, "ConditionsType"],
+			[3052864308, 32, "ConditionsValue"],
+			[149706094, 16, "StartTime"],
+			[1266713087, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "questsections.tsv",
+		"fields": [
+			[475829885, 51, "Id"],
+			[3853552377, 32, "SectionNo"],
+			[3756160294, 32, "QuestStagesId"],
+			[3870889496, 51, "SectionSkillsId"]
+		]
+	},
+	{
+		"tableLabel": "raidevents.tsv",
+		"fields": [
+			[3838596479, 32, "Id"],
+			[2229816350, 16, "Name"],
+			[2806756382, 16, "Description"],
+			[4283755939, 32, "DropNumUp"],
+			[1447219719, 16, "PersonalRankingTabs"],
+			[2565721567, 16, "InfoStartTime"],
+			[3316686477, 16, "InfoEndTime"],
+			[1647937914, 16, "StartTime"],
+			[129980071, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "raidevents.tsv",
+		"fields": [
+			[3838596479, 32, "Id"],
+			[2229816350, 16, "Name"],
+			[2806756382, 16, "Description"],
+			[4283755939, 32, "DropNumUp"],
+			[1447219719, 16, "PersonalRankingTabs"],
+			[2565721567, 16, "InfoStartTime"],
+			[3316686477, 16, "InfoEndTime"],
+			[1647937914, 16, "StartTime"],
+			[129980071, 16, "EndTime"],
+			[242332752, 32, "RaidRewardTargetType"],
+			[486056999, 16, "RaidUnitName"]
+		]
+	},
+	{
+		"tableLabel": "raidquestdroprateup.tsv",
+		"fields": [
+			[1210915353, 32, "Id"],
+			[1361866975, 16, "Name"],
+			[4198398239, 32, "Flame"]
+		]
+	},
+	{
+		"tableLabel": "raidquestreleasecondition.tsv",
+		"fields": [
+			[226177236, 51, "Id"],
+			[3349373766, 32, "ReleaseRaidId"],
+			[1420872845, 32, "ConditionsType"],
+			[3423883614, 32, "ConditionsValue"],
+			[1983662769, 16, "StartTime"],
+			[1125998369, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "raidquestseries.tsv",
+		"fields": [
+			[3778955005, 32, "Id"],
+			[165933819, 16, "Name"],
+			[3203403868, 16, "Description"],
+			[4251361754, 32, "RaidEventId"],
+			[1775961076, 51, "PointAddLimit"],
+			[4258853275, 16, "StartTime"],
+			[1157766879, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "raidqueststages.tsv",
+		"fields": [
+			[4170079578, 32, "Id"],
+			[3615863307, 32, "RaidQuestSeriesId"],
+			[1656752265, 16, "Name"],
+			[457756407, 16, "Description"],
+			[136672732, 16, "Hint"],
+			[1345078532, 32, "OrderId"],
+			[3334610004, 32, "StageType"],
+			[2064303913, 32, "LiveStagesId"],
+			[384261638, 32, "QuestMusicsType"],
+			[1170629987, 32, "QuestMusicsDetail"],
+			[3883338786, 32, "DeckRestrictedType"],
+			[827016589, 32, "DeckRestrictedDetail"],
+			[2026602174, 32, "QuestLevel"],
+			[296833324, 32, "QuestRank"],
+			[272337679, 51, "FirstClearRewardSeriesId"],
+			[1136957562, 51, "CompleteRewardSeriesId"],
+			[1582047847, 51, "DropRewardSeriesId"],
+			[4251231825, 51, "RandomDropRewardSeriesId"],
+			[2600434572, 51, "Score1"],
+			[66464310, 51, "Score2"],
+			[1961958048, 51, "Score3"],
+			[872586378, 32, "StylePoint"],
+			[63563447, 32, "GainMusicExp"]
+		]
+	},
+	{
+		"tableLabel": "raidresource.tsv",
+		"fields": [
+			[2017199268, 32, "Id"],
+			[3856254405, 32, "RaidEventId"],
+			[3138116721, 32, "RaidResourceDefaultNum"],
+			[337878041, 32, "RaidResourceLimit"],
+			[1190314698, 32, "RaidResourceAddLimit"]
+		]
+	},
+	{
+		"tableLabel": "raidresourceadddate.tsv",
+		"fields": [
+			[2384321212, 32, "Id"],
+			[3665273622, 32, "RaidResourceId"],
+			[1087016518, 32, "AddNum"],
+			[1522383262, 16, "AddTime"]
+		]
+	},
+	{
+		"tableLabel": "raidresourcerecoverydatas.tsv",
+		"fields": [
+			[971412422, 32, "Id"],
+			[2108045267, 32, "RaidResourceId"],
+			[1779154080, 32, "Order"],
+			[4216596520, 32, "RequireItemType"],
+			[4171469647, 32, "RequireItemId"],
+			[1359755375, 32, "RequireItemNum"]
+		]
+	},
+	{
+		"tableLabel": "raidrewarddatas.tsv",
+		"fields": [
+			[976567336, 51, "Id"],
+			[1225372852, 32, "RaidRewardsId"],
+			[4224037981, 32, "RewardType"],
+			[3349729114, 32, "RewardItemId"],
+			[3230682479, 32, "RewardNum"]
+		]
+	},
+	{
+		"tableLabel": "raidrewards.tsv",
+		"fields": [
+			[1757127943, 32, "Id"],
+			[275794457, 32, "RaidEventId"],
+			[3349814859, 32, "RewardType"],
+			[3257171298, 51, "RequirePointAmount"]
+		]
+	},
+	{
+		"tableLabel": "raidrewards.tsv",
+		"fields": [
+			[1757127943, 32, "Id"],
+			[275794457, 32, "RaidEventId"],
+			[3349814859, 32, "RewardType"],
+			[3257171298, 51, "RequirePointAmount"],
+			[3443354636, 32, "QuestSeriesId"]
+		]
+	},
+	{
+		"tableLabel": "raidtopprogressimage.tsv",
+		"fields": [
+			[378970971, 32, "Id"],
+			[3711681809, 32, "RaidEventId"],
+			[277074147, 32, "Order"],
+			[3508637226, 51, "RequirePoint"]
+		]
+	},
+	{
+		"tableLabel": "rentalcarddatas.tsv",
+		"fields": [
+			[1130633898, 51, "Id"],
+			[3276286753, 32, "CardDatasId"],
+			[3074620897, 32, "StyleLevel"],
+			[1842884361, 32, "LimitBreakLevel"],
+			[937082924, 32, "SpecialAppealLevel"],
+			[2676953250, 32, "SkillLevel"]
+		]
+	},
+	{
+		"tableLabel": "rentaldeckcards.tsv",
+		"fields": [
+			[4095651403, 32, "Id"],
+			[678448823, 32, "RentalDecksId"],
+			[3413155987, 32, "CharactersId"],
+			[3702190523, 51, "RentalCardId_Main"],
+			[788227286, 51, "RentalCardId_Side1"],
+			[3086103916, 51, "RentalCardId_Side2"]
+		]
+	},
+	{
+		"tableLabel": "rentaldecks.tsv",
+		"fields": [
+			[4008185901, 32, "Id"],
+			[1476566877, 16, "DeckName"],
+			[1245369045, 32, "GenerationsId"],
+			[416435972, 32, "DeckNumber"],
+			[3193277238, 51, "AceCardId"],
+			[2197469645, 32, "ReleaseConditionsType"],
+			[3574528250, 32, "ConditionsValue"],
+			[3287575073, 16, "ReleaseConditonsDescription"],
+			[523357201, 16, "ReleaseDeckStartTime"],
+			[3701272046, 16, "ReleaseDeckEndTime"]
+		]
+	},
+	{
+		"tableLabel": "rhythmgameclassdatas.tsv",
+		"fields": [
+			[578461330, 32, "Id"],
+			[1670257713, 16, "Name"],
+			[742014238, 32, "RhythmGameConditionType"],
+			[3933477974, 32, "RhythmGameClassesId"],
+			[2250802209, 32, "ClassTier"],
+			[1047233356, 51, "GoalCount"],
+			[615207279, 32, "OrderId"],
+			[2454092563, 16, "ReleaseStartTime"],
+			[208030114, 16, "ReleaseEndTime"]
+		]
+	},
+	{
+		"tableLabel": "rhythmgameclasses.tsv",
+		"fields": [
+			[3845804303, 32, "Id"],
+			[559765702, 16, "ClassName"],
+			[2118401317, 32, "MaxClassTier"]
+		]
+	},
+	{
+		"tableLabel": "rhythmgameclassmissionrewards.tsv",
+		"fields": [
+			[1475515217, 32, "Id"],
+			[3182210694, 32, "RhythmGameClassDatasId"],
+			[2490761361, 32, "RewardType"],
+			[1827360574, 32, "RewardItemId"],
+			[3277021369, 32, "RewardNum"],
+			[3306871858, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "rhythmgameeventseries.tsv",
+		"fields": [
+			[2388448529, 32, "Id"],
+			[244229723, 16, "EventName"],
+			[3698560884, 32, "EventType"],
+			[785693915, 32, "IsForceStop"],
+			[214145159, 32, "BgImage"]
+		]
+	},
+	{
+		"tableLabel": "rhythmgamehelpimages.tsv",
+		"fields": [
+			[1908288052, 32, "Id"],
+			[1474241295, 16, "Name"],
+			[2695670563, 32, "Scene"],
+			[1324143263, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "rhythmgameskillconditions.tsv",
+		"fields": [
+			[1680422261, 32, "Id"],
+			[3016985190, 32, "RhythmGameSkillConditionType"],
+			[4213901800, 32, "RhythmGameSkillConditionValue"],
+			[3036675918, 32, "RhythmGameSkillConditionValue2"]
+		]
+	},
+	{
+		"tableLabel": "rhythmgameskilleffects.tsv",
+		"fields": [
+			[2547998303, 32, "Id"],
+			[2495643711, 32, "RhythmGameSkillEffectType"],
+			[746044428, 16, "TargetIds"],
+			[3921408946, 32, "RhythmGameSkillEffectValue"],
+			[1062459230, 32, "RhythmGameSkillEffectValue2"]
+		]
+	},
+	{
+		"tableLabel": "rhythmgameskilllvupitemdetails.tsv",
+		"fields": [
+			[2659255009, 32, "Id"],
+			[517563830, 32, "ItemDetailSeriesId"],
+			[2675637405, 32, "CostItemsId"],
+			[4185732383, 32, "CostNum"]
+		]
+	},
+	{
+		"tableLabel": "rhythmgameskilllvupitems.tsv",
+		"fields": [
+			[1595007196, 32, "Id"],
+			[751693081, 32, "ItemSeriesId"],
+			[3410037715, 32, "SkillLevel"],
+			[1728370802, 32, "ItemDetailSeriesId"]
+		]
+	},
+	{
+		"tableLabel": "rhythmgameskills.tsv",
+		"fields": [
+			[3990449066, 51, "Id"],
+			[1703228670, 32, "RhythmGameSkillSeriesId"],
+			[3834726414, 16, "RhythmGameSkillName"],
+			[3168004705, 32, "SkillLevel"],
+			[2468244485, 32, "OrderId"],
+			[3011682024, 16, "RhythmGameSkillConditionIds"],
+			[2469065242, 32, "RhythmGameSkillEffectId"],
+			[375689231, 32, "ConsumeAP"],
+			[2071270278, 16, "Description"]
+		]
+	},
+	{
+		"tableLabel": "rhythmgametotalmissionrewards.tsv",
+		"fields": [
+			[2773730647, 32, "Id"],
+			[2301601028, 32, "RhythmGameTotalMissionsId"],
+			[4071101677, 32, "RewardType"],
+			[4122725223, 32, "RewardItemId"],
+			[461166179, 32, "RewardNum"],
+			[1510788484, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "rhythmgametotalmissions.tsv",
+		"fields": [
+			[86677799, 32, "Id"],
+			[4271922690, 16, "Description"],
+			[570043557, 32, "ConditionRhythmGameClassDatasOrderId"],
+			[3609358951, 32, "OrderId"],
+			[3505354792, 16, "ReleaseStartTime"],
+			[2526288887, 16, "ReleaseEndTime"]
+		]
+	},
+	{
+		"tableLabel": "sddisplaysetting.tsv",
+		"fields": [
+			[4192546673, 32, "Id"],
+			[106549170, 32, "CharactersId"],
+			[2370575271, 32, "AppearanceType"],
+			[4129103543, 16, "StartTime"],
+			[1962785101, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "seasonfanlevels.tsv",
+		"fields": [
+			[3630825927, 32, "Id"],
+			[3348317347, 32, "SeasonsId"],
+			[2479916959, 32, "SeasonFanLevel"],
+			[1773917232, 32, "Experience"],
+			[2624573793, 32, "CumulativeExperience"]
+		]
+	},
+	{
+		"tableLabel": "seasongrade.tsv",
+		"fields": [
+			[2497890669, 32, "Id"],
+			[3388092503, 16, "Description"],
+			[118378161, 16, "PersonalRankingTabs"],
+			[770431784, 16, "CountStartTime"],
+			[3403008813, 16, "CountEndTime"],
+			[942709766, 16, "DisplayStartTime"],
+			[2076414060, 16, "DisplayEndTime"]
+		]
+	},
+	{
+		"tableLabel": "seasongrade.tsv",
+		"fields": [
+			[2497890669, 32, "Id"],
+			[3388092503, 16, "Description"],
+			[118378161, 16, "PersonalRankingTabs"],
+			[770431784, 16, "CountStartTime"],
+			[3403008813, 16, "CountEndTime"],
+			[942709766, 16, "DisplayStartTime"],
+			[2076414060, 16, "DisplayEndTime"],
+			[1404143399, 16, "TermTitle"]
+		]
+	},
+	{
+		"tableLabel": "seasongrade.tsv",
+		"fields": [
+			[2497890669, 32, "Id"],
+			[3388092503, 16, "Description"],
+			[118378161, 16, "PersonalRankingTabs"],
+			[770431784, 16, "CountStartTime"],
+			[3403008813, 16, "CountEndTime"],
+			[942709766, 16, "DisplayStartTime"],
+			[2076414060, 16, "DisplayEndTime"],
+			[1404143399, 16, "TermTitle"],
+			[487263011, 32, "IsSeasonGrade"]
+		]
+	},
+	{
+		"tableLabel": "seasongraderewarddatas.tsv",
+		"fields": [
+			[3488600568, 51, "Id"],
+			[2719172619, 32, "SeasonGradeRewardsId"],
+			[2900289010, 32, "RewardType"],
+			[4066072837, 32, "RewardItemId"],
+			[3010774811, 32, "RewardNum"],
+			[1950803989, 32, "IsEmphasize"]
+		]
+	},
+	{
+		"tableLabel": "seasongraderewards.tsv",
+		"fields": [
+			[2530152366, 32, "Id"],
+			[2589756574, 32, "SeasonGradeId"],
+			[1354332214, 32, "MinTargetNum"],
+			[3234490588, 32, "MaxTargetNum"]
+		]
+	},
+	{
+		"tableLabel": "seasons.tsv",
+		"fields": [
+			[3326650164, 32, "Id"],
+			[3302386532, 16, "Name"],
+			[842162444, 16, "StartTime"],
+			[1165825199, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "seasons.tsv",
+		"fields": [
+			[3326650164, 32, "Id"],
+			[3302386532, 16, "Name"],
+			[842162444, 16, "StartTime"],
+			[1165825199, 16, "EndTime"],
+			[439113984, 32, "IsSeasonFanLv"]
+		]
+	},
+	{
+		"tableLabel": "sectionskilleffectdetails.tsv",
+		"fields": [
+			[348108089, 51, "Id"],
+			[2577819674, 16, "SkillEffectDetailType"],
+			[496421497, 32, "TargetMood"],
+			[1024673961, 32, "EffectValue"]
+		]
+	},
+	{
+		"tableLabel": "sectionskilleffects.tsv",
+		"fields": [
+			[1529170522, 51, "Id"],
+			[3398932678, 32, "ActionType"],
+			[3454367625, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "sectionskills.tsv",
+		"fields": [
+			[3488860285, 51, "Id"],
+			[242753014, 16, "Description"],
+			[1859259564, 32, "ApperanceType"],
+			[4112841072, 32, "SkillIcon"],
+			[1081102929, 16, "SectionSkillsEffectId"]
+		]
+	},
+	{
+		"tableLabel": "selectticketexchangerate.tsv",
+		"fields": [
+			[79037959, 51, "Id"],
+			[894769517, 32, "SelectTicketSeriesId"],
+			[3007095973, 32, "ExchangeItemType"],
+			[584967204, 32, "ExchangeItemId"],
+			[1439723119, 32, "ExchangeItemQuantity"]
+		]
+	},
+	{
+		"tableLabel": "selectticketexchangerate.tsv",
+		"fields": [
+			[79037959, 51, "Id"],
+			[894769517, 32, "SelectTicketSeriesId"],
+			[3007095973, 32, "ExchangeItemType"],
+			[584967204, 32, "ExchangeItemId"],
+			[1439723119, 32, "ExchangeItemQuantity"],
+			[1387910201, 16, "StartTime"],
+			[280839055, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "selectticketseries.tsv",
+		"fields": [
+			[3516945460, 32, "Id"],
+			[1891817610, 16, "ExchangeTicketName"],
+			[797415893, 16, "Description"],
+			[286406119, 32, "ExchangeTicketId"],
+			[2108897187, 32, "OrderId"],
+			[360205724, 32, "PickUpCardSeriesId_1"],
+			[2356223014, 32, "PickUpCardSeriesId_2"],
+			[4218825904, 32, "PickUpCardSeriesId_3"],
+			[1695725843, 32, "PickUpCardSeriesId_4"],
+			[303401349, 32, "PickUpCardSeriesId_5"],
+			[2333923391, 32, "PickUpCardSeriesId_6"],
+			[1252312373, 32, "BgType"],
+			[1952377219, 16, "StartTime"],
+			[1943840872, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "selectticketseries.tsv",
+		"fields": [
+			[3516945460, 32, "Id"],
+			[1891817610, 16, "ExchangeTicketName"],
+			[797415893, 16, "Description"],
+			[286406119, 32, "ExchangeTicketId"],
+			[2108897187, 32, "OrderId"],
+			[360205724, 32, "PickUpCardSeriesId_1"],
+			[2356223014, 32, "PickUpCardSeriesId_2"],
+			[4218825904, 32, "PickUpCardSeriesId_3"],
+			[1695725843, 32, "PickUpCardSeriesId_4"],
+			[303401349, 32, "PickUpCardSeriesId_5"],
+			[2333923391, 32, "PickUpCardSeriesId_6"],
+			[1252312373, 32, "BgType"],
+			[1952377219, 16, "StartTime"],
+			[1943840872, 16, "EndTime"],
+			[3162985121, 32, "IsVisibleEndTime"]
+		]
+	},
+	{
+		"tableLabel": "selectticketseries.tsv",
+		"fields": [
+			[3516945460, 32, "Id"],
+			[1891817610, 16, "ExchangeTicketName"],
+			[797415893, 16, "Description"],
+			[286406119, 32, "ExchangeTicketId"],
+			[2108897187, 32, "OrderId"],
+			[360205724, 32, "PickUpCardSeriesId_1"],
+			[2356223014, 32, "PickUpCardSeriesId_2"],
+			[4218825904, 32, "PickUpCardSeriesId_3"],
+			[1695725843, 32, "PickUpCardSeriesId_4"],
+			[303401349, 32, "PickUpCardSeriesId_5"],
+			[2333923391, 32, "PickUpCardSeriesId_6"],
+			[1952377219, 16, "StartTime"],
+			[1943840872, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "shapesticker.tsv",
+		"fields": [
+			[2590123321, 32, "Id"],
+			[1926146831, 16, "Name"],
+			[3607552011, 32, "OrderId"],
+			[2886454918, 32, "BlockCount"],
+			[662235114, 32, "OutlineGenerateType"]
+		]
+	},
+	{
+		"tableLabel": "shapestickercolor.tsv",
+		"fields": [
+			[2297144589, 32, "Id"],
+			[4214410037, 16, "EffectColorCode"],
+			[2179787232, 32, "ViewType"],
+			[4176353450, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "shopbanners.tsv",
+		"fields": [
+			[3645196544, 32, "Id"],
+			[2675665012, 16, "Url"],
+			[1507907025, 32, "Position"],
+			[2998540743, 16, "StartTime"],
+			[3808338223, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "shopbanners.tsv",
+		"fields": [
+			[3645196544, 32, "Id"],
+			[4285994280, 32, "ShopsId"],
+			[2675665012, 16, "Url"],
+			[1507907025, 32, "Position"],
+			[3726192061, 32, "DisplayType"],
+			[2998540743, 16, "StartTime"],
+			[3808338223, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "shopitems.tsv",
+		"fields": [
+			[3394930214, 32, "Id"],
+			[1093518408, 32, "ShopId"],
+			[4031449083, 16, "Name"],
+			[905209914, 32, "ItemType"],
+			[1026772849, 32, "ItemId"],
+			[801016810, 32, "ItemQuantity"],
+			[157991937, 32, "Price"],
+			[3232925153, 32, "IsPaidSIsCaOnly"],
+			[4205559759, 32, "OrderId"],
+			[1083577740, 16, "Description"],
+			[986875374, 32, "RewardTextId"],
+			[1584742690, 16, "StartTime"],
+			[4106493956, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "shops.tsv",
+		"fields": [
+			[2241777829, 32, "Id"],
+			[3968085127, 32, "ShopType"],
+			[1659729782, 16, "Name"],
+			[63719589, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "sidestylesettings.tsv",
+		"fields": [
+			[1623153888, 32, "Id"],
+			[1308176385, 32, "CardSeriesId"],
+			[4093898715, 32, "GenerationsId"],
+			[2048851952, 16, "SideStyleSetCharacterIds"]
+		]
+	},
+	{
+		"tableLabel": "simulationgraphlimit.tsv",
+		"fields": [
+			[256524907, 32, "Id"],
+			[2143531627, 32, "NumberOfMember"],
+			[2573525448, 32, "UpperLimitSmile"],
+			[2997890136, 32, "UpperLimitPure"],
+			[1729963575, 32, "UpperLimitCool"],
+			[3775056834, 32, "UpperLimitMental"],
+			[470361091, 32, "UpperLimitBP"]
+		]
+	},
+	{
+		"tableLabel": "siscastoredatas.tsv",
+		"fields": [
+			[1569488676, 32, "Id"],
+			[1291780433, 16, "DisplayName"],
+			[3329995565, 32, "ItemType"],
+			[2485562331, 32, "ItemId"],
+			[2785208842, 32, "ItemNum"],
+			[2686467565, 32, "Price"],
+			[3176617287, 32, "IsPaidSIsCaOnly"],
+			[1677411510, 32, "LimitNum"],
+			[2011635296, 32, "ResetType"],
+			[3422675165, 32, "OrderId"],
+			[3713354558, 16, "StartTime"],
+			[3262021398, 16, "EndTime"],
+			[3997346746, 32, "IsVisibleEndTime"]
+		]
+	},
+	{
+		"tableLabel": "specialappealtokencardsets.tsv",
+		"fields": [
+			[3610619524, 32, "Id"],
+			[2102945218, 32, "SpecialAppealTokenSetId"],
+			[2938650399, 32, "SpecialAppealTokenResourceId"],
+			[812894856, 32, "TargetParameter"],
+			[877525201, 32, "SkillSeriesId"],
+			[81116405, 32, "Mood"],
+			[2863859138, 32, "Style"]
+		]
+	},
+	{
+		"tableLabel": "specialrewardprogressdatas.tsv",
+		"fields": [
+			[541294968, 32, "Id"],
+			[553309865, 32, "BoxEventSeriesId"],
+			[4034592335, 32, "SpecialRewardItemType"],
+			[4263578392, 32, "SpecialRewardItemId"],
+			[1504105005, 32, "SpecialRewardItemIdNum"],
+			[2724342936, 32, "SpecialRewardProgressCount"],
+			[1463383365, 32, "OrderId"],
+			[2112568456, 32, "IsLoop"]
+		]
+	},
+	{
+		"tableLabel": "stagescoremultipliersettings.tsv",
+		"fields": [
+			[3290414283, 51, "Id"],
+			[2764686808, 32, "MinTargetNum"],
+			[884659506, 32, "MaxTargetNum"],
+			[351403369, 51, "BaseMultiplier"],
+			[1834559884, 51, "AdditionalMultiplier"]
+		]
+	},
+	{
+		"tableLabel": "stageskillconditiondetails.tsv",
+		"fields": [
+			[2495793899, 51, "Id"],
+			[2493008482, 51, "StageSkillConditionId"],
+			[1551410483, 16, "SkillConditionDetailType"],
+			[3841602495, 51, "ConditionValue"]
+		]
+	},
+	{
+		"tableLabel": "stageskillconditions.tsv",
+		"fields": [[4221412397, 51, "Id"], [2591579637, 32, "ConditionType"]]
+	},
+	{
+		"tableLabel": "stageskilleffectdetails.tsv",
+		"fields": [
+			[1720008566, 51, "Id"],
+			[2621703587, 51, "StageSkillEffectId"],
+			[2026361686, 16, "SkillEffectDetailType"],
+			[3023719355, 51, "EffectValue"]
+		]
+	},
+	{
+		"tableLabel": "stageskilleffects.tsv",
+		"fields": [[1691540407, 51, "Id"], [2954613512, 32, "ActionType"]]
+	},
+	{
+		"tableLabel": "stageskillsets.tsv",
+		"fields": [
+			[821831361, 51, "Id"],
+			[2104883654, 51, "StageSkillConditionId"],
+			[320764232, 51, "StageSkillEffectId"]
+		]
+	},
+	{
+		"tableLabel": "stagevoltagelevelsettings.tsv",
+		"fields": [
+			[2483740120, 32, "Id"],
+			[1813681153, 32, "VoltageLevel"],
+			[1422407530, 32, "MinHeartRank"],
+			[3300599680, 32, "MaxHeartRank"],
+			[2599904130, 51, "ScoreMultiplier"]
+		]
+	},
+	{
+		"tableLabel": "stagevoltagelevelthresholds.tsv",
+		"fields": [
+			[864003287, 32, "Id"],
+			[2813184022, 32, "VoltageLevel"],
+			[611470226, 32, "RequiredVoltagePoint"]
+		]
+	},
+	{
+		"tableLabel": "stagevoltagelevelthresholds.tsv",
+		"fields": [
+			[864003287, 32, "Id"],
+			[2813184022, 32, "VoltageLevel"],
+			[611470226, 51, "RequiredVoltagePoint"]
+		]
+	},
+	{
+		"tableLabel": "stamps.tsv",
+		"fields": [
+			[3162403934, 32, "Id"],
+			[1142821137, 16, "Name"],
+			[4179874744, 32, "StampNo"],
+			[1207420954, 32, "StampType"],
+			[751942205, 32, "CharactersId"],
+			[2747077112, 16, "StartTime"],
+			[1462265194, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "standardquestareas.tsv",
+		"fields": [
+			[2693176147, 32, "Id"],
+			[3238366285, 16, "Name"],
+			[3601761676, 32, "Number"],
+			[3624989409, 16, "Description"],
+			[1919619147, 32, "OrderId"],
+			[4030212685, 32, "ImageType"],
+			[3318082162, 32, "BgImageId"],
+			[4285993285, 32, "SoundId"],
+			[1346229055, 32, "GenerationsId"],
+			[1207118548, 16, "StartTime"],
+			[2080673664, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "standardqueststages.tsv",
+		"fields": [
+			[1429398994, 32, "Id"],
+			[1451239347, 32, "StandardQuestAreasId"],
+			[1411419336, 16, "Name"],
+			[2172749398, 16, "Description"],
+			[1053159837, 16, "Hint"],
+			[3784576276, 32, "StageType"],
+			[3594709358, 32, "UseType"],
+			[1166515033, 32, "UseItem"],
+			[1159918480, 32, "UseNum"],
+			[3661733151, 32, "LiveStagesId"],
+			[2539383363, 32, "QuestMusicsType"],
+			[79964170, 32, "QuestMusicsDetail"],
+			[3545814931, 32, "DeckRestrictedType"],
+			[3717522695, 32, "DeckRestrictedDetail"],
+			[238053695, 32, "QuestLevel"],
+			[3837523891, 51, "FirstClearRewardSeriesId"],
+			[1417586572, 51, "CompleteRewardSeriesId"],
+			[1784936918, 51, "DropRewardSeriesId"],
+			[165993197, 51, "RandomDropRewardSeriesId"],
+			[2571662353, 51, "Score1"],
+			[4269483, 51, "Score2"],
+			[2001081661, 51, "Score3"],
+			[1074040733, 32, "GainStylePoint"],
+			[2726476929, 32, "GainMusicExp"]
+		]
+	},
+	{
+		"tableLabel": "standardqueststages.tsv",
+		"fields": [
+			[1429398994, 32, "Id"],
+			[1451239347, 32, "StandardQuestAreasId"],
+			[1411419336, 16, "Name"],
+			[2172749398, 16, "Description"],
+			[1053159837, 16, "Hint"],
+			[3784576276, 32, "StageType"],
+			[3594709358, 32, "UseType"],
+			[1166515033, 32, "UseItem"],
+			[1159918480, 32, "UseNum"],
+			[3661733151, 32, "LiveStagesId"],
+			[2539383363, 32, "QuestMusicsType"],
+			[79964170, 32, "QuestMusicsDetail"],
+			[3545814931, 32, "DeckRestrictedType"],
+			[3717522695, 32, "DeckRestrictedDetail"],
+			[238053695, 32, "QuestLevel"],
+			[3837523891, 51, "FirstClearRewardSeriesId"],
+			[1417586572, 51, "CompleteRewardSeriesId"],
+			[1784936918, 51, "DropRewardSeriesId"],
+			[165993197, 51, "RandomDropRewardSeriesId"],
+			[2571662353, 51, "Score1"],
+			[4269483, 51, "Score2"],
+			[2001081661, 51, "Score3"],
+			[1074040733, 32, "GainStylePoint"],
+			[2726476929, 32, "GainMusicExp"],
+			[2929214789, 32, "ItemSourceIconId"]
+		]
+	},
+	{
+		"tableLabel": "stickerexchanges.tsv",
+		"fields": [
+			[2388139701, 32, "Id"],
+			[3263614317, 32, "ProductStickerId"],
+			[2220252373, 32, "ProductStickerNum"],
+			[1447628330, 32, "MaterialItemType"],
+			[1019040196, 32, "MaterialItemId"],
+			[732068869, 32, "MaterialItemNum"],
+			[929724938, 32, "LimitNum"],
+			[3043258617, 32, "ResetType"],
+			[2364414640, 32, "IsVisibleEndTime"],
+			[2204661035, 32, "OrderId"],
+			[534128039, 16, "StartTime"],
+			[2366106336, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "stickers.tsv",
+		"fields": [
+			[2041101607, 32, "Id"],
+			[1482386540, 16, "Name"],
+			[1039381933, 16, "Text"],
+			[2635990831, 32, "CategoryType"],
+			[1340288512, 32, "CategoryName"],
+			[3967617656, 32, "SeasonId"],
+			[1824419531, 32, "CharactersId"],
+			[656075413, 32, "Priority"],
+			[2997781243, 32, "IsVariant"],
+			[3632123309, 32, "RequirementType"],
+			[1630735397, 16, "RequirementDetail"],
+			[4160142487, 32, "RequirementValue"],
+			[1864908099, 16, "RequirementText"],
+			[1276190776, 32, "EditRequirementType"],
+			[3015604435, 16, "EditRequirementDetail"],
+			[1996994481, 32, "EditRequirementValue"],
+			[4215591126, 16, "EditRequirementText"],
+			[1166216348, 32, "IsVisibleOnlyPossess"],
+			[2878103473, 16, "StartTime"],
+			[2535861457, 16, "EndTime"],
+			[2036301534, 16, "AvailableStartTime"],
+			[2284506940, 16, "AvailableEndTime"],
+			[524088041, 16, "VariantStartTime"],
+			[2400113508, 16, "VariantEndTime"]
+		]
+	},
+	{
+		"tableLabel": "stickers.tsv",
+		"fields": [
+			[2041101607, 32, "Id"],
+			[1482386540, 16, "Name"],
+			[1039381933, 16, "Text"],
+			[2635990831, 32, "CategoryType"],
+			[3967617656, 32, "SeasonId"],
+			[1824419531, 32, "CharactersId"],
+			[656075413, 32, "Priority"],
+			[2997781243, 32, "IsVariant"],
+			[3632123309, 32, "RequirementType"],
+			[1630735397, 16, "RequirementDetail"],
+			[4160142487, 32, "RequirementValue"],
+			[1864908099, 16, "RequirementText"],
+			[1276190776, 32, "EditRequirementType"],
+			[3015604435, 16, "EditRequirementDetail"],
+			[1996994481, 32, "EditRequirementValue"],
+			[4215591126, 16, "EditRequirementText"],
+			[2878103473, 16, "StartTime"],
+			[2535861457, 16, "EndTime"],
+			[524088041, 16, "VariantStartTime"],
+			[2400113508, 16, "VariantEndTime"]
+		]
+	},
+	{
+		"tableLabel": "stylemovies.tsv",
+		"fields": [
+			[325198523, 32, "Id"],
+			[1962212482, 32, "CardSeriesId"],
+			[2828768682, 32, "MovieType"],
+			[3844033893, 16, "Name"],
+			[2231149554, 16, "ReleaseConditionText"]
+		]
+	},
+	{
+		"tableLabel": "stylemovies.tsv",
+		"fields": [
+			[325198523, 32, "Id"],
+			[1962212482, 32, "CardSeriesId"],
+			[2828768682, 32, "MovieType"],
+			[3844033893, 16, "Name"],
+			[2231149554, 16, "ReleaseConditionText"],
+			[1669872555, 32, "OverrideBgm"]
+		]
+	},
+	{
+		"tableLabel": "stylevoices.tsv",
+		"fields": [
+			[3452380269, 32, "Id"],
+			[1286663158, 32, "CardSeriesId"],
+			[3676197996, 16, "Name"],
+			[4108138343, 32, "Priority"],
+			[83403846, 16, "VoiceName"],
+			[185017829, 16, "ReleaseConditionText"]
+		]
+	},
+	{
+		"tableLabel": "subcharacters.tsv",
+		"fields": [[1381723447, 32, "Id"], [443311454, 16, "Label"]]
+	},
+	{
+		"tableLabel": "tablist.tsv",
+		"fields": [[3980433334, 32, "Id"], [3650121486, 16, "TabListName"]]
+	},
+	{
+		"tableLabel": "targets.tsv",
+		"fields": [
+			[2367237403, 32, "Id"],
+			[3864451396, 32, "TargetType"],
+			[773770591, 32, "TargetValue"]
+		]
+	},
+	{
+		"tableLabel": "textsplaceholder.tsv",
+		"fields": [[3044644124, 32, "Id"], [228390173, 16, "Description"]]
+	},
+	{
+		"tableLabel": "ticketonlygachas.tsv",
+		"fields": [
+			[565042696, 32, "Id"],
+			[156560328, 32, "GachaTicketId"],
+			[2796132678, 32, "TicketNum"],
+			[247242799, 32, "ConsectiveGachaTimes"],
+			[3710850759, 32, "GachaButtonType"],
+			[3776025953, 32, "ButtonPopId"],
+			[478314599, 32, "MiniBannerPopId"],
+			[2404662224, 32, "MiniBannerDispCondition"]
+		]
+	},
+	{
+		"tableLabel": "tutorialdeckcards.tsv",
+		"fields": [
+			[3797894989, 32, "Id"],
+			[778418683, 32, "TutorialDeckDatasId"],
+			[1606374865, 32, "SlotNo"],
+			[722998007, 32, "CardDatasId"],
+			[1605310630, 32, "StyleLevel"],
+			[3590980306, 32, "LimitBreakTimes"],
+			[4150527530, 32, "SpecialAppealLevel"],
+			[2002974181, 32, "SkillLevel"]
+		]
+	},
+	{
+		"tableLabel": "tutorialdeckdatas.tsv",
+		"fields": [
+			[3039006221, 32, "Id"],
+			[4030573388, 16, "DeckName"],
+			[1648318761, 32, "DeckNo"],
+			[555390813, 32, "GenerationsId"]
+		]
+	},
+	{
+		"tableLabel": "tutorialquestareas.tsv",
+		"fields": [
+			[2156016647, 32, "Id"],
+			[1505462880, 16, "Name"],
+			[535290600, 32, "Number"],
+			[1998599838, 16, "Description"],
+			[947780717, 32, "OrderId"],
+			[1059947034, 32, "Next_TutorialQuestAreasId"],
+			[1687363487, 32, "GenerationsId"]
+		]
+	},
+	{
+		"tableLabel": "tutorialquestareas.tsv",
+		"fields": [
+			[2156016647, 32, "Id"],
+			[1505462880, 16, "Name"],
+			[535290600, 32, "Number"],
+			[1998599838, 16, "Description"],
+			[947780717, 32, "OrderId"],
+			[2589609260, 32, "ImageType"],
+			[2946993427, 32, "BgImageId"],
+			[1059947034, 32, "Next_TutorialQuestAreasId"],
+			[1687363487, 32, "GenerationsId"]
+		]
+	},
+	{
+		"tableLabel": "tutorialqueststages.tsv",
+		"fields": [
+			[957641872, 32, "Id"],
+			[3245464136, 32, "TutorialQuestAreasId"],
+			[291991227, 16, "Name"],
+			[1100274239, 16, "Description"],
+			[2072122350, 16, "Hint"],
+			[600724606, 32, "MapNumber"],
+			[3679141565, 32, "StageType"],
+			[67467903, 32, "UseType"],
+			[2875449796, 32, "Use_ItemsId"],
+			[255074230, 32, "UseNum"],
+			[4008661439, 32, "LiveStagesId"],
+			[3482050919, 32, "QuestMusicsId"],
+			[3624159332, 32, "LoveCorrectionValue"],
+			[274444115, 32, "BonusVoltage"],
+			[2428863011, 32, "BonusMental"],
+			[2379106661, 32, "BonusHeart"],
+			[3448501149, 32, "BonusLove"],
+			[4088551072, 51, "FirstClearRewardSeriesId"],
+			[1077815806, 51, "CompleteRewardSeriesId"],
+			[518880254, 51, "RandomDropRewardSeriesId"],
+			[3546191927, 51, "Score1"],
+			[1247267213, 51, "Score2"],
+			[1028716827, 51, "Score3"],
+			[3989393268, 32, "StylePoint"],
+			[2519494689, 32, "GainMusicExp"]
+		]
+	},
+	{
+		"tableLabel": "tutorialqueststages.tsv",
+		"fields": [
+			[957641872, 32, "Id"],
+			[3245464136, 32, "TutorialQuestAreasId"],
+			[291991227, 16, "Name"],
+			[1100274239, 16, "Description"],
+			[2072122350, 16, "Hint"],
+			[600724606, 32, "MapNumber"],
+			[3679141565, 32, "StageType"],
+			[67467903, 32, "UseType"],
+			[2875449796, 32, "Use_ItemsId"],
+			[255074230, 32, "UseNum"],
+			[4008661439, 32, "LiveStagesId"],
+			[3482050919, 32, "QuestMusicsId"],
+			[4088551072, 51, "FirstClearRewardSeriesId"],
+			[1077815806, 51, "CompleteRewardSeriesId"],
+			[518880254, 51, "RandomDropRewardSeriesId"],
+			[3546191927, 51, "Score1"],
+			[1247267213, 51, "Score2"],
+			[1028716827, 51, "Score3"],
+			[3989393268, 32, "StylePoint"],
+			[2519494689, 32, "GainMusicExp"]
+		]
+	},
+	{
+		"tableLabel": "tutorialrewarddatas.tsv",
+		"fields": [
+			[4222555618, 32, "Id"],
+			[3184756183, 32, "TutorialsId"],
+			[571369379, 32, "RewardType"],
+			[1380800972, 32, "RewardItemId"],
+			[3709431686, 32, "RewardNum"],
+			[2355636299, 32, "LifeTimeDay"],
+			[16900358, 32, "RewardTextId"]
+		]
+	},
+	{
+		"tableLabel": "tutorials.tsv",
+		"fields": [
+			[170227909, 32, "Id"],
+			[3232734671, 32, "TutorialType"],
+			[3263641738, 32, "Step"],
+			[2718175404, 16, "Description"]
+		]
+	},
+	{
+		"tableLabel": "tutorialschoolidolstagemovies.tsv",
+		"fields": [
+			[846654501, 32, "Id"],
+			[1192808412, 16, "Title"],
+			[77727305, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "unitcharacters.tsv",
+		"fields": [
+			[2158669862, 32, "Id"],
+			[921981937, 32, "UnitsId"],
+			[3253770965, 32, "CharactersId"],
+			[2428095725, 32, "OrderId"]
+		]
+	},
+	{
+		"tableLabel": "units.tsv",
+		"fields": [
+			[3366639492, 32, "Id"],
+			[3250849582, 16, "UnitName"],
+			[68094636, 32, "OrderId"],
+			[2880356577, 16, "StartTime"],
+			[174101863, 16, "EndTime"]
+		]
+	},
+	{
+		"tableLabel": "units.tsv",
+		"fields": [
+			[3366639492, 32, "Id"],
+			[3250849582, 16, "UnitName"],
+			[68094636, 32, "OrderId"],
+			[2880356577, 16, "StartTime"],
+			[174101863, 16, "EndTime"],
+			[2301052621, 32, "IsVisibleRhythmGameMusicFilter"],
+			[1485739808, 32, "IsVisibleRhythmGameCardFilter"]
+		]
+	}
+]

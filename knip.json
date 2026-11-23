@@ -1,0 +1,27 @@
+{
+	"ignoreExportsUsedInFile": true,
+	"workspaces": {
+		".": {
+			"entry": [
+				"src/cli/*.ts",
+				"tests/adminRuntime/fixtures/recordRuntimeSwitch.ts",
+				"tests/**/*.test.ts",
+				"tests/**/*.integration.ts",
+				"tests/**/*.e2e.ts",
+				"tools/development/*.ts",
+				"tests/serverComposition/fixtures/standalone*Application.ts"
+			],
+			"project": ["src/**/*.ts", "tests/**/*.ts", "tools/**/*.ts"]
+		},
+		"packages/admin-server": {
+			"entry": ["src/cli/*.ts"],
+			"project": ["src/**/*.ts"]
+		},
+		"packages/admin-ui": {
+			"project": ["src/**/*.{ts,tsx}", "server/**/*.ts", "tools/**/*.ts"]
+		},
+		"packages/runtime": {
+			"entry": ["src/**/*.ts"]
+		}
+	}
+}

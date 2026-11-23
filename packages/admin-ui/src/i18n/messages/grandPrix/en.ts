@@ -1,0 +1,37 @@
+export const en = {
+	activeId: 'Active Grand Prix ID',
+	dailyPlayableCount: 'Daily playable count',
+	save: 'Save Grand Prix',
+	guildTotalPoint: 'Circle total points',
+	guildRanking: 'Circle ranking',
+	withinGuildRanking: 'Ranking within circle',
+	personalTotalPoint: 'Personal total points',
+	personalRanking: 'Personal ranking',
+	search: 'Search Grand Prix',
+	noEntries: 'No Live Grand Prix',
+	id: 'Grand Prix ID',
+	quests: 'Quests',
+	stages: 'Stages',
+	rewards: 'Rewards',
+	setActive: 'Set active',
+	rhythmSeries: 'Rhythm game series',
+	questStages: 'Quest stages',
+	noStages: 'No quest stages',
+	originalMusic: 'Original music',
+	resetMusic: 'Restore original music',
+	open: 'Open',
+	results: 'Results',
+	closed: 'Closed',
+	seriesLabel: (order: number, id: number) => `${order}. Series ${id}`,
+	unresolved: (value: string) => `Unresolved: ${value}`,
+	musicSound: (music: number, sound: number) =>
+		`Music ${music} / Sound ${sound}`,
+	rewardRange: (type: number, min: number, max: number) =>
+		`Type ${type} / ${min}–${max}`,
+	rewardItem: (id: number, count: number, type: number) =>
+		`Item ${id} × ${count} (type ${type})`,
+	musicReasons: {
+		'quest-music-type-unresolved': 'The quest music type is unresolved',
+		'music-master-missing': 'The music master is missing',
+	},
+};

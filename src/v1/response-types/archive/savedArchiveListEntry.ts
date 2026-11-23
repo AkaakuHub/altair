@@ -1,0 +1,36 @@
+import type { JsonValue } from '../../../state/json-state-utils.ts';
+export type SavedArchiveListEntry = {
+	archive_video_size_in_byte?: number;
+	archives_id: string;
+	character_list?: Array<JsonValue>;
+	close_time?: string;
+	description?: string;
+	earned_star_count?: number;
+	end_time?: string;
+	external_fix_link?: string;
+	external_link?: string;
+	gift_stars_threshold_for_extra_admission?: number;
+	has_extra?: boolean;
+	has_extra_admission?: boolean;
+	is_extra_started?: boolean;
+	is_publish_video_url?: boolean;
+	is_scheduled_start_time_visible?: boolean;
+	live_end_time?: string;
+	live_id?: string;
+	live_start_time?: string;
+	live_type?: number;
+	name?: string;
+	open_time?: string;
+	start_time?: string;
+	thumbnail_image_url?: string;
+	ticket_list?: Array<JsonValue>;
+	ticket_rank?: number;
+	total_playing_time_second?: number;
+	trailer_end_time?: string;
+	trailer_start_time?: string;
+	version_compatibility?: {
+		message: string;
+		rule: string;
+	};
+	video_url?: string | null;
+};

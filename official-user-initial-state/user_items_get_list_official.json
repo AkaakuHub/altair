@@ -1,0 +1,58 @@
+{
+	"item_category_list": [
+		{
+			"item_category": 0,
+			"user_item_list": []
+		},
+		{
+			"item_category": 1,
+			"user_item_list": []
+		},
+		{
+			"item_category": 2,
+			"user_item_list": [
+				{
+					"item_id": 2003073,
+					"item_num": 11,
+					"item_type": 1,
+					"limit_date_time": null,
+					"rarity": 3,
+					"resource_file_name": "",
+					"user_item_id": "60a1fb22-1c8f-5828-b07d-c812d23a8e13"
+				},
+				{
+					"item_id": 2004002,
+					"item_num": 2,
+					"item_type": 9,
+					"limit_date_time": null,
+					"rarity": 1,
+					"resource_file_name": "",
+					"user_item_id": "c160914f-e299-571a-bccb-608d3626c40a"
+				}
+			]
+		},
+		{
+			"item_category": 3,
+			"user_item_list": [
+				{
+					"item_id": 3003021,
+					"item_num": 0,
+					"item_type": 3,
+					"limit_date_time": null,
+					"rarity": 4,
+					"resource_file_name": "",
+					"user_item_id": "96a83d3e-c481-595f-a5d6-c0d06e432a47"
+				},
+				{
+					"item_id": 3009000,
+					"item_num": 2,
+					"item_type": 3,
+					"limit_date_time": null,
+					"rarity": 4,
+					"resource_file_name": "",
+					"user_item_id": "6f141fac-ccea-510e-b4cc-113c05257850"
+				}
+			]
+		}
+	]
+}

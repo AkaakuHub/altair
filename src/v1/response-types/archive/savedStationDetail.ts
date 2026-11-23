@@ -1,0 +1,53 @@
+import type { JsonValue } from '../../../state/json-state-utils.ts';
+export type SavedStationDetail = {
+	bgmAcbPath: string;
+	bgm_acb_path: null;
+	chapters: Array<{
+		is_extra: boolean;
+		name: string;
+		play_time_second?: null | number;
+	}>;
+	characters: Array<{
+		character_id: number;
+		is_guest: boolean;
+		member_exp_per_next: number;
+		member_fan_level: number;
+		order: number;
+		season_exp_per_next: number;
+		season_fan_level: number;
+	}>;
+	content_code: number;
+	costume_ids: Array<JsonValue>;
+	cover_image_url: string;
+	current_play_time_second: number;
+	description: string;
+	emoji_list: Array<JsonValue>;
+	enquetes: Array<JsonValue>;
+	gift_pt_rankings: Array<JsonValue>;
+	gift_star_reward_segments: Array<number>;
+	gift_stars_threshold_for_extra_admission: number;
+	has_admission: boolean;
+	has_extra: boolean;
+	has_extra_admission: boolean;
+	is_archive_published: boolean;
+	is_horizontal: boolean;
+	live_location_id: number;
+	max_season_fan_level: number;
+	membership_list: Array<JsonValue>;
+	start_time: string;
+	timeline_ids: Array<JsonValue>;
+	timelines: Array<JsonValue>;
+	title: string;
+	total_gift_pt: string;
+	total_play_time_second_including_extra: number;
+	total_play_time_second_without_extra: number;
+	user_gift_pt: number;
+	user_gift_pt_ranking: number;
+	user_icon_parts_info: string;
+	user_profile: {
+		icon_parts_info: string;
+		name: string;
+	};
+	video_url?: string;
+	viewer_count: number;
+};

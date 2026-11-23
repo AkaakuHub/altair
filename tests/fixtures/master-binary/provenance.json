@@ -1,0 +1,49 @@
+{
+	"schemaVersion": 1,
+	"officialFixtures": [
+		{
+			"revision": "R2603250",
+			"clientVersion": "4.12.0",
+			"platform": "android",
+			"catalogPath": "catalogs/android/4.12.0__UjI2MDMyNTBAUmFqQlRaNXRQQU1LaUtTRmdOYVdzcEM4WGc9PQ/cache/catalog.json.gz",
+			"catalogResourceRealName": "otvt6xhqxbsqb6cyloghqzqzli",
+			"fixture": "carddatas-r2603250.tsv",
+			"sha256": "f44cfc9ee453b733c15a40f99a4d3a8e89fd28698f0ba5ac7570f3e50744e2b0",
+			"rowCount": 2566,
+			"fieldCount": 30,
+			"isParallelCardCrcPresent": false
+		},
+		{
+			"revision": "R2604100",
+			"clientVersion": "5.1.0",
+			"platform": "android",
+			"catalogPath": "catalogs/android/5.1.0__UjI2MDQxMDBAQkZya2ZQUWtKOUpNNlJMU1pDcE9Zb0RUWUE9PQ/cache/catalog.json.gz",
+			"catalogResourceRealName": "z2tmc7bah3vbpl4ykudkzxabnu",
+			"fixture": "carddatas-r2604100.tsv",
+			"sha256": "98f246bc6cea5e8c8d46b34758b89cc4f5595b76c901d8e4a1a71e6d9694a56b",
+			"rowCount": 2628,
+			"fieldCount": 31,
+			"isParallelCardCrcPresent": true
+		},
+		{
+			"revision": "R2606002",
+			"clientVersion": "5.1.0",
+			"platform": "android",
+			"catalogPath": "catalogs/android/5.1.0__UjI2MDYwMDJAUlFNcUFCQXhkajBiNWM4VEtoNCtQTkRVWVE9PQ/cache/catalog.json.gz",
+			"catalogResourceRealName": "yvbhjrwx4ygwdiq4lj7yxmxxai",
+			"fixture": "carddatas-r2606002.tsv",
+			"sha256": "47b8af923059794f518c903f721d9c7a132664a436696da5f1386152ee683931",
+			"rowCount": 2695,
+			"fieldCount": 31,
+			"isParallelCardCrcPresent": true
+		}
+	],
+	"syntheticFixtures": [
+		"field-added.tsv",
+		"field-removed.tsv",
+		"zero-rows.tsv",
+		"unknown-field-crc.tsv",
+		"field-type-changed.tsv",
+		"corrupt.tsv"
+	]
+}

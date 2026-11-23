@@ -1,0 +1,31 @@
+import type { en } from './en.ts';
+
+export const ja = {
+	beginner: '初心者ミッション',
+	missionId: 'ミッションID',
+	achievedCount: '達成数',
+	targetCount: '目標数',
+	transition: '遷移先',
+	chapter: 'チャプターミッション',
+	noChapterProgress: 'チャプターミッションの進捗がありません',
+	searchChapter: 'チャプターミッションを検索',
+	mission: 'ミッション',
+	noBeginner: '初心者ミッションがありません',
+	searchBeginner: '初心者ミッションを検索',
+	common: '共通ミッション',
+	noDaily: 'デイリーミッションがありません',
+	searchDaily: 'デイリーミッションを検索',
+	noMissions: 'ミッションがありません',
+	searchCommon: '共通ミッションを検索',
+	schoolStageStars: 'スクールステージのスター',
+	stars: 'スター',
+	source: '取得元',
+	questProgress: 'クエストの進捗',
+	stepUpBeginner: 'ステップアップ初心者ミッション',
+	noStepUpBeginner: 'ステップアップ初心者ミッションがありません',
+	searchStepUpBeginner: 'ステップアップ初心者ミッションを検索',
+	completed: '達成済み',
+	unavailable:
+		'選択したミッションは現在の一覧にありません。入力は保持しています。対象を選択してください。',
+	dailyWithCount: (count: number) => `デイリーミッション（${count}件）`,
+} satisfies typeof en;

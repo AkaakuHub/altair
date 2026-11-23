@@ -1,0 +1,130 @@
+import type { AdminMessages } from '../messages.ts';
+import { ja as activityRecord } from './activityRecord/ja.ts';
+import { ja as archive } from './archive/ja.ts';
+import { ja as circle } from './circle/ja.ts';
+import { ja as gacha } from './gacha/ja.ts';
+import { ja as gradeLive } from './gradeLive/ja.ts';
+import { ja as grandPrix } from './grandPrix/ja.ts';
+import { ja as inventory } from './inventory/ja.ts';
+import { ja as loginBonus } from './loginBonus/ja.ts';
+import { ja as missions } from './missions/ja.ts';
+import { ja as officialMigration } from './officialMigration/ja.ts';
+import { ja as quest } from './quest/ja.ts';
+import { ja as serverSettings } from './serverSettings/ja.ts';
+import { ja as social } from './social/ja.ts';
+import { ja as users } from './users/ja.ts';
+import { ja as validation } from './validation/ja.ts';
+
+export const ja = {
+	anonymous: '匿名',
+	validation,
+	close: '閉じる',
+	pause: '一時停止',
+	play: '再生',
+	stop: '停止',
+	moveUp: '上へ移動',
+	moveDown: '下へ移動',
+
+	officialMigration,
+	gradeLive,
+	grandPrix,
+	quest,
+	social,
+	circle,
+	missions,
+	received: '受取済み',
+	gacha,
+	activationLabel: (name: string, id: number) => `${name}（${id}）を有効にする`,
+	saveActivations: '有効状態を保存',
+	loginBonus,
+	search: '検索',
+	progress: '進捗',
+	status: '状態',
+	startTime: '開始日時',
+	endTime: '終了日時',
+	active: '有効',
+	archive,
+	activityRecord,
+	yes: 'はい',
+	no: 'いいえ',
+	title: 'タイトル',
+	characterId: 'キャラクターID',
+
+	inventory,
+	name: '名前',
+	level: 'レベル',
+	character: 'キャラクター',
+	id: 'ID',
+	type: '種別',
+	category: 'カテゴリ',
+	quantity: '数量',
+	comment: 'コメント',
+	action: '操作',
+	edit: '編集',
+	use: '選択',
+	created: '作成日時',
+	searchCatalog: 'カタログを検索',
+
+	loadSavedValues: '保存済みの値を読み込む',
+	savedValuesChanged:
+		'保存済みの値が変更されています。編集中の値を保持しています。',
+	users,
+	serverSettings,
+	save: '保存',
+	remove: '削除',
+	discardTitle: '未保存の変更を破棄しますか？',
+	continueEditing: '編集を続ける',
+	discardChanges: '変更を破棄',
+	copied: 'コピーしました',
+	copyError: 'エラーをコピー',
+	noMatchingResults: '一致する結果がありません',
+	selectedUser: '選択中のユーザー',
+	select: '選択',
+	reset: 'リセット',
+	cancel: 'キャンセル',
+	apply: '適用',
+	cropImage: '画像を切り抜く',
+	zoom: '拡大',
+	zoomFactor: '拡大率',
+	rotation: '回転',
+	rotationAngle: '回転角度',
+	cropPosition: '画像の切り抜き位置',
+	resetCandidate: (label: string) => `${label}の候補を戻す`,
+	selectTarget: (label: string) => `${label}を選択`,
+
+	management: 'サーバー管理',
+	server: 'サーバー',
+	user: 'ユーザー',
+	mainMenu: 'メインメニュー',
+	openNavigation: 'ナビゲーションを開く',
+	closeNavigation: 'ナビゲーションを閉じる',
+	language: '言語',
+	loading: '読込中',
+	processing: '処理中',
+	reload: '再読み込み',
+	themeDevice: '端末のテーマを使う',
+	themeLight: 'ライトテーマを使う',
+	themeDark: 'ダークテーマを使う',
+	pages: {
+		overview: '概要',
+		'official-migration': '公式データ移行',
+		users: 'ユーザー',
+		'grand-prix': 'ライブグランプリ',
+		'grade-live': 'グレードライブ',
+		circle: 'サークル',
+		social: '交流',
+		'login-bonus-server': 'ログインボーナス',
+		'gacha-server': 'ガチャ',
+		'user-status': 'ユーザー情報',
+		items: 'アイテム',
+		'present-box': 'プレゼントボックス',
+		archive: 'アーカイブ',
+		cards: 'カード',
+		stickers: 'スタンプ',
+		gacha: 'ガチャ',
+		'login-bonus': 'ログインボーナス',
+		missions: 'ミッション',
+		'activity-record': '活動記録',
+		quest: 'クエスト',
+	},
+} satisfies AdminMessages;

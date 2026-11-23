@@ -1,0 +1,8 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"tsBuildInfoFile": "./node_modules/.cache/typescript/admin-ui.tsbuildinfo"
+	},
+	"include": ["src", "server", "tools", "vite.config.ts"]
+}

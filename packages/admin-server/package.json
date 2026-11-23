@@ -1,0 +1,20 @@
+{
+	"name": "@altair/admin-server",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"dependencies": {
+		"fflate": "^0.8.3",
+		"@altair/runtime": "workspace:*",
+		"hono": "^4.13.16",
+		"zod": "^4.6.7",
+		"@altair/admin-ui": "workspace:*"
+	},
+	"exports": {
+		"./*": "./src/*"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"start": "bun src/cli/start-admin-server.ts"
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"name": "altair",
+	"version": "0.1.0",
+	"type": "module",
+	"private": true,
+	"workspaces": [
+		"packages/runtime",
+		"packages/admin-server",
+		"packages/admin-ui"
+	],
+	"scripts": {
+		"dev": "bun --watch src/index.ts",
+		"start": "bun src/index.ts",
+		"runtime:release:preflight": "bun src/cli/preflight-runtime-release.ts",
+		"runtime:switch": "bun src/cli/switch-runtime-release.ts",
+		"master-archive:build-active": "bun src/cli/build-saved-release-active-database.ts",
+		"master-archive:import-saved": "bun src/cli/import-saved-master-versions.ts",
+		"catalog:import-canonical": "bun src/cli/import-canonical-catalogs.ts",
+		"master-query-manifest:generate": "bun src/cli/generate-active-master-query-manifest.ts",
+		"master-query-manifest:check": "bun src/cli/generate-active-master-query-manifest.ts --check",
+		"typecheck": "bun tools/development/runTypecheck.ts && bun tools/development/runTypecheck.ts packages/runtime && bun tools/development/runTypecheck.ts packages/admin-ui && bun tools/development/runTypecheck.ts packages/admin-server",
+		"lint-format": "biome check --write src tests tools packages package.json biome.json knip.json tsconfig.json",
+		"lint:files": "biome check --write",
+		"knip": "knip --cache --no-progress --duration",
+		"test": "bun tools/development/runTests.ts unit",
+		"test:integration": "bun tools/development/runTests.ts integration",
+		"test:e2e": "bun tools/development/runTests.ts e2e",
+		"hooks:install": "bash scripts/install-git-hooks.sh",
+		"api-docs:generate": "bun src/cli/generate-game-api-contracts.ts",
+		"api-docs:check": "bun src/cli/generate-game-api-contracts.ts --check",
+		"admin:build": "bun --cwd=packages/admin-ui run build",
+		"admin:start": "bun packages/admin-server/src/cli/start-admin-server.ts",
+		"runtime:initialize": "bun src/cli/initialize-runtime.ts"
+	},
+	"dependencies": {
+		"@hono/zod-validator": "^0.9.1",
+		"hono": "^4.13.16",
+		"swagger-ui-dist": "^5.34.1",
+		"zod": "^4.6.7"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.8",
+		"@types/bun": "1.3.14",
+		"ajv": "^8.20.0",
+		"knip": "^6.32.2",
+		"typescript": "^7.0.2",
+		"typescript-compiler-api": "npm:typescript@6.0.3",
+		"typescript-json-schema": "^0.68.0"
+	},
+	"engines": {
+		"bun": ">=1.3.14",
+		"node": ">=24.22.1"
+	},
+	"exports": {
+		".": "./src/server.ts",
+		"./*": "./src/*.ts"
+	}
+}

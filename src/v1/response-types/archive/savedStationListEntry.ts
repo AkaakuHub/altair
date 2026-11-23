@@ -1,0 +1,31 @@
+import type { JsonValue } from '../../../state/json-state-utils.ts';
+export type SavedStationListEntry = {
+	archive_video_size_in_byte?: number;
+	character_list?: Array<{
+		character_id: number;
+	}>;
+	description?: string;
+	earned_star_count?: number;
+	end_time?: string;
+	external_link?: string;
+	gift_stars_threshold_for_extra_admission?: number;
+	has_extra?: boolean;
+	has_extra_admission?: boolean;
+	interaction_end_time?: string;
+	interaction_start_time?: string;
+	is_extra_started?: boolean;
+	is_publish_video_url?: boolean;
+	is_scheduled_start_time_visible?: boolean;
+	live_id: string;
+	live_type?: number;
+	name?: string;
+	start_time?: string;
+	status?: number;
+	thumbnail_image_url?: string;
+	ticket_list?: Array<JsonValue>;
+	ticket_rank?: number;
+	total_playing_time_second?: number;
+	trailer_end_time?: string;
+	trailer_start_time?: string;
+	video_url?: string | null;
+};

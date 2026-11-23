@@ -1,0 +1,25 @@
+import type { en } from './en.ts';
+
+export const ko = {
+	giftPoints: '아카이브 기프트 포인트',
+	liveId: '라이브ID',
+	totalPoint: '누적 포인트',
+	realtimePoint: '실시간 포인트',
+	noGiftPoints: '아카이브 기프트 포인트가 없습니다',
+	earnedStars: '획득한 스타 수',
+	assignedStars: '배분한 스타 수',
+	noArchiveList: '아카이브가 없습니다',
+	searchArchive: '아카이브 검색',
+	point: '포인트',
+	extraRequiredStars: 'EXTRA 입장에 필요한 스타 수',
+	extraAdmission: 'EXTRA 입장',
+	prizeStars: '아카이브 보상 스타',
+	noPendingPrize: '미수령 아카이브 보상이 없습니다',
+	presentBoxId: '선물함ID',
+	stars: '스타 수',
+	selectedPresentBoxId: '선택한 선물함ID',
+	selectedStars: '선택한 스타 수',
+	noPrizeCandidates: '아카이브 보상 후보가 없습니다',
+	fanExperience: '팬 경험치',
+	setStars: '배분할 스타 수',
+} satisfies typeof en;

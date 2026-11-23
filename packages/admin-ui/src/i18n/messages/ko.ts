@@ -1,0 +1,130 @@
+import type { AdminMessages } from '../messages.ts';
+import { ko as activityRecord } from './activityRecord/ko.ts';
+import { ko as archive } from './archive/ko.ts';
+import { ko as circle } from './circle/ko.ts';
+import { ko as gacha } from './gacha/ko.ts';
+import { ko as gradeLive } from './gradeLive/ko.ts';
+import { ko as grandPrix } from './grandPrix/ko.ts';
+import { ko as inventory } from './inventory/ko.ts';
+import { ko as loginBonus } from './loginBonus/ko.ts';
+import { ko as missions } from './missions/ko.ts';
+import { ko as officialMigration } from './officialMigration/ko.ts';
+import { ko as quest } from './quest/ko.ts';
+import { ko as serverSettings } from './serverSettings/ko.ts';
+import { ko as social } from './social/ko.ts';
+import { ko as users } from './users/ko.ts';
+import { ko as validation } from './validation/ko.ts';
+
+export const ko = {
+	anonymous: '익명',
+	validation,
+	close: '닫기',
+	pause: '일시 정지',
+	play: '재생',
+	stop: '정지',
+	moveUp: '위로 이동',
+	moveDown: '아래로 이동',
+
+	officialMigration,
+	gradeLive,
+	grandPrix,
+	quest,
+	social,
+	circle,
+	missions,
+	received: '수령 완료',
+	gacha,
+	activationLabel: (name: string, id: number) => `${name}(${id}) 활성화`,
+	saveActivations: '활성 상태 저장',
+	loginBonus,
+	search: '검색',
+	progress: '진행 상황',
+	status: '상태',
+	startTime: '시작 일시',
+	endTime: '종료 일시',
+	active: '활성',
+	archive,
+	activityRecord,
+	yes: '예',
+	no: '아니요',
+	title: '제목',
+	characterId: '캐릭터ID',
+
+	inventory,
+	name: '이름',
+	level: '레벨',
+	character: '캐릭터',
+	id: 'ID',
+	type: '종류',
+	category: '분류',
+	quantity: '수량',
+	comment: '댓글',
+	action: '작업',
+	edit: '편집',
+	use: '선택',
+	created: '생성 일시',
+	searchCatalog: '목록 검색',
+
+	loadSavedValues: '저장된 값 불러오기',
+	savedValuesChanged:
+		'저장된 값이 변경되었습니다. 현재 편집 내용은 유지됩니다.',
+	users,
+	serverSettings,
+	save: '저장',
+	remove: '삭제',
+	discardTitle: '저장하지 않은 변경 사항을 버릴까요?',
+	continueEditing: '계속 편집',
+	discardChanges: '변경 사항 버리기',
+	copied: '복사됨',
+	copyError: '오류 복사',
+	noMatchingResults: '일치하는 결과가 없습니다',
+	selectedUser: '선택한 사용자',
+	select: '선택',
+	reset: '초기화',
+	cancel: '취소',
+	apply: '적용',
+	cropImage: '이미지 자르기',
+	zoom: '확대',
+	zoomFactor: '확대 비율',
+	rotation: '회전',
+	rotationAngle: '회전 각도',
+	cropPosition: '이미지 자르기 위치',
+	resetCandidate: (label: string) => `${label} 선택 초기화`,
+	selectTarget: (label: string) => `${label} 선택`,
+
+	management: '서버 관리',
+	server: '서버',
+	user: '사용자',
+	mainMenu: '주 메뉴',
+	openNavigation: '탐색 열기',
+	closeNavigation: '탐색 닫기',
+	language: '언어',
+	loading: '불러오는 중',
+	processing: '처리 중',
+	reload: '새로고침',
+	themeDevice: '기기 테마 사용',
+	themeLight: '밝은 테마 사용',
+	themeDark: '어두운 테마 사용',
+	pages: {
+		overview: '개요',
+		'official-migration': '공식 데이터 이전',
+		users: '사용자',
+		'grand-prix': '라이브 그랑프리',
+		'grade-live': '그레이드 라이브',
+		circle: '서클',
+		social: '소셜',
+		'login-bonus-server': '로그인 보너스',
+		'gacha-server': '가챠',
+		'user-status': '사용자 정보',
+		items: '아이템',
+		'present-box': '선물함',
+		archive: '아카이브',
+		cards: '카드',
+		stickers: '스티커',
+		gacha: '가챠',
+		'login-bonus': '로그인 보너스',
+		missions: '미션',
+		'activity-record': '활동 기록',
+		quest: '퀘스트',
+	},
+} satisfies AdminMessages;

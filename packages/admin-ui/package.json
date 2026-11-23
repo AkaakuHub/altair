@@ -1,0 +1,31 @@
+{
+	"name": "@altair/admin-ui",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "vite build"
+	},
+	"dependencies": {
+		"@altair/runtime": "workspace:*",
+		"@mui/icons-material": "^9.1.1",
+		"@mui/material": "^9.1.1",
+		"hono": "^4.13.16",
+		"react": "^19.2.7",
+		"react-router-dom": "^7.18.1",
+		"react-dom": "^19.2.7",
+		"@emotion/react": "^11.14.0",
+		"@emotion/styled": "^11.14.1"
+	},
+	"devDependencies": {
+		"@types/react": "^19.2.17",
+		"@types/react-dom": "^19.2.3",
+		"@vitejs/plugin-react": "^6.0.3",
+		"vite": "^8.1.0"
+	},
+	"exports": {
+		"./*": "./src/*",
+		"./server/*": "./server/*",
+		"./tools/*": "./tools/*"
+	}
+}

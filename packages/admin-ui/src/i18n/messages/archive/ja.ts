@@ -1,0 +1,25 @@
+import type { en } from './en.ts';
+
+export const ja = {
+	giftPoints: 'アーカイブのギフトポイント',
+	liveId: 'ライブID',
+	totalPoint: '累計ポイント',
+	realtimePoint: 'リアルタイムのポイント',
+	noGiftPoints: 'アーカイブのギフトポイントはありません',
+	earnedStars: '獲得スター数',
+	assignedStars: '割り当て済みスター数',
+	noArchiveList: 'アーカイブはありません',
+	searchArchive: 'アーカイブを検索',
+	point: 'ポイント',
+	extraRequiredStars: 'EXTRA入場に必要なスター数',
+	extraAdmission: 'EXTRA入場',
+	prizeStars: 'アーカイブ報酬のスター',
+	noPendingPrize: '未受取のアーカイブ報酬はありません',
+	presentBoxId: 'プレゼントボックスID',
+	stars: 'スター数',
+	selectedPresentBoxId: '選択中のプレゼントボックスID',
+	selectedStars: '選択中のスター数',
+	noPrizeCandidates: 'アーカイブ報酬の候補はありません',
+	fanExperience: 'ファン経験値',
+	setStars: '割り当てるスター数',
+} satisfies typeof en;

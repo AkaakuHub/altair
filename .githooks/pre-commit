@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+set -euo pipefail
+shopt -s lastpipe
+
+project_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$project_root"
+export PATH="$HOME/.bun/bin:$PATH"
+
+git diff --cached --relative --name-only -z --diff-filter=ACMRD |
+	mapfile -d '' -t staged_files
+
+run_check() {
+	started_at=$SECONDS
+	printf '==> %s\n' "$*" >&2
+	local status
+	if "$@"; then
+		printf '==> 完了（%ds）: %s\n' "$((SECONDS - started_at))" "$*" >&2
+	else
+		status=$?
+		printf 'FAILED (%d, %ds): %s\n' "$status" "$((SECONDS - started_at))" "$*" >&2
+		exit "$status"
+	fi
+}
+
+lint_files=()
+test_files=()
+python_files=()
+for file in "${staged_files[@]}"; do
+	if [[ -f "$file" ]]; then
+		case "$file" in
+			tests/*.test.ts|tests/*.integration.ts)
+				test_files+=("./$file")
+				;;
+		esac
+		if [[ "$file" == *.py ]]; then python_files+=("./$file"); fi
+	fi
+	case "$file" in
+		*.ts|*.tsx|package.json|biome.json|knip.json|tsconfig*.json|*/package.json|*/biome.json|*/knip.json|*/tsconfig*.json)
+			lint_files+=("$file")
+			;;
+	esac
+done
+
+if (("${#lint_files[@]}")); then
+	run_check bun tools/development/lintStagedFiles.ts lint:files
+fi
+bun src/cli/select-pre-push-checks.ts "${staged_files[@]}" | mapfile -t staged_checks
+for check in "${staged_checks[@]}"; do
+	if [[ "$check" == 'master-query-manifest' ]]; then
+		run_check bun tools/development/runCachedValidation.ts staged master-query-manifest -- bun run master-query-manifest:check
+	elif [[ "$check" == api-contracts ]]; then
+		run_check bun tools/development/runCachedValidation.ts staged api-contracts -- bun run api-docs:check
+	elif [[ "$check" == typecheck ]]; then
+		run_check bun tools/development/runCachedTypecheck.ts staged
+	elif [[ "$check" == knip ]]; then
+		run_check bun tools/development/runCachedValidation.ts staged knip -- bun run knip
+	fi
+done
+if ((${#python_files[@]})); then
+	run_check awk 'FNR == 1001 { printf "%s:%d: error: source file exceeds 1000 lines, split functions to separated files, do not delete blank line.\n", FILENAME, FNR; invalid = 1 } END { exit invalid }' "${python_files[@]}"
+fi
+if ((${#test_files[@]})); then
+	run_check bun tools/development/runTests.ts staged "${test_files[@]}"
+fi

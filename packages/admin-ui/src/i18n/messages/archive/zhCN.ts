@@ -1,0 +1,25 @@
+import type { en } from './en.ts';
+
+export const zhCN = {
+	giftPoints: '存档礼物点数',
+	liveId: '演唱会ID',
+	totalPoint: '累计点数',
+	realtimePoint: '实时点数',
+	noGiftPoints: '暂无存档礼物点数',
+	earnedStars: '获得星星数',
+	assignedStars: '已分配星星数',
+	noArchiveList: '暂无存档',
+	searchArchive: '搜索存档',
+	point: '点数',
+	extraRequiredStars: 'EXTRA入场所需星星数',
+	extraAdmission: 'EXTRA入场',
+	prizeStars: '存档奖励星星',
+	noPendingPrize: '暂无待领取的存档奖励',
+	presentBoxId: '礼物箱ID',
+	stars: '星星数',
+	selectedPresentBoxId: '当前礼物箱ID',
+	selectedStars: '已选择星星数',
+	noPrizeCandidates: '暂无存档奖励候选',
+	fanExperience: '粉丝经验值',
+	setStars: '分配星星数',
+} satisfies typeof en;

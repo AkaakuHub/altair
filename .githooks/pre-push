@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+set -euo pipefail
+shopt -s lastpipe
+
+project_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$project_root"
+export PATH="$HOME/.bun/bin:$PATH"
+
+run_check() {
+	started_at=$SECONDS
+	printf '==> %s\n' "$*" >&2
+	local status
+	if "$@"; then
+		printf '==> 完了（%ds）: %s\n' "$((SECONDS - started_at))" "$*" >&2
+	else
+		status=$?
+		printf 'FAILED (%d, %ds): %s\n' "$status" "$((SECONDS - started_at))" "$*" >&2
+		exit "$status"
+	fi
+}
+
+empty_tree="$(git hash-object -t tree /dev/null)"
+declare -A pushed_file_set=()
+while read -r _local_ref local_object_id _remote_ref remote_object_id; do
+	if [[ "$local_object_id" =~ ^0+$ ]]; then
+		continue
+	fi
+	diff_base="$remote_object_id"
+	if [[ "$diff_base" =~ ^0+$ ]]; then
+		diff_base="$empty_tree"
+	fi
+	git diff --relative --name-only --diff-filter=ACMRD -z "$diff_base" "$local_object_id" |
+		mapfile -d '' -t changed_files
+	for file in "${changed_files[@]}"; do
+		pushed_file_set["$file"]=1
+	done
+done
+
+pushed_files=("${!pushed_file_set[@]}")
+checks=()
+if ((${#pushed_files[@]})); then
+	bun src/cli/select-pre-push-checks.ts "${pushed_files[@]}" | mapfile -t checks
+fi
+
+if ((${#checks[@]} == 0)); then
+	printf '==> code検査対象のpush fileはありません\n' >&2
+	exit 0
+fi
+
+for check in "${checks[@]}"; do
+	case "$check" in
+		master-query-manifest)
+			run_check bun tools/development/runCachedValidation.ts push master-query-manifest -- bun run master-query-manifest:check
+			;;
+		api-contracts)
+			run_check bun tools/development/runCachedValidation.ts push api-contracts -- bun run api-docs:check
+			;;
+		typecheck)
+			run_check bun tools/development/runCachedTypecheck.ts push
+			;;
+		knip)
+			run_check bun tools/development/runCachedValidation.ts push knip -- bun run knip
+			;;
+		*)
+			printf 'FAILED: unknown pre-push check: %s\n' "$check" >&2
+			exit 1
+			;;
+	esac
+done

@@ -1,0 +1,31 @@
+import type { en } from './en.ts';
+
+export const ko = {
+	beginner: '초보자 미션',
+	missionId: '미션 ID',
+	achievedCount: '달성 수',
+	targetCount: '목표 수',
+	transition: '이동 대상',
+	chapter: '챕터 미션',
+	noChapterProgress: '챕터 미션 진행 상황이 없습니다',
+	searchChapter: '챕터 미션 검색',
+	mission: '미션',
+	noBeginner: '초보자 미션이 없습니다',
+	searchBeginner: '초보자 미션 검색',
+	common: '공통 미션',
+	noDaily: '일일 미션이 없습니다',
+	searchDaily: '일일 미션 검색',
+	noMissions: '미션이 없습니다',
+	searchCommon: '공통 미션 검색',
+	schoolStageStars: '스쿨 스테이지 스타',
+	stars: '스타',
+	source: '획득 경로',
+	questProgress: '퀘스트 진행 상황',
+	stepUpBeginner: '스텝업 초보자 미션',
+	noStepUpBeginner: '스텝업 초보자 미션이 없습니다',
+	searchStepUpBeginner: '스텝업 초보자 미션 검색',
+	completed: '달성 완료',
+	unavailable:
+		'현재 목록에 선택한 미션이 없습니다. 입력은 유지됩니다. 대상을 선택해 주세요.',
+	dailyWithCount: (count: number) => `일일 미션(${count}개)`,
+} satisfies typeof en;
