@@ -28,4 +28,4 @@ dist.previous/
 /resource-version-registry/client-res.json
 /resource-version-registry/client-ios-res.json
 /tests/fixtures/master-binary/carddatas-*
-/tests/externalFixtures/data
+/.test-data

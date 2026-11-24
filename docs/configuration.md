@@ -56,4 +56,4 @@ Open `/admin` on the configured host and port. For managed release switching, pu
 
 ## Tests
 
-Place or link the saved test data directory at `tests/externalFixtures/data`, with fixtures under `inputs/test-fixtures/`. Run `bun run test` and `bun run test:integration`. Missing fixtures fail the tests that use them.
+Place or link the saved test data directory at `.test-data`, with fixtures under `inputs/test-fixtures/`. Run `bun run test` and `bun run test:integration`. Missing fixtures fail the tests that use them.
