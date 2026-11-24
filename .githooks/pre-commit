@@ -42,7 +42,7 @@ for file in "${staged_files[@]}"; do
 done
 
 if (("${#lint_files[@]}")); then
-	run_check bun tools/development/lintStagedFiles.ts lint:files
+	run_check bun tools/development/lintStagedFiles.ts
 fi
 bun src/cli/select-pre-push-checks.ts "${staged_files[@]}" | mapfile -t staged_checks
 for check in "${staged_checks[@]}"; do

@@ -55,7 +55,8 @@ export function runRuntimeReleasePreflight(
 			ok: false,
 			error: {
 				code: 'usage-error',
-				message: 'Usage: runtime:release:preflight <runtime-plan.json>',
+				message:
+					'Usage: bun src/cli/preflight-runtime-release.ts <runtime-plan.json>',
 			},
 		});
 	} else {

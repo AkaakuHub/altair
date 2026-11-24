@@ -1,9 +1,5 @@
 import { basename } from 'node:path';
 
-const command = process.argv[2];
-if (command !== 'lint-format' && command !== 'lint:files') {
-	throw new Error('Expected lint-format or lint:files');
-}
 const result = Bun.spawnSync(
 	[
 		'git',
@@ -74,11 +70,14 @@ if (formats.length !== files.length) {
 }
 for (let offset = 0; offset < formats.length; offset += 100) {
 	const batch = formats.slice(offset, offset + 100);
-	const lint = Bun.spawnSync(['bun', 'run', command, '--', ...batch], {
-		stdin: 'inherit',
-		stdout: 'inherit',
-		stderr: 'inherit',
-	});
+	const lint = Bun.spawnSync(
+		['bun', 'x', '--no-install', 'biome', 'check', '--write', '--', ...batch],
+		{
+			stdin: 'inherit',
+			stdout: 'inherit',
+			stderr: 'inherit',
+		},
+	);
 	if (lint.exitCode !== 0) process.exit(lint.exitCode);
 	const stage = Bun.spawnSync(['git', 'add', '--', ...batch], {
 		stdout: 'inherit',
