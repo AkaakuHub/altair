@@ -56,4 +56,4 @@ Open `/admin` on the configured host and port. For managed release switching, pu
 
 ## Tests
 
-Set `ALTAIR_TEST_DATA_ROOT` to the absolute path of a test data directory with fixtures under `inputs/test-fixtures/`. Run `bun run test` and `bun run test:integration`.
+Place or link the saved test data directory at `tests/externalFixtures/data`, with fixtures under `inputs/test-fixtures/`. Run `bun run test` and `bun run test:integration`. Missing fixtures fail the tests that use them.
