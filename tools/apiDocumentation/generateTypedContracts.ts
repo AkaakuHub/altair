@@ -104,7 +104,10 @@ export async function generateTypedContracts(repository: string) {
 		const names = new Map<string, string>();
 		const seen = new Set<string>();
 		for (const key of Object.keys(definitions)) {
-			const name = componentName(key);
+			// Inferred schemas can inherit path hashes from dependency declarations.
+			const name = componentName(
+				selectedNames.has(key) ? key : key.replace(/[.][0-9a-f]{8}$/u, ''),
+			);
 			if (seen.has(name))
 				throw new Error(`Schema component name collides: ${name}`);
 			names.set(key, name);
