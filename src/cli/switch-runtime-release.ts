@@ -5,20 +5,24 @@ import { runtimeResourceSelectionSchema } from '../application/runtime-switch/ru
 import { createNodeRuntimeSwitch } from '../application/runtime-switch/runtime-switch-node-ports.ts';
 import { resolveOfficialRuntimeRelease } from '../application/runtime-switch/runtime-switch-release-resolver.ts';
 import { resolveOfficialRuntimeTarget } from '../application/runtime-switch/runtime-switch-service.ts';
-import { absolutePathSchema } from '../configuration/environment.ts';
+import { loadConfig } from '../config.ts';
 import { resolveRuntimeStorageLayout } from '../configuration/runtime-storage-layout.ts';
 
 const storage = resolveRuntimeStorageLayout();
 const archiveRoot = storage.masterArchiveRoot;
-const switchOptions = z
-	.strictObject({
-		controlScript: absolutePathSchema,
-		backendBaseUrl: z.url(),
-		publicApiBaseUrl: z.url(),
-	})
-	.parse(
-		await Bun.file(join(storage.root, 'config/runtime-switch.json')).json(),
-	);
+const { host, port } = loadConfig();
+const probeHost = { '0.0.0.0': '127.0.0.1', '::': '::1' }[host] ?? host;
+const authority =
+	probeHost.includes(':') && !probeHost.startsWith('[')
+		? `[${probeHost}]`
+		: probeHost;
+const switchOptions = {
+	controlScript: join(storage.root, 'config/service-control'),
+	backendBaseUrl: `http://${authority}:${port}/`,
+	publicApiBaseUrl: z
+		.url({ protocol: /^https?$/u })
+		.parse(process.env.PUBLIC_API_BASE_URL),
+};
 const arguments_ = Bun.argv.slice(2);
 const target =
 	arguments_[0] === '--selection'

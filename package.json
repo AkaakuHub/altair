@@ -13,7 +13,6 @@
 		"start": "bun src/index.ts",
 		"runtime:release:preflight": "bun src/cli/preflight-runtime-release.ts",
 		"runtime:switch": "bun src/cli/switch-runtime-release.ts",
-		"master-archive:build-active": "bun src/cli/build-saved-release-active-database.ts",
 		"master-archive:import-saved": "bun src/cli/import-saved-master-versions.ts",
 		"catalog:import-canonical": "bun src/cli/import-canonical-catalogs.ts",
 		"master-query-manifest:generate": "bun src/cli/generate-active-master-query-manifest.ts",

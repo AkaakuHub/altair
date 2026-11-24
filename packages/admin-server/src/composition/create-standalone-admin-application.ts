@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url';
 import { createAdminUiRoutes } from '@altair/admin-ui/server/routes.ts';
 import type { StandaloneAdminConfiguration } from '../configuration/standalone-admin-config.ts';
 import { CommandRuntimeSwitchJobLauncher } from '../runtime/infrastructure/command-runtime-switch-job-launcher.ts';
@@ -8,7 +9,15 @@ export function createStandaloneAdminApplication(
 ) {
 	const launcher = new CommandRuntimeSwitchJobLauncher({
 		activeMasterDatabasePath: configuration.server.activeMasterDatabasePath,
-		command: configuration.runtimeSwitchCommand,
+		command: [
+			process.execPath,
+			fileURLToPath(
+				new URL(
+					'../../../../src/cli/switch-runtime-release.ts',
+					import.meta.url,
+				),
+			),
+		],
 	});
 	return createAdminApp(configuration.server, () => ({
 		runtimeSwitchLauncher: launcher,

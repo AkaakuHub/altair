@@ -23,7 +23,7 @@ export class CommandRuntimeSwitchJobLauncher
 			{
 				stdin: 'ignore',
 				stdout: 'ignore',
-				stderr: 'ignore',
+				stderr: 'inherit',
 			},
 		);
 		if ((await child.exited) !== 0)

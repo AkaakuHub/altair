@@ -1,17 +1,12 @@
 import { startStandaloneAdminServer } from '../../../packages/admin-server/src/cli/start-admin-server.ts';
-import { loadStandaloneAdminOptions } from '../../../packages/admin-server/src/configuration/standalone-admin-config.ts';
 import { createStandaloneConfig } from './standaloneConfig.ts';
 
 const archiveRoot = process.argv[2];
 if (archiveRoot === undefined)
 	throw new Error('Archive fixture root is required');
 const { config, database } = createStandaloneConfig(archiveRoot);
-const options = loadStandaloneAdminOptions({
-	RUNTIME_SWITCH_COMMAND: JSON.stringify([process.execPath, '--version']),
-});
 const server = startStandaloneAdminServer({
 	server: { ...config, port: 0 },
-	...options,
 });
 const request = (path: string, init?: RequestInit) =>
 	fetch(new URL(path, server.url), init);

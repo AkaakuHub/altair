@@ -1,8 +1,9 @@
 import { expect, test } from 'bun:test';
-import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+import { mkdir, mkdtemp, readFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { z } from 'zod';
+import { initializeRuntime } from '../../src/runtime-initialization/initialize-runtime.ts';
 import { externalFixturePath } from '../externalFixtures/sourcePath.ts';
 import { createRuntimeInitializationFixture } from '../runtimeInitialization/fixtures/runtimeInitializationFixture.ts';
 
@@ -30,18 +31,7 @@ test('通常AdminをソースからビルドしてHTTP起動し、ゲームと�
 		await mkdir(initializationRoot);
 		const initialization =
 			await createRuntimeInitializationFixture(initializationRoot);
-		const initializationConfiguration = join(
-			initializationRoot,
-			'initialize.local.json',
-		);
-		await writeFile(
-			initializationConfiguration,
-			JSON.stringify(initialization.configuration),
-		);
-		await run(
-			['bun', 'run', 'runtime:initialize', initializationConfiguration],
-			repository,
-		);
+		await initializeRuntime(initialization.configuration);
 		expect(
 			z
 				.object({ releaseId: z.string() })

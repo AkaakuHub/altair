@@ -1,12 +1,11 @@
 import { Database } from 'bun:sqlite';
 import { expect } from 'bun:test';
-import { writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { fileURLToPath } from 'node:url';
 import { z } from 'zod';
 import { OFFICIAL_READ_MODEL_DEFINITIONS } from '../../../src/master-archive/infrastructure/source-adapters/static-official-read-model-definitions.ts';
 import type { ActiveMasterRepository } from '../../../src/master-data/active-master-repository.ts';
 import { openSqliteActiveMasterRepository } from '../../../src/master-data/sqlite-active-master-repository.ts';
+import { initializeRuntime } from '../../../src/runtime-initialization/initialize-runtime.ts';
 import { createApp } from '../../../src/server.ts';
 import { createTestApp, registerNewUser } from '../../test-app.ts';
 
@@ -58,31 +57,12 @@ export async function verifyInitialRuntime(
 					.get()?.count,
 			).toBe(0);
 		const selectionPath = join(directory, 'selected-release.json');
-		const configurationPath = join(directory, 'initialize.local.json');
-		await writeFile(
-			configurationPath,
-			JSON.stringify({
-				activeDatabasePath: candidatePath,
-				selectedReleasePath: selectionPath,
-				androidManifestPath: input.androidManifestPath,
-				iosManifestPath: input.iosManifestPath,
-			}),
-		);
-		const command = Bun.spawn(
-			[
-				process.execPath,
-				fileURLToPath(
-					new URL('../../../src/cli/initialize-runtime.ts', import.meta.url),
-				),
-				configurationPath,
-			],
-			{ cwd: directory, stdout: 'ignore', stderr: 'pipe' },
-		);
-		const [exitCode, stderr] = await Promise.all([
-			command.exited,
-			new Response(command.stderr).text(),
-		]);
-		expect({ exitCode, stderr }).toEqual({ exitCode: 0, stderr: '' });
+		await initializeRuntime({
+			activeDatabasePath: candidatePath,
+			selectedReleasePath: selectionPath,
+			androidManifestPath: input.androidManifestPath,
+			iosManifestPath: input.iosManifestPath,
+		});
 		repository = openSqliteActiveMasterRepository(candidatePath, selectionPath);
 		let observedInitialState = false;
 		const app = createTestApp(

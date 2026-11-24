@@ -37,55 +37,22 @@ Place resource files at paths relative to the asset base URL, preserving each `c
 bun run catalog:import-canonical android /absolute/path/to/android-catalogs
 bun run catalog:import-canonical ios /absolute/path/to/ios-catalogs
 bun run master-archive:import-saved
-bun run master-archive:build-active <release-id>
-```
-
-Use a release ID from `<DATA_ROOT>/master-archive/releases/index.json` with the Android and iOS versions you want. Replace `<release-id>` with that ID. The build writes `master-archive/active.sqlite` and prints both verified manifest paths.
-
-Save an initialization JSON file outside the checkout with these absolute paths. Replace the two manifest values with `androidManifestPath` and `iosManifestPath` from the build output.
-
-```json
-{
-  "activeDatabasePath": "/absolute/path/to/data/master-archive/active.sqlite",
-  "selectedReleasePath": "/absolute/path/to/data/master-archive/releases/selected-release.json",
-  "androidManifestPath": "/absolute/path/to/verified/android-manifest.json",
-  "iosManifestPath": "/absolute/path/to/verified/ios-manifest.json"
-}
-```
-
-```sh
-bun run runtime:initialize /absolute/path/to/initialize.json
+bun run runtime:initialize <release-id>
 bun run start
 ```
+
+Choose a release ID from `<DATA_ROOT>/master-archive/releases/index.json`. Initialization builds the active database and writes the selected release and maintenance state.
 
 The server stores user state in `<DATA_ROOT>/state.sqlite`. Set `REQUEST_LOG_ENABLED=true` to write requests to `<DATA_ROOT>/requests.sqlite`.
 
 ## Run with Admin
-
-For Admin with the game API, add this to `.env`:
-
-```dotenv
-RUNTIME_SWITCH_COMMAND='["bun","run","runtime:switch"]'
-```
-
-Create `<DATA_ROOT>/config/runtime-switch.json`:
-
-```json
-{
-  "controlScript": "/absolute/path/to/service-control",
-  "backendBaseUrl": "http://127.0.0.1:8080/",
-  "publicApiBaseUrl": "https://api.example.test/"
-}
-```
-
-The executable must accept `stop` and `start` for this service. The switch command checks the client-facing maintenance response and verifies the backend after start.
 
 ```sh
 bun run admin:build
 bun run admin:start
 ```
 
-Open `/admin` on the configured host and port. To switch releases from the command line, run `bun run runtime:switch <release-id>`.
+Open `/admin` on the configured host and port. For managed release switching, put an executable at `<DATA_ROOT>/config/service-control` that accepts `stop` and `start`, and set `PUBLIC_API_BASE_URL` to the client-facing API URL. The switch checks that URL for the maintenance response and verifies the backend using `HOST` and `PORT` after restart. To switch releases from the command line, run `bun run runtime:switch <release-id>`.
 
 ## Tests
 

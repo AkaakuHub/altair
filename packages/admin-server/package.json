@@ -7,7 +7,6 @@
 		"fflate": "^0.8.3",
 		"@altair/runtime": "workspace:*",
 		"hono": "^4.13.16",
-		"zod": "^4.6.7",
 		"@altair/admin-ui": "workspace:*"
 	},
 	"exports": {
